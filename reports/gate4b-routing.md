@@ -2,7 +2,33 @@
 
 Status: **NOT COMPLETE. 0 unconnected was not achieved.**
 
-Final board state: **0 DRC errors, 196 cosmetic warnings, 20 unconnected**.
+Final board state: **0 DRC errors, 196 cosmetic warnings, 14 unconnected**.
+
+## Batch 1 — GND (partial)
+
+**20 → 14 unconnected, 0 DRC errors, no new waivers.**
+
+Seven stitching vias were placed at points inside both the F.Cu and B.Cu main
+fills: (12.5,−2.0), (8.0,−2.5), (8.0,−7.5), (15.0,−13.5), (8.0,−11.5),
+(4.0,−13.5), (11.0,−11.0). These merged the main pours and cleared the
+CONN1.MT1/C17.2 and X6 zone links. Iterating the same search found no further
+cross-layer overlaps.
+
+Remaining GND (7): C7.2↔Q2.B, Q2.B↔C4.2, one B↔B zone gap, F↔X6.A1B12, one
+F↔B zone gap, LED1.4↔U$15.57, one B↔F zone gap.
+
+**Blocker:** the pours are 14 separate islands. The remaining gaps are
+separated by our own signal tracks, so a same-layer GND track would short them.
+Closing these requires rerouting the blocking signal tracks, not a stitch.
+
+## +3V3 attempt (reverted)
+
+The original 3.3V local geometry (35 segments/vias) was tried: 13 unconnected
+but **36 errors** (20 clearance, 11 shorts, 3 hole). Reverted. The same conflict
+applies — the reference power geometry assumes Adafruit's signal routing.
+
+**Status: 14 unconnected / 0 errors. +3V3 4, VBUS 2, IO0 1 not completed.**
+Stopped per the blocker rule. No unconnected item was waived.
 No unconnected item was waived — `unconnected_items` is not waiverable and the
 remaining links are real.
 
