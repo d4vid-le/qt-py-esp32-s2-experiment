@@ -177,11 +177,23 @@ Eagle package geometry is Gate 3 work and is recorded as such.
 ## Unresolved / next gate
 
 - Build the `qt-py` footprint library from the Eagle packages (Gate 3).
-- Decide whether to keep `GND`/`VBAT` refs (exact diff) or rename them
-  (clean annotation).
+- ~~Decide whether to keep `GND`/`VBAT` refs or rename them.~~ Resolved in Gate 3:
+  renamed `GND0`/`VBAT0`; the annotation warning is gone.
 - The schematic is electrically correct but visually sparse: components are on
   a grid, not grouped by function. A cosmetic pass is optional.
 
 ## Human interventions
 
 **0.** Entirely scripted.
+
+
+## Gate 3 update (post-approval)
+
+- Testpoints renamed `GND0` / `VBAT0`; `kicad-cli sch export netlist` no longer
+  prints the annotation warning.
+- `qt-py` footprint library built from the imported board; ERC
+  `footprint_link_issues` **17 → 0**.
+- ERC is now **18 warnings, 0 errors**: 17 `lib_symbol_mismatch` (17 instances
+  of the 12 custom definitions, formatting-only) + 1 intentional `pin_to_pin`.
+- Netlist diff command now uses `--rename-b "GND0=GND,VBAT0=VBAT"` and still
+  reports **34/34 nets, 159/159 pads, identical**.

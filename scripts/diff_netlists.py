@@ -41,9 +41,14 @@ def main():
     ap.add_argument("a"); ap.add_argument("b")
     ap.add_argument("--label-a", default="A")
     ap.add_argument("--label-b", default="B")
+    ap.add_argument("--rename-b", default="", help="comma list OLD=NEW applied to B refs")
     args = ap.parse_args()
 
     a, b = read(args.a), read(args.b)
+    if args.rename_b:
+        mapping = dict(p.split("=", 1) for p in args.rename_b.split(",") if "=" in p)
+        b = {n: {(mapping.get(ref, ref), pad) for ref, pad in members}
+             for n, members in b.items()}
     sa, sb = by_signature(a), by_signature(b)
 
     print(f"{args.label_a}: {len(a)} nets, {sum(len(v) for v in a.values())} pad connections")

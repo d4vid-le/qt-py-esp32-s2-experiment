@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "qt-py")(type "KiCad")(uri "${KIPRJMOD}/qt-py.pretty")(options "")(descr "QT Py ESP32-S2 footprints extracted from the imported Eagle board"))
+)

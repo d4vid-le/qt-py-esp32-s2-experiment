@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/dblab/Development/projects/kicad/projects/qt-py-esp32-s2/rebuild/qt-py-esp32-s2.kicad_sch")
-		(date "2026-10-27T05:08:35")
+		(date "2026-10-27T06:16:24")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -93,7 +93,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5c990ff2-8de8-47fb-a2c8-1365379b9024")
+			(tstamps "20e20fd5-ac3a-4377-826c-d5e3b6bf7567")
 			(units
 				(unit
 					(name "A")
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "845ab295-01b4-4b28-8444-92721e34a8de")
+			(tstamps "4c3bca18-9453-4878-89ea-24d09716a4b9")
 			(units
 				(unit
 					(name "A")
@@ -201,7 +201,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "593dae74-9460-4c8c-82d2-27426b9facb6")
+			(tstamps "e8aac91a-85a8-4211-bbc5-801c79bf66c2")
 			(units
 				(unit
 					(name "A")
@@ -255,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8ac97af8-9530-4ba3-b513-12042c77e9bc")
+			(tstamps "c1fefea8-db83-48fc-9eaa-dc994aca6869")
 			(units
 				(unit
 					(name "A")
@@ -309,7 +309,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f86e28bc-26d8-4ddf-b561-e5a7be64138d")
+			(tstamps "9d98ca54-41ca-457b-bb94-53be88160b1b")
 			(units
 				(unit
 					(name "A")
@@ -363,7 +363,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f3e8ee36-1395-4f9e-928f-976c64dab3da")
+			(tstamps "150797df-522d-4fe4-a370-cc562042d28a")
 			(units
 				(unit
 					(name "A")
@@ -417,7 +417,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3faf856d-899e-4d1a-8c36-69de9371008c")
+			(tstamps "8a5544e2-bdc1-4d32-a1b7-4fbbc96587b5")
 			(units
 				(unit
 					(name "A")
@@ -471,7 +471,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "432c2f26-42d0-40d7-95dc-11001ab0c779")
+			(tstamps "f6980105-ec2f-4fb3-a3a4-e17868676be5")
 			(units
 				(unit
 					(name "A")
@@ -525,7 +525,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4d84a3fc-8fda-4e41-b360-05676ac75385")
+			(tstamps "77dfb9a0-0497-457f-ae2d-62ed55bf8c81")
 			(units
 				(unit
 					(name "A")
@@ -579,7 +579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "11b42618-3c7b-427a-abe6-44e383220e4f")
+			(tstamps "1a549c39-c0b6-440e-a992-a013a080eadb")
 			(units
 				(unit
 					(name "A")
@@ -633,7 +633,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4dea7914-df83-461c-8122-aaa9783b1357")
+			(tstamps "22d1b12c-9fe8-47a4-90b8-1624ca524d1b")
 			(units
 				(unit
 					(name "A")
@@ -687,7 +687,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "dc3504d2-432c-4bf6-87aa-7698d8e6c038")
+			(tstamps "72572b2d-f7e2-4f63-bf76-599fd0678de5")
 			(units
 				(unit
 					(name "A")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b94403b5-d7af-4e9b-abfa-53de9b606d23")
+			(tstamps "f0f1aa03-b958-46e8-8683-1df50cd83050")
 			(units
 				(unit
 					(name "A")
@@ -795,7 +795,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2e9ea2e9-7d97-4880-a604-d43b462bc5df")
+			(tstamps "fffd9ef8-63ae-4529-be5b-28b86cacb746")
 			(units
 				(unit
 					(name "A")
@@ -849,7 +849,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ee0f44a6-f4ee-46b9-bb3d-7e97fa124cc1")
+			(tstamps "12a4cd93-d644-444a-b339-06aa2c30255e")
 			(units
 				(unit
 					(name "A")
@@ -903,7 +903,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4c242849-d575-497b-bfe5-4c10914f35f7")
+			(tstamps "42596ddf-f40f-4529-9249-0b4c9fa0621e")
 			(units
 				(unit
 					(name "A")
@@ -957,7 +957,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a1d49593-c514-4c2d-88ff-9c2bb69c768e")
+			(tstamps "c8eba678-5bd1-4b3a-8857-69c43678135b")
 			(units
 				(unit
 					(name "A")
@@ -1011,7 +1011,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e227c176-e65a-4c3a-bd11-611fd36e2bb6")
+			(tstamps "e995d9a1-65fa-4376-8c0e-b750793ac994")
 			(units
 				(unit
 					(name "A")
@@ -1065,7 +1065,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a13adc8a-e87e-4b02-9657-fde41279a49b")
+			(tstamps "4b00e6e4-ad52-479f-ac5c-e041003a84af")
 			(units
 				(unit
 					(name "A")
@@ -1119,7 +1119,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e239b31f-fcaf-4f8c-b75c-f280b01c450b")
+			(tstamps "0b04ed16-91a1-495b-90fe-17647d1a990f")
 			(units
 				(unit
 					(name "A")
@@ -1165,7 +1165,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e1b2fbad-6ee3-4c78-9e56-6ff49981b6cb")
+			(tstamps "db270fa9-8599-40fb-98a2-31d9765c492a")
 			(units
 				(unit
 					(name "A")
@@ -1223,7 +1223,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "47decb7b-b619-4485-82b6-27912df8eec7")
+			(tstamps "c4b04318-3a9e-46e1-b147-93c6992374de")
 			(units
 				(unit
 					(name "A")
@@ -1269,7 +1269,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "20008360-ef66-4b2f-9876-f8d6e6356269")
+			(tstamps "1d6389d8-799d-4762-b184-bb27a02c21c3")
 			(units
 				(unit
 					(name "A")
@@ -1285,7 +1285,7 @@
 			)
 		)
 		(comp
-			(ref "GND")
+			(ref "GND0")
 			(value "TESTPOINT_P")
 			(footprint "qt-py:TESTPOINT_MINUS_1X3MM")
 			(description "QT Py ESP32-S2 reconstruction: TESTPOINT_P")
@@ -1315,7 +1315,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "853f0c9d-cd99-49c8-aebb-d691874a4e49")
+			(tstamps "d8214c51-9b65-428b-8f7b-35a1b23ed487")
 			(units
 				(unit
 					(name "A")
@@ -1358,7 +1358,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3a232b0a-21de-49a5-91e5-41be0eacc251")
+			(tstamps "7ca9c8a5-3abc-43d0-8ad5-0cdb6a746e31")
 			(units
 				(unit
 					(name "A")
@@ -1440,7 +1440,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "46e9f4ac-5017-48d6-8ff1-8ca5575c0b58")
+			(tstamps "8cfa167e-62b1-4dcd-8fc8-e4aa0fcaf164")
 			(units
 				(unit
 					(name "A")
@@ -1530,7 +1530,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6f7033b4-2bda-43c0-b142-325874a1194d")
+			(tstamps "dd98fdc5-dd5e-4ff8-8e93-d16139af524e")
 			(units
 				(unit
 					(name "A")
@@ -1584,7 +1584,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "79335bfa-770d-4d78-aff6-6cd7f9f8da67")
+			(tstamps "d9eb2318-0e40-4800-9545-6eec470860fe")
 			(units
 				(unit
 					(name "A")
@@ -1630,7 +1630,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "dfcec616-909a-4064-80de-9c32dbe913cc")
+			(tstamps "87f92d33-0b86-4dec-b4d0-fd3ad0bfabe1")
 			(units
 				(unit
 					(name "A")
@@ -1682,7 +1682,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9a3cc51e-7829-4dd4-a55d-9fdec6c86cd7")
+			(tstamps "8af9a6b9-ee17-4885-9b68-ab1bf102b97c")
 			(units
 				(unit
 					(name "A")
@@ -1734,7 +1734,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f58e2a06-c4e8-4e8d-802e-b7d4951acf99")
+			(tstamps "383ffd59-104f-4374-8455-9cb656511dd5")
 			(units
 				(unit
 					(name "A")
@@ -1794,7 +1794,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1c8feafb-67e1-455f-9ea0-7903a785180a")
+			(tstamps "93deaf54-33fa-42e5-baef-a7f152737bd6")
 			(units
 				(unit
 					(name "A")
@@ -1848,7 +1848,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9e671d32-2fa3-4c5b-98e2-6df602c2e7aa")
+			(tstamps "ccb6862c-f11b-4067-a071-7f37cf4071ff")
 			(units
 				(unit
 					(name "A")
@@ -1902,7 +1902,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "bab5e58c-358e-427e-ac93-719005b5b2a5")
+			(tstamps "0c8195cb-145f-40dd-812e-0c146c57f9b5")
 			(units
 				(unit
 					(name "A")
@@ -1956,7 +1956,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "02aa83de-eb7d-4731-baf0-cfedcc95b039")
+			(tstamps "402776e9-7dc7-47dc-a77f-0d27a2c33b24")
 			(units
 				(unit
 					(name "A")
@@ -2010,7 +2010,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "681a7998-4a5a-4b54-ae7e-c70aec444967")
+			(tstamps "ead0a80e-3dce-4e53-9454-e2bedae1796a")
 			(units
 				(unit
 					(name "A")
@@ -2064,7 +2064,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a867c9ea-baae-4672-a6c2-403bed37f787")
+			(tstamps "89015735-bff7-45b9-89e8-ebc772f925df")
 			(units
 				(unit
 					(name "A")
@@ -2110,7 +2110,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "77e0f815-ea95-491f-b6c0-b46b34ecb854")
+			(tstamps "85f86486-3d9d-4c3e-872b-73d323a2c8da")
 			(units
 				(unit
 					(name "A")
@@ -2153,7 +2153,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8bed026e-c779-4de1-a5d4-a4fff3a22fdf")
+			(tstamps "b13615cf-4bc7-4997-a458-3039d77c24a9")
 			(units
 				(unit
 					(name "A")
@@ -2196,7 +2196,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e388610a-7549-4e2d-8c5d-80cdea643519")
+			(tstamps "ad544124-056e-4fec-a7ac-3d58b707debe")
 			(units
 				(unit
 					(name "A")
@@ -2407,7 +2407,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "82711dc4-ff6d-4de9-89c2-e65ff92cba6f")
+			(tstamps "f4643552-2a2d-4159-8bc4-744078c86eca")
 			(units
 				(unit
 					(name "A")
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(comp
-			(ref "VBAT")
+			(ref "VBAT0")
 			(value "TESTPOINT_P")
 			(footprint "qt-py:TESTPOINT_PLUS_1X3MM")
 			(description "QT Py ESP32-S2 reconstruction: TESTPOINT_P")
@@ -2462,7 +2462,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "22a608af-15bb-4889-badd-dc6cec268fd9")
+			(tstamps "8c2c374e-c999-45d0-ba5b-f0c788010fc5")
 			(units
 				(unit
 					(name "A")
@@ -2505,7 +2505,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f1d55e57-c851-4f64-8609-93726ca3315c")
+			(tstamps "183e47e4-ac3f-4384-babc-706913e107ee")
 			(units
 				(unit
 					(name "A")
@@ -2548,7 +2548,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "45556c7a-3db9-4705-a8d4-098397798001")
+			(tstamps "fe131916-0db0-4de3-b523-a132b03a4778")
 			(units
 				(unit
 					(name "A")
@@ -2624,7 +2624,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "890a3420-1389-4520-acdb-5741f9760065")
+			(tstamps "44ebe88a-d2fb-47f5-ab82-0768768f6516")
 			(units
 				(unit
 					(name "A")
@@ -3553,7 +3553,7 @@
 		)
 		(library
 			(logical "qt-py-esp32-s2")
-			(uri "${KIPRJMOD}/qt-py-esp32-s2.kicad_sym")
+			(uri "/Users/dblab/Development/projects/kicad/projects/qt-py-esp32-s2/rebuild/qt-py-esp32-s2.kicad_sym")
 		)
 	)
 	(nets
@@ -4287,7 +4287,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "VBAT")
+				(ref "VBAT0")
 				(pin "P$1")
 				(pinfunction "P$1_P$1")
 				(pintype "passive")
@@ -4519,7 +4519,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "GND")
+				(ref "GND0")
 				(pin "P$1")
 				(pinfunction "P$1_P$1")
 				(pintype "passive")

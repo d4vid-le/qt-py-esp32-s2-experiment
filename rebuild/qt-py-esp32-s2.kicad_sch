@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid db58a7dc-6dc7-4254-a830-61f7b3710381)
+	(uuid b10eada3-827f-4fd8-a9f3-0788aff7a96f)
 	(paper "A2")
 	(lib_symbols
 		(symbol "qt-py-esp32-s2:ANTENNA_FP"
@@ -3854,7 +3854,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f1d55e57-c851-4f64-8609-93726ca3315c")
+		(uuid "183e47e4-ac3f-4384-babc-706913e107ee")
 		(property "Reference" "X1"
 			(at 33.02 30.48 0)
 			(show_name no)
@@ -3909,11 +3909,11 @@
 			)
 		)
 		(pin "FP"
-			(uuid "e6e2c2f2-cb7c-47a6-97c7-bc0a507f1a75")
+			(uuid "a03fcca2-fe58-4cb1-a549-7284502d1288")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "X1")
 					(unit 1)
 				)
@@ -3930,7 +3930,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "11b42618-3c7b-427a-abe6-44e383220e4f")
+		(uuid "1a549c39-c0b6-440e-a992-a013a080eadb")
 		(property "Reference" "C10"
 			(at 70.485 33.02 0)
 			(show_name no)
@@ -3987,14 +3987,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a351bc41-8b4b-4398-9f75-58635c061d9f")
+			(uuid "36d3aae4-41d9-49dc-921c-405da67dfd50")
 		)
 		(pin "2"
-			(uuid "2f272630-0c07-4ff6-9baf-2589d9efc2af")
+			(uuid "e645f229-342e-4f2f-9b63-ee0e2cd02248")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C10")
 					(unit 1)
 				)
@@ -4011,7 +4011,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4dea7914-df83-461c-8122-aaa9783b1357")
+		(uuid "22d1b12c-9fe8-47a4-90b8-1624ca524d1b")
 		(property "Reference" "C11"
 			(at 111.125 33.02 0)
 			(show_name no)
@@ -4068,14 +4068,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7aedeaa7-49ea-4ffc-a16b-f6b7567a1140")
+			(uuid "00662105-241c-4996-a6df-1219d038a76e")
 		)
 		(pin "2"
-			(uuid "f8814e7a-bd7e-4fdb-a358-d1960ca9c9da")
+			(uuid "a10291d7-f619-40c0-aff3-52ac6ff5effb")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C11")
 					(unit 1)
 				)
@@ -4092,7 +4092,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dc3504d2-432c-4bf6-87aa-7698d8e6c038")
+		(uuid "72572b2d-f7e2-4f63-bf76-599fd0678de5")
 		(property "Reference" "C12"
 			(at 150.495 33.02 0)
 			(show_name no)
@@ -4149,14 +4149,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "104ab770-fc9e-437c-9095-ca05f19eecec")
+			(uuid "d6116b09-a727-4121-bc31-67d1c58849a9")
 		)
 		(pin "2"
-			(uuid "730cf2d9-4b5a-43af-aa58-ae57345b32a7")
+			(uuid "5cca41ce-0c25-4505-8e54-3da87e598031")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C12")
 					(unit 1)
 				)
@@ -4173,7 +4173,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e9ea2e9-7d97-4880-a604-d43b462bc5df")
+		(uuid "fffd9ef8-63ae-4529-be5b-28b86cacb746")
 		(property "Reference" "C14"
 			(at 191.135 33.02 0)
 			(show_name no)
@@ -4230,14 +4230,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ee844bd-52e5-4c7c-9ab2-44bc205bfad7")
+			(uuid "19c1402c-da20-4c2b-9290-5f74f4c86ee6")
 		)
 		(pin "2"
-			(uuid "fb18e5d3-f7a6-43ce-942b-efb7cc61f738")
+			(uuid "974954a7-9125-4114-9ac4-e531dfa79021")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C14")
 					(unit 1)
 				)
@@ -4254,7 +4254,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8ac97af8-9530-4ba3-b513-12042c77e9bc")
+		(uuid "c1fefea8-db83-48fc-9eaa-dc994aca6869")
 		(property "Reference" "C4"
 			(at 230.505 33.02 0)
 			(show_name no)
@@ -4311,14 +4311,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3382999f-b9d3-49c5-80e3-3ac31b0476dd")
+			(uuid "52e5aa41-54a8-4018-81eb-5faf7f4761a3")
 		)
 		(pin "2"
-			(uuid "1a9730f3-1699-4231-943f-0a25b195f8d3")
+			(uuid "e6799c65-56c2-400d-b468-07f351f7ad4f")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C4")
 					(unit 1)
 				)
@@ -4335,7 +4335,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c242849-d575-497b-bfe5-4c10914f35f7")
+		(uuid "42596ddf-f40f-4529-9249-0b4c9fa0621e")
 		(property "Reference" "C16"
 			(at 31.115 62.23 0)
 			(show_name no)
@@ -4392,14 +4392,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bd0bd5c-2529-442a-8aba-cc9d6262b20f")
+			(uuid "b5017870-6260-4933-8afd-e2d76adf82c3")
 		)
 		(pin "2"
-			(uuid "0802ad56-8761-4290-9c5a-b6480a659f6f")
+			(uuid "ae34ff7c-8c36-49bb-8a6a-fa58b6383c94")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C16")
 					(unit 1)
 				)
@@ -4416,7 +4416,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a1d49593-c514-4c2d-88ff-9c2bb69c768e")
+		(uuid "c8eba678-5bd1-4b3a-8857-69c43678135b")
 		(property "Reference" "C17"
 			(at 70.485 62.23 0)
 			(show_name no)
@@ -4473,14 +4473,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f112a965-5fb0-433d-94b5-83077184ca64")
+			(uuid "f9bf2dc1-3125-453d-a4da-e12623680931")
 		)
 		(pin "2"
-			(uuid "6e3be9ca-41f5-4601-9208-8b26c37d9f6b")
+			(uuid "6dac7c61-3347-44ab-9cc4-edfcb10cd63b")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C17")
 					(unit 1)
 				)
@@ -4497,7 +4497,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e227c176-e65a-4c3a-bd11-611fd36e2bb6")
+		(uuid "e995d9a1-65fa-4376-8c0e-b750793ac994")
 		(property "Reference" "C18"
 			(at 111.125 62.23 0)
 			(show_name no)
@@ -4554,14 +4554,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0e7641e-bad5-4d57-9535-98c99d8a8818")
+			(uuid "468f0757-9f42-4201-bd70-510edb11593d")
 		)
 		(pin "2"
-			(uuid "f71ca0bd-13e1-49cb-b003-782086fe77ae")
+			(uuid "614bb7bb-e220-4b99-9889-ca37d2143ef9")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C18")
 					(unit 1)
 				)
@@ -4578,7 +4578,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b94403b5-d7af-4e9b-abfa-53de9b606d23")
+		(uuid "f0f1aa03-b958-46e8-8683-1df50cd83050")
 		(property "Reference" "C13"
 			(at 150.495 62.23 0)
 			(show_name no)
@@ -4635,14 +4635,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd482f69-16c6-4b19-97f1-dfeb3304384c")
+			(uuid "e5ed7347-c171-458a-a876-1b237168cadd")
 		)
 		(pin "2"
-			(uuid "1f6f575b-05ae-46f1-b6e4-fec7526fe9c4")
+			(uuid "78119571-8f19-4d95-a4e9-15bfa182ea65")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C13")
 					(unit 1)
 				)
@@ -4659,7 +4659,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ee0f44a6-f4ee-46b9-bb3d-7e97fa124cc1")
+		(uuid "12a4cd93-d644-444a-b339-06aa2c30255e")
 		(property "Reference" "C15"
 			(at 191.135 62.23 0)
 			(show_name no)
@@ -4716,14 +4716,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "acc6bbc2-5f34-4b8d-9f66-7426f70a2212")
+			(uuid "e463af20-6dc9-4589-8774-d11d1db45a88")
 		)
 		(pin "2"
-			(uuid "8c64949f-e4df-4047-b155-6705bbe81e22")
+			(uuid "353336e5-2006-41eb-abfd-df2fdfd8fbfd")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C15")
 					(unit 1)
 				)
@@ -4740,7 +4740,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a13adc8a-e87e-4b02-9657-fde41279a49b")
+		(uuid "4b00e6e4-ad52-479f-ac5c-e041003a84af")
 		(property "Reference" "C19"
 			(at 230.505 62.23 0)
 			(show_name no)
@@ -4797,14 +4797,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "372f0c62-add9-41a5-9d9b-71f7a50dacb6")
+			(uuid "b8066996-52aa-46c3-b67e-c6a25c81d865")
 		)
 		(pin "2"
-			(uuid "b320840d-be8b-46b7-bc3e-48df85db8191")
+			(uuid "5d905196-eb4e-4992-847e-20e828d28cc0")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C19")
 					(unit 1)
 				)
@@ -4821,7 +4821,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "845ab295-01b4-4b28-8444-92721e34a8de")
+		(uuid "4c3bca18-9453-4878-89ea-24d09716a4b9")
 		(property "Reference" "C2"
 			(at 31.115 92.71 0)
 			(show_name no)
@@ -4878,14 +4878,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac860ec5-1fea-4a92-b5d0-007b90515378")
+			(uuid "a1cdf2c7-c1cb-4867-88bc-955263a816be")
 		)
 		(pin "2"
-			(uuid "7e47fb2b-1cd5-4b51-ac7f-b77672dadd31")
+			(uuid "7a0fe212-e0ea-40be-ac94-c10abc17804a")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C2")
 					(unit 1)
 				)
@@ -4902,7 +4902,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e239b31f-fcaf-4f8c-b75c-f280b01c450b")
+		(uuid "0b04ed16-91a1-495b-90fe-17647d1a990f")
 		(property "Reference" "C20"
 			(at 70.485 92.71 0)
 			(show_name no)
@@ -4959,14 +4959,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e0db6b1-a943-4bc4-811e-a642e5330518")
+			(uuid "a3212517-15e9-467d-b935-dab727aee6d2")
 		)
 		(pin "2"
-			(uuid "55315ac9-aa17-44d4-a491-0b67bb571490")
+			(uuid "c5147727-745c-4393-a660-0b68920fb6d6")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C20")
 					(unit 1)
 				)
@@ -4983,7 +4983,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "593dae74-9460-4c8c-82d2-27426b9facb6")
+		(uuid "e8aac91a-85a8-4211-bbc5-801c79bf66c2")
 		(property "Reference" "C3"
 			(at 111.125 92.71 0)
 			(show_name no)
@@ -5040,14 +5040,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a136005b-b590-4395-9426-dbfc5b94dc6a")
+			(uuid "55ecf792-bc9a-45cf-ac8d-ae204e15d62f")
 		)
 		(pin "2"
-			(uuid "fede4f16-93d6-44c2-b3cd-1f29214cb8a6")
+			(uuid "2fd4e33c-530f-442f-bb64-741d615fb89e")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C3")
 					(unit 1)
 				)
@@ -5064,7 +5064,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f86e28bc-26d8-4ddf-b561-e5a7be64138d")
+		(uuid "9d98ca54-41ca-457b-bb94-53be88160b1b")
 		(property "Reference" "C5"
 			(at 150.495 92.71 0)
 			(show_name no)
@@ -5121,14 +5121,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c5e7ffe-575e-409e-9ff3-f77a907204c4")
+			(uuid "e66ae4d2-4dba-4f0c-8f25-e5a2ed3c9d14")
 		)
 		(pin "2"
-			(uuid "c9386680-ecb3-4f2a-9409-5723b76ff160")
+			(uuid "db78e393-b8e2-4753-a534-54ec7ad4a396")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C5")
 					(unit 1)
 				)
@@ -5145,7 +5145,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5c990ff2-8de8-47fb-a2c8-1365379b9024")
+		(uuid "20e20fd5-ac3a-4377-826c-d5e3b6bf7567")
 		(property "Reference" "C1"
 			(at 191.135 92.71 0)
 			(show_name no)
@@ -5202,14 +5202,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "912ed3a9-82ae-473c-aaa4-5ae97213be3f")
+			(uuid "1686d437-c019-4de4-a43a-9c87b60f5f2a")
 		)
 		(pin "2"
-			(uuid "ec79466a-7369-4c77-8083-b85a27a67271")
+			(uuid "beabde46-ff68-40a0-890e-beacc70d5dfb")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C1")
 					(unit 1)
 				)
@@ -5226,7 +5226,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3e8ee36-1395-4f9e-928f-976c64dab3da")
+		(uuid "150797df-522d-4fe4-a370-cc562042d28a")
 		(property "Reference" "C6"
 			(at 230.505 92.71 0)
 			(show_name no)
@@ -5283,14 +5283,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb2bc71d-7091-4ca1-a271-eaf202b23548")
+			(uuid "5a2bd1d4-3b60-43be-bb67-f96fff1b5747")
 		)
 		(pin "2"
-			(uuid "d1f75a17-378d-4acb-9b85-15b1bf5c6b09")
+			(uuid "7b3a35fd-902c-4301-9224-cfba12a4b721")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C6")
 					(unit 1)
 				)
@@ -5307,7 +5307,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "432c2f26-42d0-40d7-95dc-11001ab0c779")
+		(uuid "f6980105-ec2f-4fb3-a3a4-e17868676be5")
 		(property "Reference" "C8"
 			(at 31.115 121.92 0)
 			(show_name no)
@@ -5364,14 +5364,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "24cfcd95-f8f0-4f7a-982e-4c3787480098")
+			(uuid "a5a7786a-5921-450d-b7d1-9d8aff134aad")
 		)
 		(pin "2"
-			(uuid "b692d215-2b58-437e-844c-e39ba41ca2e8")
+			(uuid "6ed93d2f-3edb-473e-b7d2-06cdaf2166d8")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C8")
 					(unit 1)
 				)
@@ -5388,7 +5388,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3faf856d-899e-4d1a-8c36-69de9371008c")
+		(uuid "8a5544e2-bdc1-4d32-a1b7-4fbbc96587b5")
 		(property "Reference" "C7"
 			(at 70.485 121.92 0)
 			(show_name no)
@@ -5445,14 +5445,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "45e5d2f0-1adc-4176-ade4-16762c558533")
+			(uuid "4619a1ad-8462-4ffe-b459-62f8cf8bdba6")
 		)
 		(pin "2"
-			(uuid "02f6c690-b657-483a-b489-833f6f927c45")
+			(uuid "e43bcefb-3803-437f-92d6-90adb392c698")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5469,7 +5469,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4d84a3fc-8fda-4e41-b360-05676ac75385")
+		(uuid "77dfb9a0-0497-457f-ae2d-62ed55bf8c81")
 		(property "Reference" "C9"
 			(at 111.125 121.92 0)
 			(show_name no)
@@ -5526,14 +5526,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7385e65a-d97c-44f5-a96b-170e3da425f8")
+			(uuid "37b6e92c-82d0-4b3d-93e0-72cd81b11c24")
 		)
 		(pin "2"
-			(uuid "6163ec29-f7c3-4600-8ea9-c6a4460e84e5")
+			(uuid "f91e81cc-88ef-4203-9adf-7263907f29fc")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "C9")
 					(unit 1)
 				)
@@ -5550,7 +5550,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "890a3420-1389-4520-acdb-5741f9760065")
+		(uuid "44ebe88a-d2fb-47f5-ab82-0768768f6516")
 		(property "Reference" "Y1"
 			(at 152.4 119.38 0)
 			(show_name no)
@@ -5605,14 +5605,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6c82e31-4dcb-416a-a53f-a6ae0406190f")
+			(uuid "2a71fcc7-64d0-467b-8666-a2f1e3bd0e14")
 		)
 		(pin "3"
-			(uuid "dff62780-42cd-4032-9b62-0606ac0f76b0")
+			(uuid "c4b4bd3b-751e-4961-9e50-9a464e2b3989")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -5629,7 +5629,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "47decb7b-b619-4485-82b6-27912df8eec7")
+		(uuid "c4b04318-3a9e-46e1-b147-93c6992374de")
 		(property "Reference" "D1"
 			(at 193.04 119.38 0)
 			(show_name no)
@@ -5684,14 +5684,14 @@
 			)
 		)
 		(pin "A"
-			(uuid "eb0906bd-c28f-4abd-be37-669e6ab4a52f")
+			(uuid "c241986c-f98a-4085-82e8-16a9cfc90e5e")
 		)
 		(pin "C"
-			(uuid "5c88c48f-8f93-40db-a148-f82bcc4a13a9")
+			(uuid "d87a0b15-b70c-43dc-bd2a-a8d9ec64b582")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5708,7 +5708,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "20008360-ef66-4b2f-9876-f8d6e6356269")
+		(uuid "1d6389d8-799d-4762-b184-bb27a02c21c3")
 		(property "Reference" "D2"
 			(at 232.41 119.38 0)
 			(show_name no)
@@ -5763,14 +5763,14 @@
 			)
 		)
 		(pin "A"
-			(uuid "b940a827-9818-4986-89ed-b5f223327be3")
+			(uuid "1c351609-0c2e-4321-91a9-d24d13901159")
 		)
 		(pin "C"
-			(uuid "d0399188-ee67-457b-aa38-ee0681e0884e")
+			(uuid "90cbbb85-3d0e-43b3-90bf-1259a86ad1cc")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5787,7 +5787,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e388610a-7549-4e2d-8c5d-80cdea643519")
+		(uuid "ad544124-056e-4fec-a7ac-3d58b707debe")
 		(property "Reference" "U$15"
 			(at 402.59 149.86 0)
 			(show_name no)
@@ -5842,179 +5842,179 @@
 			)
 		)
 		(pin "1"
-			(uuid "18f566b6-8ce6-47f5-93c9-dbef065b2929")
+			(uuid "b11429f4-c5a5-46bc-89a3-538484975cca")
 		)
 		(pin "10"
-			(uuid "754d5a55-f479-43df-b3bf-e865c74dc833")
+			(uuid "36fc94bd-b4f3-46a0-aef5-d28cefd8fc51")
 		)
 		(pin "11"
-			(uuid "e6875f57-cd5d-468a-b816-e09c96ca909e")
+			(uuid "56a06ad3-93e0-4d9f-bf60-e4747e8d9e4e")
 		)
 		(pin "12"
-			(uuid "c7b10031-0cb4-4d57-a059-64c2ccb4e6ea")
+			(uuid "5871f7b4-cf2d-4b5a-a4c9-21c330d6f708")
 		)
 		(pin "13"
-			(uuid "21664196-2c50-49aa-bf85-9da0dda8555e")
+			(uuid "54d4d52a-c8f5-4fca-a1c2-6da83084579f")
 		)
 		(pin "14"
-			(uuid "463546a6-f861-4f30-81fa-b945af1cb6b9")
+			(uuid "dc91c39d-08c3-41aa-8be6-4cd15d990051")
 		)
 		(pin "15"
-			(uuid "cdab37c1-8613-4633-bd2b-842b5cded9a8")
+			(uuid "5f91ef7b-ee9e-4d8e-b2f1-7a5307cea44a")
 		)
 		(pin "16"
-			(uuid "26e7dc33-269e-4129-b6cc-18076a25f600")
+			(uuid "df8e96e5-783b-43ca-9024-57f7d13be7ec")
 		)
 		(pin "17"
-			(uuid "a494c7e6-a3a4-4d6e-bf4d-6e76c804367a")
+			(uuid "eef0e3fb-1c5e-44e0-b43a-b869cd95272c")
 		)
 		(pin "18"
-			(uuid "f78dd09c-d298-4a4a-82c4-fce975b77195")
+			(uuid "8ad7e381-8055-429d-b6ce-744a883f00f4")
 		)
 		(pin "19"
-			(uuid "18554518-6ee2-4ac4-9a93-ee1915d84d9f")
+			(uuid "6bdf57a6-4b84-49fc-b213-ce39c3122732")
 		)
 		(pin "2"
-			(uuid "f1f1cbb9-8337-4fdd-b3ff-7a01ac8df293")
+			(uuid "d28c8151-7772-427f-85a8-ddf05227a52b")
 		)
 		(pin "20"
-			(uuid "1e5fc31f-c2b3-4c28-9a16-e930b96dd749")
+			(uuid "6c33ac52-7df4-4657-8a52-46db5a61795e")
 		)
 		(pin "21"
-			(uuid "c4afa723-6ed6-4136-9038-e0d8139c5e3c")
+			(uuid "caa485d7-92bf-457c-81e0-8ee932f92367")
 		)
 		(pin "22"
-			(uuid "7ae1b354-77bf-4d4c-87f7-137661bd63c5")
+			(uuid "c114ac07-473d-4553-bcf8-680285d41750")
 		)
 		(pin "23"
-			(uuid "3e52d463-fd3b-496d-a230-e2e16a2b1bef")
+			(uuid "f420a1b3-b0b8-4896-8e1d-31e410b50f92")
 		)
 		(pin "24"
-			(uuid "fac7c4dc-3076-4db0-aebd-53a066146f69")
+			(uuid "83fa3b15-7e65-44b3-b6fe-5466d2d06c62")
 		)
 		(pin "25"
-			(uuid "f0a38261-73bc-4190-8294-06ed6fd27642")
+			(uuid "414922f5-5b90-4314-a84f-2e6deec482f2")
 		)
 		(pin "26"
-			(uuid "9c7dd08c-61f3-410b-8bbb-29125957f82f")
+			(uuid "5399d5ec-5f19-477e-abe7-8e21f64ff467")
 		)
 		(pin "27"
-			(uuid "93bafdf9-8130-4c2f-a0e0-9e55dbd2005b")
+			(uuid "fd3d7380-e1fe-412f-810d-68f59ab6b73d")
 		)
 		(pin "28"
-			(uuid "b2d5dd63-a48f-46b6-bbd4-7264da2f41de")
+			(uuid "9cff35cb-df9a-4887-984f-9c613c5d1bcb")
 		)
 		(pin "29"
-			(uuid "6c1ca992-2f85-41d6-b15e-e23b9e5788eb")
+			(uuid "95dc05ce-970c-4014-b7d3-578aff6d8005")
 		)
 		(pin "3"
-			(uuid "f637a025-6079-400c-9b2f-29130b7b9e50")
+			(uuid "039f673f-a313-41c7-81ca-864bbca8fc68")
 		)
 		(pin "30"
-			(uuid "d7a4b246-dcdf-4e72-80b6-40aa5635b138")
+			(uuid "8fbc1fcf-b050-41f3-9048-0652ee484ad6")
 		)
 		(pin "31"
-			(uuid "3817fbac-de7f-477a-a023-1a15e8724705")
+			(uuid "093ee085-cce4-43e1-9a8c-9e3e25dc8644")
 		)
 		(pin "32"
-			(uuid "5c406f5d-6266-4973-adba-037e8bcaaa5e")
+			(uuid "8afc9761-05e8-4ca2-82b3-e519b07e9e5c")
 		)
 		(pin "33"
-			(uuid "84886b6c-52b7-4d87-bb65-463b949f9f2b")
+			(uuid "3f1cd742-fdac-478f-a13c-a484b78d7bbb")
 		)
 		(pin "34"
-			(uuid "977fc75b-15ae-4583-b09d-0f918301a3ff")
+			(uuid "cc596ee2-5668-4552-a7cf-a3c76bd18018")
 		)
 		(pin "35"
-			(uuid "152d4bb8-282d-4d0d-873f-031f4e9f74f1")
+			(uuid "0ceae755-ea5c-4844-ae09-931ab6494f4d")
 		)
 		(pin "36"
-			(uuid "4b5b8db4-9627-43a3-a2dd-38dbdf9379d8")
+			(uuid "f8021b20-5959-4e75-b3d1-124a5eaed963")
 		)
 		(pin "37"
-			(uuid "d3af0349-895e-4d57-b34d-d787d85f9b87")
+			(uuid "42421493-9b55-47d7-a93b-5947feb8ead6")
 		)
 		(pin "38"
-			(uuid "9419334d-ecd4-40ad-89d7-fffaa32ac260")
+			(uuid "c8463215-4211-484a-8652-c94ec8b6704c")
 		)
 		(pin "39"
-			(uuid "02d3931e-5afc-4bcc-a943-75c57cbf01bd")
+			(uuid "9f7846a3-1e4d-46c5-8fb8-e9dd772a075c")
 		)
 		(pin "4"
-			(uuid "0f534996-2c12-4ff1-be36-e69eac70ccfc")
+			(uuid "aa6deff7-fee6-4277-be93-8ad60cff0a08")
 		)
 		(pin "40"
-			(uuid "9a1b7a1d-6f0d-4e2c-a5f8-13228d65f749")
+			(uuid "c6315be4-56a7-4faa-b866-ee95ed59e53a")
 		)
 		(pin "41"
-			(uuid "39d8c5f5-8beb-4c99-a75b-843fc6c60141")
+			(uuid "b84823ec-a837-4d5f-89d1-7ebd56968d72")
 		)
 		(pin "42"
-			(uuid "d906e3f6-4cde-439f-bc49-3af6954c3d5e")
+			(uuid "83a6e5b6-9ca1-4006-a965-04a8ebcf967a")
 		)
 		(pin "43"
-			(uuid "bdc27f13-5ade-4ce6-a215-e4f880372222")
+			(uuid "96d6a5d1-d553-4c34-8ead-7272c349ad59")
 		)
 		(pin "44"
-			(uuid "d05e3c3f-02a0-4192-a1ff-fa3f7bca47e8")
+			(uuid "295d8956-b419-4003-879d-33c29380f366")
 		)
 		(pin "45"
-			(uuid "17fff284-1bd2-495c-907c-ca8468c569c5")
+			(uuid "6337ae30-5813-4591-9df9-37efb824f581")
 		)
 		(pin "46"
-			(uuid "1dc143b1-7768-4c4f-8e52-ce5c1e25b1d1")
+			(uuid "320a459c-f151-46f5-b0b4-5a79e2e7181d")
 		)
 		(pin "47"
-			(uuid "f37de4d7-75f9-4289-9542-be46a9d11b83")
+			(uuid "9f04869b-6f89-4f7f-b78a-ba34e97a9747")
 		)
 		(pin "48"
-			(uuid "5b35056b-aa9c-452d-9f6f-8437af707148")
+			(uuid "b35eb938-3e2b-4243-aaf3-8c5f8ae002d1")
 		)
 		(pin "49"
-			(uuid "3dda67a3-c120-4b20-a473-ccf612c4918e")
+			(uuid "f997f144-e122-44de-ac31-bf4269815a97")
 		)
 		(pin "5"
-			(uuid "684e5bcb-6e04-4f67-8eb1-d88b0382386a")
+			(uuid "d8214090-ffb8-4b47-9f57-b93c49120068")
 		)
 		(pin "50"
-			(uuid "868ac238-915f-4130-ada2-bc5f547f0d7f")
+			(uuid "f42f0fca-f11b-4a3c-b57f-646d195cddc7")
 		)
 		(pin "51"
-			(uuid "020419da-c922-418a-b14d-9eda4e6bd59f")
+			(uuid "86924c71-d8c4-4524-838a-586bdf30160c")
 		)
 		(pin "52"
-			(uuid "bae01299-f76f-4083-a2a7-8facafedbd66")
+			(uuid "8f7bfb36-9dff-4d4f-afc9-3d2f7de867e0")
 		)
 		(pin "53"
-			(uuid "cf617801-0f93-4211-8283-aec6d4ddd6ac")
+			(uuid "dcf87196-6f4a-40f9-95b6-dfc957ba0f91")
 		)
 		(pin "54"
-			(uuid "4725cbfa-ecff-414e-b066-956db7d7f4d0")
+			(uuid "7db8737f-f6cf-49de-bcb7-4323a897e5ab")
 		)
 		(pin "55"
-			(uuid "22b11398-6e19-4a87-b504-27c7735fc47e")
+			(uuid "ae770019-a397-487b-8203-7af9893a4e9a")
 		)
 		(pin "56"
-			(uuid "44c0b9ce-6ebe-4d09-80bf-06c8db9dcbf4")
+			(uuid "f1cb696c-4980-4a15-8b85-b03588d54b12")
 		)
 		(pin "57"
-			(uuid "5740607e-3ac5-4d5c-9d69-a7ec5e51d01b")
+			(uuid "605e7c6a-2e56-49e5-ade8-47f320430d52")
 		)
 		(pin "6"
-			(uuid "65321e36-d2b2-400a-b8eb-05b041626f83")
+			(uuid "7d517cad-08f6-4298-824e-0295c3fcbd61")
 		)
 		(pin "7"
-			(uuid "c5880bd7-a4a4-4857-af7c-a31359e7de93")
+			(uuid "578e6c8d-bd99-4c6c-b561-a125f77ca947")
 		)
 		(pin "8"
-			(uuid "5d46575d-04a4-495c-9ad3-41f4e132b223")
+			(uuid "561f7f92-6ae8-4cea-878a-97b42b79440c")
 		)
 		(pin "9"
-			(uuid "aec4d4b5-0dd7-4125-afb3-bdfb6edcba31")
+			(uuid "d1746060-5615-45cb-bd55-8d16534384b7")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "U$15")
 					(unit 1)
 				)
@@ -6031,7 +6031,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3a232b0a-21de-49a5-91e5-41be0eacc251")
+		(uuid "7ca9c8a5-3abc-43d0-8ad5-0cdb6a746e31")
 		(property "Reference" "JP1"
 			(at 72.39 149.86 0)
 			(show_name no)
@@ -6086,50 +6086,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "e258ecc5-1424-4185-9b9a-60bf3854b7e6")
+			(uuid "41ee608a-4d6c-489c-aeb5-bd73ae0a0349")
 		)
 		(pin "1C"
-			(uuid "d4afcac8-cfb7-4185-86f0-5e72d49d16a9")
+			(uuid "0a087c85-6ae1-47e5-b6ea-0c3d70b4d74a")
 		)
 		(pin "2"
-			(uuid "a451c01b-f7bf-43fe-94fc-6c8ef162bff8")
+			(uuid "2f3f8a58-d00d-4923-8f27-4c599247f106")
 		)
 		(pin "2C"
-			(uuid "3932b0e8-68a7-46a9-977f-eea02ecc2869")
+			(uuid "38a28261-6e76-42fe-b84c-c5f9d338206c")
 		)
 		(pin "3"
-			(uuid "d1fe5804-b9f7-4575-a675-b7582d408b09")
+			(uuid "889ff1dd-4edd-46d0-ac39-d760926a45db")
 		)
 		(pin "3C"
-			(uuid "ae1531f1-5262-4aac-a99e-4c0d6bdd8630")
+			(uuid "f3ea5196-0dc6-4284-9d81-6305d08a5226")
 		)
 		(pin "4"
-			(uuid "0d441747-4f7b-47d6-bfd5-5b4b7da0c804")
+			(uuid "07993ca0-763f-44ff-909f-8e2f022f1e63")
 		)
 		(pin "4C"
-			(uuid "23fce802-756c-41f5-9c47-ee768b9eef8e")
+			(uuid "2bd6a696-18b0-4f9a-9e56-cf2975501e88")
 		)
 		(pin "5"
-			(uuid "35c89ee5-5e55-42b5-910a-a1a4d6e4c41a")
+			(uuid "dfcefcb8-7c3c-4c30-b533-eb321870279e")
 		)
 		(pin "5C"
-			(uuid "dd1739d5-347b-4cea-bbfa-0518a314d540")
+			(uuid "eee5cf6c-a610-48fb-b219-2325b41ab0c5")
 		)
 		(pin "6"
-			(uuid "487fe8e5-b2e6-4656-a80d-662daa88cfc5")
+			(uuid "0013f8b0-b131-440c-a281-59228476b2ba")
 		)
 		(pin "6C"
-			(uuid "fa32ab0b-a8b3-42f6-99e2-a882c0ad1f22")
+			(uuid "c79ae5cf-b347-411d-a473-6eb8aa91ca53")
 		)
 		(pin "7"
-			(uuid "31fb41f9-37dc-4b99-be62-d91dc739fdb2")
+			(uuid "574aecec-f328-4ec1-a7bb-6959a8a7ba7a")
 		)
 		(pin "7C"
-			(uuid "d7602fce-07d6-409a-af94-40977185eec2")
+			(uuid "4e9135c5-3032-4d57-8fdb-0c137332ad08")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -6146,7 +6146,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46e9f4ac-5017-48d6-8ff1-8ca5575c0b58")
+		(uuid "8cfa167e-62b1-4dcd-8fc8-e4aa0fcaf164")
 		(property "Reference" "JP3"
 			(at 113.03 149.86 0)
 			(show_name no)
@@ -6201,50 +6201,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "09431063-43b2-4157-baf7-31c1279c4f9b")
+			(uuid "e71842c9-1954-4efa-adb2-623c3a5fef2a")
 		)
 		(pin "1C"
-			(uuid "fc7c5ee3-2001-4cf3-837d-ecbdd0deaa50")
+			(uuid "2b2eb97c-3621-4471-b824-531b109403fa")
 		)
 		(pin "2"
-			(uuid "a387c987-826e-4618-9dc5-cf20d8950e56")
+			(uuid "72cda5a0-14c8-4bb1-abc7-4227e65c56bd")
 		)
 		(pin "2C"
-			(uuid "d4f428d2-7ae7-4e72-b718-4ae2e099812d")
+			(uuid "d6927df4-8f3a-41a0-bb56-9c9b35f380ca")
 		)
 		(pin "3"
-			(uuid "18c5f7a9-7f70-4e06-9fa3-9aa4e806f643")
+			(uuid "40ca5254-da78-42a0-ac55-956f8dfc3ae4")
 		)
 		(pin "3C"
-			(uuid "8aada968-bfab-4cd3-a542-e52b39a6c047")
+			(uuid "4be5b22b-148c-4039-9372-d7d67ec21b9b")
 		)
 		(pin "4"
-			(uuid "3f54e1b2-9d22-4084-ac97-3ef279b56a63")
+			(uuid "ab3aa793-75a6-40f7-8fbc-8c7bf9071659")
 		)
 		(pin "4C"
-			(uuid "a61db93d-c25b-470c-b26a-5c1737fdcb07")
+			(uuid "f746fa3c-af3a-43f3-9477-1f8287da7912")
 		)
 		(pin "5"
-			(uuid "1f917d53-bbc7-4646-b0db-49d44467f212")
+			(uuid "81bf33bc-2cf7-48d6-b294-a6e70047eb22")
 		)
 		(pin "5C"
-			(uuid "ab110621-45fb-4d5e-a91c-2d474269d79b")
+			(uuid "01e2b643-640a-4819-91ee-e07e10b8c13b")
 		)
 		(pin "6"
-			(uuid "c7b298f1-f3f4-435e-b111-e0fa6277b602")
+			(uuid "17f61f3e-7e40-4402-ac39-45792f33e22d")
 		)
 		(pin "6C"
-			(uuid "f5ff4935-26c6-49c1-84a1-8abb3638ebff")
+			(uuid "9920e990-91ce-4fe8-a028-620450f3a4f9")
 		)
 		(pin "7"
-			(uuid "661d3628-8ca9-4bd1-8a3f-0e450c0533fb")
+			(uuid "0237fa9c-1421-453a-8e05-dacf7d199704")
 		)
 		(pin "7C"
-			(uuid "ec724449-bfef-4d60-ad7b-3d49bcc9d125")
+			(uuid "035b1808-d0ae-48ed-9e5d-6f8c1332b23c")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "JP3")
 					(unit 1)
 				)
@@ -6261,7 +6261,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "79335bfa-770d-4d78-aff6-6cd7f9f8da67")
+		(uuid "d9eb2318-0e40-4800-9545-6eec470860fe")
 		(property "Reference" "L2"
 			(at 148.59 149.86 90)
 			(show_name no)
@@ -6316,14 +6316,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6c9c0df-f635-489a-aed3-a898840aaef4")
+			(uuid "ec28e2d2-ec02-45ed-b330-2a0a132870a8")
 		)
 		(pin "2"
-			(uuid "e03ede69-bc46-45c5-af17-d5ed24353e07")
+			(uuid "dddf2915-2a4f-48e3-819e-be842e5eaa39")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "L2")
 					(unit 1)
 				)
@@ -6340,7 +6340,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6f7033b4-2bda-43c0-b142-325874a1194d")
+		(uuid "dd98fdc5-dd5e-4ff8-8e93-d16139af524e")
 		(property "Reference" "L1"
 			(at 189.23 149.86 90)
 			(show_name no)
@@ -6395,14 +6395,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "201b93ad-c681-494a-b463-9f95826e1a6d")
+			(uuid "a3d7f511-1882-47d1-aec7-8cbb1cfd0416")
 		)
 		(pin "2"
-			(uuid "fb8c302a-3f30-4ef8-9afd-5fdaf0e91b4b")
+			(uuid "1e1ba30b-fd7b-424a-b979-f3a1b56a72d4")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "L1")
 					(unit 1)
 				)
@@ -6419,7 +6419,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bab5e58c-358e-427e-ac93-719005b5b2a5")
+		(uuid "0c8195cb-145f-40dd-812e-0c146c57f9b5")
 		(property "Reference" "R3"
 			(at 231.902 149.86 90)
 			(show_name no)
@@ -6474,14 +6474,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "926ac8f1-ff91-483e-adde-1ac6e8e34d68")
+			(uuid "c90c1bac-a6f8-47c8-98e7-5c3fda685747")
 		)
 		(pin "2"
-			(uuid "fbc51ad1-48da-4fd4-b899-a399103b9b59")
+			(uuid "054af047-e8f6-4cb5-9679-14d3321e47d7")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R3")
 					(unit 1)
 				)
@@ -6498,7 +6498,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c8feafb-67e1-455f-9ea0-7903a785180a")
+		(uuid "93deaf54-33fa-42e5-baef-a7f152737bd6")
 		(property "Reference" "R1"
 			(at 32.512 180.34 90)
 			(show_name no)
@@ -6553,14 +6553,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5add78fc-aa3e-462e-a650-964fcee1ba32")
+			(uuid "6cdae4a6-2103-46dc-9f5c-ace192a0f93a")
 		)
 		(pin "2"
-			(uuid "cd095122-2e01-452b-a8ee-3dc1ed4d8096")
+			(uuid "13764312-b7fc-4ec1-b3fe-e286d9cbbc7b")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R1")
 					(unit 1)
 				)
@@ -6577,7 +6577,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9e671d32-2fa3-4c5b-98e2-6df602c2e7aa")
+		(uuid "ccb6862c-f11b-4067-a071-7f37cf4071ff")
 		(property "Reference" "R2"
 			(at 71.882 180.34 90)
 			(show_name no)
@@ -6632,14 +6632,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "48743e76-62c3-4f8b-ac87-cba5c68bc719")
+			(uuid "6e2f95bf-c915-4157-8c2f-02457afdb0dc")
 		)
 		(pin "2"
-			(uuid "f5757ef6-bbe5-4cb5-a606-08f45e36dd62")
+			(uuid "9ed446e4-1e76-4b28-8db4-d30e3bde33ce")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R2")
 					(unit 1)
 				)
@@ -6656,7 +6656,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a867c9ea-baae-4672-a6c2-403bed37f787")
+		(uuid "89015735-bff7-45b9-89e8-ebc772f925df")
 		(property "Reference" "R17"
 			(at 112.522 180.34 90)
 			(show_name no)
@@ -6711,14 +6711,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "99f7b667-b423-4578-82d8-c8b3805e33f0")
+			(uuid "0e61cdc1-bb1b-45da-9518-314e6225c033")
 		)
 		(pin "2"
-			(uuid "da662f24-b6a7-4892-a6fe-8a289cc48714")
+			(uuid "384757ed-1eea-435d-ab73-cad47305e466")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R17")
 					(unit 1)
 				)
@@ -6735,7 +6735,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "02aa83de-eb7d-4731-baf0-cfedcc95b039")
+		(uuid "402776e9-7dc7-47dc-a77f-0d27a2c33b24")
 		(property "Reference" "R5"
 			(at 151.892 180.34 90)
 			(show_name no)
@@ -6790,14 +6790,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc307f3d-64c4-4181-92be-1f7f4fea7d2f")
+			(uuid "2b3f03cb-2e9d-49d8-833a-ca5be3b67993")
 		)
 		(pin "2"
-			(uuid "f0781d50-4c56-4630-8be4-5d5bcf3a0ccc")
+			(uuid "5952be3a-6e46-41fa-a7f3-6e2cf75650e3")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R5")
 					(unit 1)
 				)
@@ -6814,7 +6814,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "681a7998-4a5a-4b54-ae7e-c70aec444967")
+		(uuid "ead0a80e-3dce-4e53-9454-e2bedae1796a")
 		(property "Reference" "R6"
 			(at 192.532 180.34 90)
 			(show_name no)
@@ -6869,14 +6869,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d409bdd3-40be-4ada-8f38-4da76eced67f")
+			(uuid "f74afd55-43bc-4267-b75d-31c33acdd0c0")
 		)
 		(pin "2"
-			(uuid "b5e615a2-4f90-4774-839c-6f9e5f13c3c5")
+			(uuid "b70d7459-3c73-409d-b130-c8a1e646ce0c")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "R6")
 					(unit 1)
 				)
@@ -6893,7 +6893,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e1b2fbad-6ee3-4c78-9e56-6ff49981b6cb")
+		(uuid "db270fa9-8599-40fb-98a2-31d9765c492a")
 		(property "Reference" "CONN1"
 			(at 232.41 180.34 0)
 			(show_name no)
@@ -6948,26 +6948,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ac4bbaf-4faf-425b-82fb-c3aaea4ab561")
+			(uuid "812af21a-a8f8-441d-9f57-47627010fdc5")
 		)
 		(pin "2"
-			(uuid "96110342-fe16-4659-9c0c-f0580f0a1ae2")
+			(uuid "4fcc50b7-0904-47c6-a035-99958005aa27")
 		)
 		(pin "3"
-			(uuid "6e333e16-c719-4269-ae7f-d2f6a14ebb68")
+			(uuid "0213ea8f-abcd-4159-b5a1-e1df0b804561")
 		)
 		(pin "4"
-			(uuid "64e9d07d-e487-485b-826a-083efcf42e4a")
+			(uuid "7887ff6a-7f24-430f-9406-12db793030cf")
 		)
 		(pin "MT1"
-			(uuid "f2acd26f-22bf-4603-a004-166b16850899")
+			(uuid "320b5682-ed7f-4bc1-bc63-bb74c81c7208")
 		)
 		(pin "MT2"
-			(uuid "4cffa0d8-a9d6-4f8c-8d4d-5cd4371e3b55")
+			(uuid "0acdf159-3b32-4986-8a39-4de6e65a57a5")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "CONN1")
 					(unit 1)
 				)
@@ -6984,7 +6984,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a3cc51e-7829-4dd4-a55d-9fdec6c86cd7")
+		(uuid "8af9a6b9-ee17-4885-9b68-ab1bf102b97c")
 		(property "Reference" "Q1"
 			(at 33.02 209.55 0)
 			(show_name no)
@@ -7039,20 +7039,20 @@
 			)
 		)
 		(pin "A"
-			(uuid "c76adc26-0b98-4acb-9ef6-f02faf24adb4")
+			(uuid "954bb4c8-9db0-4d49-823b-dc7a2d173985")
 		)
 		(pin "A'"
-			(uuid "63f93b20-1dc1-425c-bd04-d4ef31bac052")
+			(uuid "0e1a5e5d-bca8-405f-8981-74b8fc6b37b3")
 		)
 		(pin "B"
-			(uuid "1386fb68-72f0-46ff-861a-4d4ecec5c766")
+			(uuid "68123ecb-5130-47b6-a625-2f43453a12c1")
 		)
 		(pin "B'"
-			(uuid "d84b24e9-6690-4fac-b17c-30fe7c898e28")
+			(uuid "2f30a84a-d5f7-46bf-b67f-045592f8371a")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -7069,7 +7069,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f58e2a06-c4e8-4e8d-802e-b7d4951acf99")
+		(uuid "383ffd59-104f-4374-8455-9cb656511dd5")
 		(property "Reference" "Q2"
 			(at 72.39 209.55 0)
 			(show_name no)
@@ -7124,20 +7124,20 @@
 			)
 		)
 		(pin "A"
-			(uuid "41b39804-bad4-415a-981d-d221db75b1fd")
+			(uuid "7ba9744c-2e25-4135-b79f-b515f804cef2")
 		)
 		(pin "A'"
-			(uuid "15968a40-b2c6-4087-bf7d-2e9587a2b4b6")
+			(uuid "d190b700-47e4-4f0d-b923-5c9fca15b002")
 		)
 		(pin "B"
-			(uuid "fce87578-4305-49af-a5ad-56626a6d26c2")
+			(uuid "6520bb9e-76f1-4d1b-a00f-6fbd1c140da7")
 		)
 		(pin "B'"
-			(uuid "42c91491-3571-4620-aeed-08a33768f909")
+			(uuid "f899b193-c9ab-4249-8aeb-f23135c50c69")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -7154,8 +7154,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "853f0c9d-cd99-49c8-aebb-d691874a4e49")
-		(property "Reference" "GND"
+		(uuid "d8214c51-9b65-428b-8f7b-35a1b23ed487")
+		(property "Reference" "GND0"
 			(at 113.03 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7209,12 +7209,12 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "e5613a97-33da-49b4-aff9-e86f1cb55d53")
+			(uuid "e12cd55d-2767-4408-8700-b01d8c61afd1")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
-					(reference "GND")
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
+					(reference "GND0")
 					(unit 1)
 				)
 			)
@@ -7230,8 +7230,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22a608af-15bb-4889-badd-dc6cec268fd9")
-		(property "Reference" "VBAT"
+		(uuid "8c2c374e-c999-45d0-ba5b-f0c788010fc5")
+		(property "Reference" "VBAT0"
 			(at 152.4 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7285,12 +7285,12 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "a7ef20c3-ace0-43e9-a9fd-d48236fb8374")
+			(uuid "bff37b8f-363e-4f62-9020-5493dc11a960")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
-					(reference "VBAT")
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
+					(reference "VBAT0")
 					(unit 1)
 				)
 			)
@@ -7306,7 +7306,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "77e0f815-ea95-491f-b6c0-b46b34ecb854")
+		(uuid "85f86486-3d9d-4c3e-872b-73d323a2c8da")
 		(property "Reference" "SWC1"
 			(at 193.04 209.55 0)
 			(show_name no)
@@ -7361,11 +7361,11 @@
 			)
 		)
 		(pin "TP"
-			(uuid "59b87dd8-0166-401c-b2d5-c9ac1bf73e90")
+			(uuid "30e7c82c-8d7d-4cea-b11c-95224c6d3f40")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "SWC1")
 					(unit 1)
 				)
@@ -7382,7 +7382,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8bed026e-c779-4de1-a5d4-a4fff3a22fdf")
+		(uuid "b13615cf-4bc7-4997-a458-3039d77c24a9")
 		(property "Reference" "SWC2"
 			(at 232.41 209.55 0)
 			(show_name no)
@@ -7437,11 +7437,11 @@
 			)
 		)
 		(pin "TP"
-			(uuid "9ecf325f-6d3a-424c-b0d2-dc508b361b6d")
+			(uuid "a33c192c-ac5e-4f4e-b92f-36939e058320")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "SWC2")
 					(unit 1)
 				)
@@ -7458,7 +7458,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "45556c7a-3db9-4705-a8d4-098397798001")
+		(uuid "fe131916-0db0-4de3-b523-a132b03a4778")
 		(property "Reference" "X6"
 			(at 33.02 240.03 0)
 			(show_name no)
@@ -7513,44 +7513,44 @@
 			)
 		)
 		(pin "A1B12"
-			(uuid "57263506-956e-4ebc-8346-097ab51779e6")
+			(uuid "7ef73c4b-bb30-4fb1-a13c-bbf6385607e4")
 		)
 		(pin "A4B9"
-			(uuid "b503b45f-0826-49da-b69a-714fc4a7eaa7")
+			(uuid "8dd18508-ebb8-407f-864e-1819b845cd47")
 		)
 		(pin "A5"
-			(uuid "eb23a00b-bf70-4292-bd66-f4f995c63ce0")
+			(uuid "5333f419-481a-4ec0-bcd0-256f38d0ddec")
 		)
 		(pin "A6"
-			(uuid "f9f4ee73-c734-499d-b009-1063c2dd5912")
+			(uuid "1219787f-4220-4ac2-a727-e74a22b66c0f")
 		)
 		(pin "A7"
-			(uuid "a8be62d5-0086-4fe0-ab38-3e21937128b3")
+			(uuid "1991b588-9f36-4895-975a-71ab2ac0bf0d")
 		)
 		(pin "A8"
-			(uuid "0b3050bf-1206-4561-8d41-9dba375e9a03")
+			(uuid "f3050759-4ed0-4c8b-b0eb-61087160def1")
 		)
 		(pin "B1A12"
-			(uuid "d7429a28-651d-497d-a952-665cb2deed88")
+			(uuid "83b9554f-a159-4dcb-a1be-3836d9521169")
 		)
 		(pin "B4A9"
-			(uuid "fe73609e-e206-4c67-a55b-481f7c1785db")
+			(uuid "a292a401-8a26-4cb6-beb7-28d31ffb2718")
 		)
 		(pin "B5"
-			(uuid "7c19b694-c2d3-4aac-b317-bb05c7c190bb")
+			(uuid "5d701cc8-c003-409d-bb33-670e1db96da9")
 		)
 		(pin "B6"
-			(uuid "6b3cf0d4-a24f-4798-8ed3-123f7c7b4120")
+			(uuid "c3f157d2-1a4c-4bc0-84a9-e4b022f08c4a")
 		)
 		(pin "B7"
-			(uuid "e14efd3c-e84b-4ea1-b389-637e278a4de0")
+			(uuid "26a709c3-5f66-4cdc-8add-d0c5483c02c1")
 		)
 		(pin "B8"
-			(uuid "27433120-ed7f-4a6b-a512-431f5f60334f")
+			(uuid "6a7e00d9-d5c6-4955-8d1c-6a52923a3879")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "X6")
 					(unit 1)
 				)
@@ -7567,7 +7567,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "82711dc4-ff6d-4de9-89c2-e65ff92cba6f")
+		(uuid "f4643552-2a2d-4159-8bc4-744078c86eca")
 		(property "Reference" "U1"
 			(at 72.39 240.03 0)
 			(show_name no)
@@ -7622,23 +7622,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "6537ee29-ac90-4c25-b496-38fbb63e9420")
+			(uuid "e8da49ab-ba48-4810-bd7b-e65c9bb2fcbc")
 		)
 		(pin "2"
-			(uuid "b0a780d7-df67-4af3-acdc-51c387d9c350")
+			(uuid "0344b8cf-9de6-4dad-9943-c47c2a5aec5b")
 		)
 		(pin "3"
-			(uuid "e1b0572f-3489-49d3-b803-b911f96ac6a4")
+			(uuid "654245cc-4d6a-4232-a5ee-1dd39743576a")
 		)
 		(pin "4"
-			(uuid "3b4ce0ca-9ab5-4c00-b472-78fd19f14329")
+			(uuid "28966067-147f-47ff-90d4-3a21ef01a03f")
 		)
 		(pin "5"
-			(uuid "112e64d4-3728-40a9-bff6-d276c9f5348f")
+			(uuid "14610717-af40-4d34-915f-3370f3890e04")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "U1")
 					(unit 1)
 				)
@@ -7655,7 +7655,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dfcec616-909a-4064-80de-9c32dbe913cc")
+		(uuid "87f92d33-0b86-4dec-b4d0-fd3ad0bfabe1")
 		(property "Reference" "LED1"
 			(at 113.03 240.03 0)
 			(show_name no)
@@ -7710,20 +7710,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "bad7264c-324d-4804-975f-ba7a2c7ef1c5")
+			(uuid "4a606b63-09c8-404b-ac11-e6cd85562a43")
 		)
 		(pin "2"
-			(uuid "e868da29-3b43-4cb8-8d71-b322cee758bd")
+			(uuid "8c553621-0219-492c-b8da-e578356e6dc1")
 		)
 		(pin "3"
-			(uuid "b19ce9e9-cdec-484c-8d64-5f0e7440159c")
+			(uuid "3f7f4f20-7b97-42db-afbb-55f5787f1b5e")
 		)
 		(pin "4"
-			(uuid "ccc949a6-fb19-4433-a1ba-0ad0992dd792")
+			(uuid "d6f179ca-0f39-4714-aa98-50259a02e665")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "LED1")
 					(unit 1)
 				)
@@ -7740,7 +7740,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d903a992-4365-499e-ac16-888bcebe7bf9")
+		(uuid "f94da815-aac7-4030-a061-7790b44a97f3")
 		(property "Reference" "#PWR001"
 			(at 500.38 24.13 0)
 			(hide yes)
@@ -7796,11 +7796,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff7c3581-6be2-434c-ad3b-c238be4cd5cf")
+			(uuid "81a565bb-f046-4831-b4b0-cc1d04e12a63")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR001")
 					(unit 1)
 				)
@@ -7817,7 +7817,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "60644432-cb72-4741-bf04-c3a7ff91d015")
+		(uuid "4f21d81f-834b-4888-9fc0-d159a1d79aab")
 		(property "Reference" "#PWR002"
 			(at 514.35 24.13 0)
 			(hide yes)
@@ -7873,11 +7873,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "50d6351d-6d0f-4826-909e-0f403ec4286f")
+			(uuid "2e0b6847-9369-4a08-9973-d8d8a8dc204f")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR002")
 					(unit 1)
 				)
@@ -7894,7 +7894,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc609036-2683-40db-abd1-704873e97a63")
+		(uuid "4de16262-bf39-4eac-839f-599fea193c2f")
 		(property "Reference" "#PWR003"
 			(at 528.32 24.13 0)
 			(hide yes)
@@ -7950,11 +7950,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c089c2b9-cba6-49f0-8cbe-30e13d9a107a")
+			(uuid "38ae73af-e534-4e67-a78b-fde1cb9286dd")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR003")
 					(unit 1)
 				)
@@ -7971,7 +7971,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c3f2279e-d3d1-4f9c-b053-ad4e2ec3ea25")
+		(uuid "14837acc-cd9c-4ae5-b848-35494de8d2bb")
 		(property "Reference" "#PWR004"
 			(at 500.38 38.1 0)
 			(hide yes)
@@ -8027,11 +8027,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "684317e9-7d5a-4504-9bd5-2949c700266d")
+			(uuid "0bbeb2db-d198-4d18-9050-4d3b3269e93e")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR004")
 					(unit 1)
 				)
@@ -8048,7 +8048,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "db20aa83-c1ce-419a-bdad-6adc94dbecf9")
+		(uuid "8c11ceb9-0e40-4cb4-a3ba-046149c7cd4e")
 		(property "Reference" "#PWR005"
 			(at 514.35 38.1 0)
 			(hide yes)
@@ -8104,11 +8104,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d2f993-37a0-41be-90f1-ea9c7963bb41")
+			(uuid "8cfccceb-8326-49f2-8e67-5cd11f1e41a1")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR005")
 					(unit 1)
 				)
@@ -8125,7 +8125,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f5c84564-5fe9-4156-b16f-70418c51645c")
+		(uuid "c96b5e46-c000-4f60-90c0-b997ade71397")
 		(property "Reference" "#PWR006"
 			(at 528.32 38.1 0)
 			(hide yes)
@@ -8181,11 +8181,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a85bab62-d248-48df-b21a-3e35c8542708")
+			(uuid "2746a301-b82a-4f7a-a8d3-329fec771024")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR006")
 					(unit 1)
 				)
@@ -8202,7 +8202,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3011212d-2e8e-4b4e-96a5-f2b05b81ecd0")
+		(uuid "6c7da07e-32bc-4aab-bf24-208f54f85d87")
 		(property "Reference" "#PWR007"
 			(at 500.38 52.07 0)
 			(hide yes)
@@ -8258,11 +8258,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ed0644e-3af8-4809-92e0-c7d35b4a4d6c")
+			(uuid "2d43dc50-1c56-4011-a919-fc78ed05e500")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR007")
 					(unit 1)
 				)
@@ -8279,7 +8279,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3c178ca-8252-43a6-9430-c25ae718544a")
+		(uuid "b01e62d1-adeb-42f4-b111-9ad91eb65313")
 		(property "Reference" "#PWR008"
 			(at 514.35 52.07 0)
 			(hide yes)
@@ -8335,11 +8335,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfd3efff-9459-4de6-ad58-6b106308b985")
+			(uuid "9b9066ec-3f9f-4aad-8782-33137aa90487")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR008")
 					(unit 1)
 				)
@@ -8356,7 +8356,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "39bc011e-02b2-49ce-beb3-00c6640edb19")
+		(uuid "3e8e084e-6a00-4a56-8617-32d2816298b2")
 		(property "Reference" "#PWR009"
 			(at 528.32 52.07 0)
 			(hide yes)
@@ -8412,11 +8412,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4b71484-8ebe-43f2-904e-ffdab7f5ff98")
+			(uuid "bbeb674e-82ad-46a1-a31b-97574a488bba")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR009")
 					(unit 1)
 				)
@@ -8433,7 +8433,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5e099a38-853f-4019-b5be-bec250490165")
+		(uuid "b2c17423-b4ff-4747-989f-0ae64525cb6d")
 		(property "Reference" "#PWR010"
 			(at 500.38 66.04 0)
 			(hide yes)
@@ -8489,11 +8489,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b738b183-b3c8-497b-8694-f68069d97e7b")
+			(uuid "bcfa1a9b-c16a-4c4a-8908-67b28c3373b2")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -8510,7 +8510,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "90b3469e-f662-4869-87a2-67b48bea8612")
+		(uuid "11860627-854d-4bd9-8b51-b7b776d51a3e")
 		(property "Reference" "#PWR011"
 			(at 514.35 66.04 0)
 			(hide yes)
@@ -8566,11 +8566,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c20b2fd7-768a-4375-b94e-34acf1e94634")
+			(uuid "9101cf22-a67f-48a7-9d0a-a91367d3a555")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -8587,7 +8587,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "004e21b7-b270-4804-bac3-dfcb215c1ab9")
+		(uuid "e0499cd0-4e30-4b96-9669-66622daf263a")
 		(property "Reference" "#PWR012"
 			(at 528.32 66.04 0)
 			(hide yes)
@@ -8643,11 +8643,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ce1fd02-de90-451d-8b9a-0063141a48fb")
+			(uuid "c4e9c270-b854-42ce-bc68-f379c64dd3d4")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -8664,7 +8664,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3a74d9b-168c-4e60-81e9-3f9651048ef5")
+		(uuid "94f712cb-9225-4239-a4dc-2e2ce727ef21")
 		(property "Reference" "#PWR013"
 			(at 500.38 80.01 0)
 			(hide yes)
@@ -8720,11 +8720,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "917610b6-1d5a-4b4c-ad9e-dcc26becb876")
+			(uuid "0ba53037-ab92-412d-98df-1f29915a3d2a")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -8741,7 +8741,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dcff6fcf-0105-4e3c-950e-2242a016c0f5")
+		(uuid "e0658814-c630-4f2e-9dd9-c8082a145cce")
 		(property "Reference" "#PWR014"
 			(at 514.35 80.01 0)
 			(hide yes)
@@ -8797,11 +8797,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a681c59-8670-4338-9be1-1270d1ff6412")
+			(uuid "c352c10d-c772-4943-95c2-7cbcf54cbfe1")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -8818,7 +8818,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2f61756a-39e8-44a1-8caa-4b5c84560fc5")
+		(uuid "ef965452-0705-4e64-9a9a-065496fbccb5")
 		(property "Reference" "#PWR015"
 			(at 528.32 80.01 0)
 			(hide yes)
@@ -8874,11 +8874,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d40acba-962b-461d-921f-3b205ec33b8b")
+			(uuid "036552da-47b5-4eeb-bee7-58e1060626d2")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -8895,7 +8895,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e1215262-415b-4cae-b4a9-f5ff187d86c0")
+		(uuid "d2c1ca2e-b420-496d-9957-92de331f180d")
 		(property "Reference" "#PWR016"
 			(at 500.38 93.98 0)
 			(hide yes)
@@ -8951,11 +8951,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fda3657-ef60-4ffc-a244-38b89b286aac")
+			(uuid "03f024ae-41eb-4991-b09b-73f72e004a3d")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -8972,7 +8972,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3862d986-98f7-4b3e-9cdd-5579d477a9a6")
+		(uuid "fe84398f-0055-46a0-9d69-f220f02694d4")
 		(property "Reference" "#PWR017"
 			(at 514.35 93.98 0)
 			(hide yes)
@@ -9028,11 +9028,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0acfeda-861f-455e-8f18-da8306860055")
+			(uuid "5c65e6d7-5830-42f0-a956-bf79cad16e14")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -9049,7 +9049,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "565b2f6a-78cc-46f9-ace8-af494c9c1caa")
+		(uuid "c77d883b-efdf-4f1b-a8b7-6260555412ed")
 		(property "Reference" "#PWR018"
 			(at 528.32 93.98 0)
 			(hide yes)
@@ -9105,11 +9105,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a03e4a3-5b94-42ce-877c-bca831ab78e0")
+			(uuid "fd7e897c-c902-4ab3-8bf5-cd843dce7db1")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -9126,7 +9126,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6640a367-1306-4c91-820f-9a44642716c3")
+		(uuid "d4c0d24b-2a38-4008-98d3-93a56ff311bc")
 		(property "Reference" "#PWR019"
 			(at 500.38 107.95 0)
 			(hide yes)
@@ -9182,11 +9182,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1509799-0a83-48a9-823a-563cc35f5355")
+			(uuid "ec4603c0-a3b2-4f7d-a9f4-526f82b92596")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -9203,7 +9203,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0980d72c-7e52-4099-aee5-ca8eb5bc84b6")
+		(uuid "12f2558c-111b-46fd-9ae2-a179eeede85a")
 		(property "Reference" "#PWR020"
 			(at 514.35 107.95 0)
 			(hide yes)
@@ -9259,11 +9259,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf3b41f1-7177-4e12-b5ef-2d8e80aa1c3d")
+			(uuid "a119d494-b0eb-43ef-b956-2ff1c556b6aa")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -9280,7 +9280,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "177b3f9a-9d0d-48fa-b88d-4b201bc168c8")
+		(uuid "f52b35e2-b07d-446d-ba08-a094bd5bc316")
 		(property "Reference" "#PWR021"
 			(at 528.32 107.95 0)
 			(hide yes)
@@ -9336,11 +9336,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c3c3e72-fcf1-478d-a0ff-d4dadfb3edf3")
+			(uuid "c6493100-b675-4ce2-ab4d-494554f5cc56")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -9357,7 +9357,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "017172cd-f375-4faa-9a2f-a867a1a6f01c")
+		(uuid "81f1a5fc-6444-45fb-ba13-edaa62b109f0")
 		(property "Reference" "#PWR022"
 			(at 500.38 121.92 0)
 			(hide yes)
@@ -9413,11 +9413,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e431c3f-b91f-40dc-ad30-166b5027c9a5")
+			(uuid "ce53730f-cf8b-40f8-808a-e9f0eb954d83")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -9434,7 +9434,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "068702d8-69d8-483d-91bb-19db91d27a4f")
+		(uuid "29ed517c-5d01-45a1-a9b1-ad41b50d746e")
 		(property "Reference" "#PWR023"
 			(at 514.35 121.92 0)
 			(hide yes)
@@ -9490,11 +9490,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "12901e7f-7d8a-4a03-b8ef-5d77d5527045")
+			(uuid "ee0fea20-9bce-48df-8d94-d5265dd56490")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -9511,7 +9511,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8dfe8b83-7e69-4923-9d11-178fbb634efd")
+		(uuid "f95c633e-19c2-408e-bec0-6ab5acc247d9")
 		(property "Reference" "#PWR024"
 			(at 528.32 121.92 0)
 			(hide yes)
@@ -9567,11 +9567,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "76d10c1e-2b72-4c0b-9cf9-e23ac8585add")
+			(uuid "c8b2945b-91ba-4bb0-ad5f-b0edf563584b")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -9588,7 +9588,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "451bd50d-814d-4f14-a272-3b02d66909b6")
+		(uuid "ae847657-85d0-4a3a-86f0-c142743048bd")
 		(property "Reference" "#PWR025"
 			(at 500.38 135.89 0)
 			(hide yes)
@@ -9644,11 +9644,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "839f3406-8d38-4333-8b90-096512e34ec6")
+			(uuid "428b2055-d5a7-4414-a147-fa034dc3ee55")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -9665,7 +9665,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "35c0599f-0810-49e3-8664-2e18a27082f4")
+		(uuid "d3dc7111-ec5f-406a-86d7-2fbd7788983b")
 		(property "Reference" "#PWR026"
 			(at 514.35 135.89 0)
 			(hide yes)
@@ -9721,11 +9721,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad16fd61-c71b-43ea-a82f-b2491123c458")
+			(uuid "aed6aa86-689f-4579-9849-4834858cab84")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -9742,7 +9742,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a69fe228-e976-48d0-8c5d-2e3486b9c65a")
+		(uuid "80ff7a58-bbd5-4112-ba63-8ec3fd4b3e44")
 		(property "Reference" "#PWR027"
 			(at 528.32 135.89 0)
 			(hide yes)
@@ -9798,11 +9798,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5f51268-8e8c-4786-b778-0dfd8d538064")
+			(uuid "3bc3a3ed-4785-492d-93f1-524c2a7b5a94")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -9819,7 +9819,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c7e7f591-7489-4476-a4a9-2db4d6cdbd7c")
+		(uuid "914a8b7f-a475-4ae8-a8f6-e3bacdd22a59")
 		(property "Reference" "#PWR028"
 			(at 500.38 149.86 0)
 			(hide yes)
@@ -9875,11 +9875,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a30b8772-d88c-4ea5-99eb-e317a008d69d")
+			(uuid "172ba791-1ac4-4359-b879-e20b586cffb7")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -9896,7 +9896,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c15244e-33dd-4b95-822d-1ddef129e4df")
+		(uuid "153ad46a-9262-4c38-bea6-e92427001441")
 		(property "Reference" "#PWR029"
 			(at 514.35 149.86 0)
 			(hide yes)
@@ -9952,11 +9952,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6797434a-b8f3-4a4c-9b0e-040fb300f315")
+			(uuid "5280110e-2163-4560-8113-35f053fc502d")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -9973,7 +9973,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c56c60a6-4b6d-49c8-9771-b9657b363c2f")
+		(uuid "78117eba-b2de-417b-8ccd-7c88f06a8d08")
 		(property "Reference" "#PWR030"
 			(at 528.32 149.86 0)
 			(hide yes)
@@ -10029,11 +10029,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3415e651-4d08-47ed-9d7a-2a7a3417ea90")
+			(uuid "e73d4f70-6f96-4feb-bb4d-619699b8871f")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -10050,7 +10050,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7ed5d27b-b0c1-4dab-96ac-ecf935f50e0b")
+		(uuid "70252624-84a5-4ab1-9129-626056e4219c")
 		(property "Reference" "#PWR031"
 			(at 500.38 163.83 0)
 			(hide yes)
@@ -10106,11 +10106,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5287f3f-41db-483e-a987-af29900cf840")
+			(uuid "8d990e8d-9eb9-4cf9-9dca-35af88164f9b")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -10127,7 +10127,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b7b1d7eb-855f-49f5-bdb5-541b1396d84a")
+		(uuid "198ae81a-9582-46b6-883f-268147ea008e")
 		(property "Reference" "#PWR032"
 			(at 514.35 163.83 0)
 			(hide yes)
@@ -10183,11 +10183,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa35a19f-e320-445d-800f-9022c11d3e44")
+			(uuid "7f3f1233-4bd4-4bed-90f8-1a0a7b632eab")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -10204,7 +10204,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "916805cc-94a5-4d2e-b74f-e805dd54d541")
+		(uuid "eb0445de-575d-41e9-bdb1-a99a9573f9a6")
 		(property "Reference" "#PWR033"
 			(at 528.32 166.37 0)
 			(hide yes)
@@ -10260,11 +10260,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2897a3eb-0a8c-45d4-a7c3-6f267ec06a09")
+			(uuid "94dab5ff-38cc-403d-8d92-e43462e082c6")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -10281,7 +10281,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f0c5dac-5675-4c0b-9758-22465c447cc4")
+		(uuid "163e5237-fd31-4c70-be82-a5dea169fdf6")
 		(property "Reference" "#PWR034"
 			(at 500.38 180.34 0)
 			(hide yes)
@@ -10337,11 +10337,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef43adc7-1f89-49ba-8515-75973b2af6bb")
+			(uuid "dee4bd6a-d964-4602-8e10-798606bccd83")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -10358,7 +10358,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cf8b5004-8c71-4666-9fff-e6985b283f50")
+		(uuid "6ef18f8a-ef97-49d3-a780-63eaadb3e37d")
 		(property "Reference" "#PWR035"
 			(at 514.35 180.34 0)
 			(hide yes)
@@ -10414,11 +10414,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c251c74-1c1c-4f94-af07-c8f61cf7a79d")
+			(uuid "c58950ef-47bb-4407-a5bc-7880d6e2cc62")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -10435,7 +10435,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cefcdcad-21d7-4a50-adea-ec5a88c06fe3")
+		(uuid "2121b116-531c-4ff8-afbb-02472e20aefc")
 		(property "Reference" "#PWR036"
 			(at 528.32 180.34 0)
 			(hide yes)
@@ -10491,11 +10491,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0acb0ba8-6cad-4eb7-b6c7-cff29b80d633")
+			(uuid "e7098d79-9a42-4ca5-9257-7f1192712aaa")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -10512,7 +10512,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "751c6d4a-3bca-4911-ae63-56900a380ca0")
+		(uuid "15e3c9a3-db3e-45e6-a94d-912072b52dec")
 		(property "Reference" "#PWR037"
 			(at 500.38 194.31 0)
 			(hide yes)
@@ -10568,11 +10568,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "06373503-388e-4e16-9a6a-7d426f8d3dee")
+			(uuid "53cb7182-31ad-40f6-b283-9a196b540d65")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -10589,7 +10589,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b7bd54c1-f49d-48cb-b3cb-80435a46bd09")
+		(uuid "bc53c567-521a-441b-9e86-e58405be1c19")
 		(property "Reference" "#PWR038"
 			(at 514.35 194.31 0)
 			(hide yes)
@@ -10645,11 +10645,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a26e718-1d2e-4013-b23a-c04106f4dcce")
+			(uuid "d1ce247d-b802-4906-8908-cdddf7d1c7db")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -10666,7 +10666,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "61bb8556-787b-4caf-a7cb-91b70498ee89")
+		(uuid "209097b7-8bf2-4a76-a46c-354a1891c7dd")
 		(property "Reference" "#PWR039"
 			(at 528.32 194.31 0)
 			(hide yes)
@@ -10722,11 +10722,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "918deac3-1862-4381-b618-fa6517bb8391")
+			(uuid "4e3aedd1-127d-4285-8932-22e1a020fa86")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -10743,7 +10743,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e655af5c-ac1a-447e-ab27-9a2c473cf9df")
+		(uuid "db06cd4a-eb56-4e5d-9f90-3d1a084cd664")
 		(property "Reference" "#PWR040"
 			(at 500.38 208.28 0)
 			(hide yes)
@@ -10799,11 +10799,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d7c361f-f396-4287-8d89-808d4dbecc04")
+			(uuid "cbfa31a4-22c6-47b1-82f0-4cb48b522f2a")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -10820,7 +10820,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b524aefc-6ee3-42d3-9c8b-44a882340314")
+		(uuid "7c55f8dd-6305-4e37-aa72-3f967b16ff33")
 		(property "Reference" "#PWR041"
 			(at 514.35 208.28 0)
 			(hide yes)
@@ -10876,11 +10876,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a63f150b-3e34-4a10-bc99-89ed5cf5b630")
+			(uuid "9ac51609-8cdd-4657-b600-2083395d9069")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -10897,7 +10897,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "76b16443-6507-4210-9af8-48ca26c040a5")
+		(uuid "587bf99c-a8a7-4952-872e-b3e104e17fc5")
 		(property "Reference" "#PWR042"
 			(at 528.32 208.28 0)
 			(hide yes)
@@ -10953,11 +10953,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5441698b-d850-43b0-9cd1-f0ce6bfdba01")
+			(uuid "7e59cc60-80be-49d1-8d7b-dd4b12ba1e95")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -10974,7 +10974,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "afc758e0-cac3-4ae3-ae5a-7d5ec728ec44")
+		(uuid "675202b3-764e-43b6-88a7-3b715d31f6e2")
 		(property "Reference" "#PWR043"
 			(at 500.38 222.25 0)
 			(hide yes)
@@ -11030,11 +11030,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "3205972a-037f-409c-8f68-5292ceb19806")
+			(uuid "8c22defa-5b94-496c-a9a8-581ca0869875")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -11051,7 +11051,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "02ebcf50-5b1d-4cde-9ae0-0d2887521e3c")
+		(uuid "1071ffa6-d25a-498f-8e17-1e002ac693bc")
 		(property "Reference" "#PWR044"
 			(at 514.35 222.25 0)
 			(hide yes)
@@ -11107,11 +11107,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "96320b89-0281-488c-90c7-b84848af9330")
+			(uuid "cd119096-db5c-4b7b-a056-14b593a75022")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -11128,7 +11128,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5eb60033-b81d-48f3-8fb0-71ec2b1e4327")
+		(uuid "cc2494c1-b7ec-4a06-b4da-6ee31e7fbd9b")
 		(property "Reference" "#PWR045"
 			(at 528.32 222.25 0)
 			(hide yes)
@@ -11184,11 +11184,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "01ba6821-17e2-4848-ae35-f75f73a69290")
+			(uuid "de8cb42f-76ff-420f-ad6c-8b0ef37704cc")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -11205,7 +11205,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fbebd68b-31e2-4e13-abda-d0a1fc79c443")
+		(uuid "55b275f7-7f48-4f22-970a-eadead7237aa")
 		(property "Reference" "#PWR046"
 			(at 500.38 236.22 0)
 			(hide yes)
@@ -11261,11 +11261,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f99833c-bdf7-45f2-a942-63ecda51931e")
+			(uuid "3c3d287b-d443-4000-826f-df99c2ddb0da")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -11282,7 +11282,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "98dd8cd0-8599-4514-93b8-def4aee8dd14")
+		(uuid "eeb99c85-c326-4327-940e-dc53b7b5a9b0")
 		(property "Reference" "#FLG01"
 			(at 539.75 43.815 0)
 			(hide yes)
@@ -11338,11 +11338,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5abb7b8e-2f37-4109-81c4-fbe639daa6eb")
+			(uuid "2faceea0-1a58-439d-8c76-b66eb4b27a62")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -11359,7 +11359,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e2b1a3c9-b93e-4cde-870d-4adb3a0a57eb")
+		(uuid "b0f1c35a-1f20-491d-988b-bfc3d6babd7b")
 		(property "Reference" "#FLG02"
 			(at 539.75 56.515 0)
 			(hide yes)
@@ -11415,11 +11415,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bb7bf39-c6c2-49b5-84e0-8f323baaa871")
+			(uuid "9c5c1592-0a79-4d69-99be-cb549e48e204")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -11436,7 +11436,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "12ef7fed-366e-40ad-b759-53e2a6aa9bec")
+		(uuid "bd9784c3-908b-4e81-99c4-5aa9f19b966b")
 		(property "Reference" "#FLG03"
 			(at 539.75 67.945 0)
 			(hide yes)
@@ -11492,11 +11492,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d85ee045-eca2-4a61-b4a6-617cb47011ad")
+			(uuid "de217e57-3c92-4cf2-9eb4-ef6ad87b8e47")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -11513,7 +11513,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cbaf4746-d238-4411-a4db-232862f8ba60")
+		(uuid "14ce0829-3a86-4fa9-b8f8-80f6f35551a0")
 		(property "Reference" "#FLG04"
 			(at 539.75 79.375 0)
 			(hide yes)
@@ -11569,11 +11569,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4078a6a2-365e-417c-8218-662c14b75706")
+			(uuid "8336652d-754b-4cf6-b56d-fbc136d5303f")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -11590,7 +11590,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "62c4af1f-da0e-4698-adbe-1e94cb653b50")
+		(uuid "196e715a-e213-4bf3-a2b2-3843af9260ad")
 		(property "Reference" "#FLG05"
 			(at 539.75 92.075 0)
 			(hide yes)
@@ -11646,11 +11646,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d02289-622d-428e-b0ef-3c3f92ecbb6b")
+			(uuid "dd8b5c0d-d3da-4c96-8be9-ad77eeb4f024")
 		)
 		(instances
 			(project "qt-py-esp32-s2"
-				(path "/db58a7dc-6dc7-4254-a830-61f7b3710381"
+				(path "/b10eada3-827f-4fd8-a9f3-0788aff7a96f"
 					(reference "#FLG05")
 					(unit 1)
 				)
@@ -11665,7 +11665,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c9736006-9182-43d8-b5b5-0ce2983e1be2")
+		(uuid "91e41af3-d786-4151-b2cd-18d507554d5b")
 	)
 	(label "RESET_N"
 		(at 62.23 207.01000000000002 180)
@@ -11675,7 +11675,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8bf9ef40-f421-4c05-acfb-010ab18911ff")
+		(uuid "08492e0a-5cea-4394-9d88-9668d9f84457")
 	)
 	(label "RESET_N"
 		(at 62.23 209.55 180)
@@ -11685,7 +11685,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "47d0aa43-ef42-4f30-bd25-08d986c6539a")
+		(uuid "bf22e231-9135-4c22-b013-73ae1325fd0b")
 	)
 	(label "RESET_N"
 		(at 30.48 184.15 270)
@@ -11695,7 +11695,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "175d8d5e-892e-42dd-8e2b-665b74a6f703")
+		(uuid "ef523eba-bee9-4f1a-ab3a-d6548a0bd0e5")
 	)
 	(label "RESET_N"
 		(at 193.04 209.55 0)
@@ -11705,7 +11705,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1cff5c38-f028-4fb7-bc2b-f4f4debb0552")
+		(uuid "a1edef15-0f4e-4697-9a49-5488ffc52c53")
 	)
 	(label "A3"
 		(at 382.27 143.51000000000002 180)
@@ -11715,7 +11715,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8d9c81fa-9e91-4f88-89d0-8868c815a156")
+		(uuid "1a608a1a-91c3-482c-8fc8-481fc31a513d")
 	)
 	(label "A2"
 		(at 382.27 146.05 180)
@@ -11725,7 +11725,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b23f4056-1551-444e-bbf0-b9868ea3c63a")
+		(uuid "cb941d92-6099-4fc5-9fea-ffb25042f6f8")
 	)
 	(label "A1"
 		(at 382.27 168.91000000000003 180)
@@ -11735,7 +11735,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "27359153-a8ac-4a73-9bf0-1cade39b563b")
+		(uuid "3fbb097e-f85a-4dbb-8b35-f8f0d7ca2ec6")
 	)
 	(label "A0"
 		(at 382.27 171.45000000000002 180)
@@ -11745,7 +11745,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f168f2df-b5b5-4dca-bcb6-3084b3e05df1")
+		(uuid "b20c56fc-98ec-4012-8a9f-07827deea8a6")
 	)
 	(label "RESET_N"
 		(at 417.83000000000004 179.07000000000002 0)
@@ -11755,7 +11755,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ad676fb3-fbf6-46f6-8d2f-3c9ba75829ff")
+		(uuid "7722954f-73a8-4db9-af12-d5b8dd04f709")
 	)
 	(label "RF_LNA"
 		(at 382.27 115.57000000000002 180)
@@ -11765,7 +11765,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bcf8d05d-1253-4634-9691-ebd38f859f7e")
+		(uuid "9eb8b4be-7817-4c97-843f-5a58073c3aff")
 	)
 	(label "IO0"
 		(at 382.27 123.19000000000001 180)
@@ -11775,7 +11775,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6318f432-0d4a-491c-9838-10a3299c7826")
+		(uuid "e98433c9-8c46-4bf5-8724-073846b1b393")
 	)
 	(label "IO10_DBLTAP"
 		(at 382.27 148.59 180)
@@ -11785,7 +11785,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ecc68cad-d60e-4586-afe6-d98391097234")
+		(uuid "fa62ae13-89bb-4e08-b4f7-416d46bdd708")
 	)
 	(label "D-"
 		(at 382.27 173.99 180)
@@ -11795,7 +11795,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5aec41ba-2e73-410f-9b5e-fdebc3c19678")
+		(uuid "d6781009-e233-4018-ac6c-fb6045ea80bf")
 	)
 	(label "D+"
 		(at 382.27 176.53000000000003 180)
@@ -11805,7 +11805,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "97fa02ed-95b9-4af6-8a94-bb5260c509cf")
+		(uuid "1a173c5e-eed5-4301-bee4-dc858771a51f")
 	)
 	(label "MOSI"
 		(at 417.83000000000004 135.89000000000001 0)
@@ -11815,7 +11815,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "03492b0c-f017-4c43-9f30-4db0efb395b2")
+		(uuid "e8223c19-243d-46dc-8f2c-93ec9ad3752a")
 	)
 	(label "MISO"
 		(at 417.83000000000004 140.97000000000003 0)
@@ -11825,7 +11825,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7e7af494-e341-44f8-839d-70c766993e4c")
+		(uuid "8fd8f52c-e4ef-4d61-bcac-b09d6892b4b1")
 	)
 	(label "NEOPIX"
 		(at 417.83000000000004 146.05 0)
@@ -11835,7 +11835,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "626e56e0-53d0-4489-87ee-018d608e440f")
+		(uuid "3c894e30-c336-4e49-98dd-63390e317756")
 	)
 	(label "XTAL_N_R"
 		(at 417.83000000000004 168.91000000000003 0)
@@ -11845,7 +11845,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ded8500e-ed03-4789-86ec-276d4e9e4657")
+		(uuid "04bc3340-3b87-4c2b-87d3-45b5ddfc2f9c")
 	)
 	(label "XTAL_P"
 		(at 417.83000000000004 171.45000000000002 0)
@@ -11855,7 +11855,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "20881a67-6270-49c5-b1b0-16c3cc0a89da")
+		(uuid "0cd325ed-8322-4462-9529-a19269d4ced5")
 	)
 	(label "VDD3P3"
 		(at 382.27 118.11000000000001 180)
@@ -11865,7 +11865,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a9694a7f-622b-40b6-8043-1486d5a1f26b")
+		(uuid "a09aee9d-3d6b-4d68-b731-c0ac11fb4290")
 	)
 	(label "VDD3P3"
 		(at 382.27 120.65 180)
@@ -11875,7 +11875,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "314872e3-b0d4-4560-bc89-4e17ba73af71")
+		(uuid "ed326b1e-5045-4747-8755-e17f2415c75b")
 	)
 	(label "TX"
 		(at 382.27 135.89000000000001 180)
@@ -11885,7 +11885,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bba3c2c1-f4b8-4a5f-84f4-1e7b83e61aea")
+		(uuid "4e3f3977-5c59-49f8-b82d-89ca269faecf")
 	)
 	(label "SCL"
 		(at 382.27 138.43 180)
@@ -11895,7 +11895,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "01afad5f-e1b7-446f-b7ee-4d0adc0cef1c")
+		(uuid "1c41fcfb-594c-4809-af5b-50524dcf34ae")
 	)
 	(label "SDA"
 		(at 382.27 140.97000000000003 180)
@@ -11905,7 +11905,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9c75b626-7910-4e7b-9d8b-7ba3c8637859")
+		(uuid "33f2c2e4-b27b-42a5-9072-685e8fb4ed5d")
 	)
 	(label "RX"
 		(at 382.27 166.37 180)
@@ -11915,7 +11915,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9211aa67-b674-403e-aba2-a3b070667524")
+		(uuid "1d9f6105-3260-4208-b8d2-27847ac53166")
 	)
 	(label "SCK"
 		(at 417.83000000000004 138.43 0)
@@ -11925,7 +11925,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bd17a7ac-ece1-451a-810d-ba27294dadd0")
+		(uuid "033316de-882b-4d9f-ba0d-b813157c269b")
 	)
 	(label "NEOPIX_PWR"
 		(at 417.83000000000004 143.51000000000002 0)
@@ -11935,7 +11935,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4f0a098d-7c82-49c2-8bf5-6bc0430a2c2f")
+		(uuid "17a0193c-0724-42b9-8148-2ec09389e226")
 	)
 	(label "SCL1"
 		(at 417.83000000000004 148.59 0)
@@ -11945,7 +11945,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f20661db-a089-4902-8a2e-da379d179a68")
+		(uuid "db4616d9-ec23-40f6-82fd-92bef619d387")
 	)
 	(label "SDA1"
 		(at 417.83000000000004 153.67000000000002 0)
@@ -11955,7 +11955,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cf453b7b-2225-454c-a61b-8fdea0f87ca0")
+		(uuid "84651ed0-d147-416f-a2f0-dba4f8f5bbb5")
 	)
 	(label "VDD_SPI"
 		(at 417.83000000000004 113.03000000000002 0)
@@ -11965,7 +11965,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2c2df8a0-77a2-4c4c-a19b-7b214fe533e6")
+		(uuid "72523153-cb0c-436c-805b-f229cd12d013")
 	)
 	(label "A0"
 		(at 59.69 140.97000000000003 180)
@@ -11975,7 +11975,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67c36b8a-3357-4be9-b1e6-c669aaf20d65")
+		(uuid "630d6531-9878-44d6-8e90-3cc4b6899e31")
 	)
 	(label "A1"
 		(at 59.69 143.51000000000002 180)
@@ -11985,7 +11985,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bdb44eb3-c77d-4225-9ac3-e4a6713fb55a")
+		(uuid "8dadcf9a-fc85-4939-84ef-72f4ca20053d")
 	)
 	(label "A2"
 		(at 59.69 146.05 180)
@@ -11995,7 +11995,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4a8ba574-d71e-4ac4-86fd-6b1d4323a565")
+		(uuid "0b1dc483-6e43-4c47-9bf0-9d2096064a82")
 	)
 	(label "A3"
 		(at 59.69 148.59 180)
@@ -12005,7 +12005,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fd744426-c3f4-45f4-a0d8-361954f811d8")
+		(uuid "c0809317-c42c-4f51-a32f-6b1951f0db23")
 	)
 	(label "SCL"
 		(at 59.69 153.67000000000002 180)
@@ -12015,7 +12015,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1a6ffbb6-04db-4270-bab9-8d330cb9918c")
+		(uuid "9aac2f5b-0cb3-4b8e-af58-574f04210550")
 	)
 	(label "A0"
 		(at 80.00999999999999 140.97000000000003 0)
@@ -12025,7 +12025,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1c1a1cda-4651-4f84-9e96-9892ea940c86")
+		(uuid "412b6d14-00a4-4498-b045-cb7b5242070d")
 	)
 	(label "A1"
 		(at 80.00999999999999 143.51000000000002 0)
@@ -12035,7 +12035,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3794217e-2e45-4bb6-ac7d-fedf84392307")
+		(uuid "2daed4a5-6c7b-47ed-af8c-95784bcf521c")
 	)
 	(label "A2"
 		(at 80.00999999999999 146.05 0)
@@ -12045,7 +12045,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eabc999d-8122-40e3-9f70-1201fb28ab24")
+		(uuid "98c99204-c7e9-4d7c-9fe7-c61d548c2b92")
 	)
 	(label "A3"
 		(at 80.00999999999999 148.59 0)
@@ -12055,7 +12055,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fb383eef-86a3-4e3b-a4e3-fa3cf96b0931")
+		(uuid "3934af24-ae48-40cb-86f0-1a63a3ee734e")
 	)
 	(label "SDA"
 		(at 59.69 151.13000000000002 180)
@@ -12065,7 +12065,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f4830c1d-35b9-4f75-9e4e-a2ff372e0cab")
+		(uuid "24ce6f47-8ab9-48af-8af5-8e3cd1584d43")
 	)
 	(label "TX"
 		(at 59.69 156.21 180)
@@ -12075,7 +12075,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3f9ab04c-41ca-4f32-ad5b-a6fc12e52b68")
+		(uuid "dbe686c5-378c-4f2d-a12e-dfaa00c68673")
 	)
 	(label "SCL"
 		(at 80.00999999999999 153.67000000000002 0)
@@ -12085,7 +12085,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5818295a-10ac-4aa5-921a-5815b3ec7d64")
+		(uuid "e0b3c11f-6119-401e-bd90-2ce8c92ebfc9")
 	)
 	(label "SDA"
 		(at 80.00999999999999 151.13000000000002 0)
@@ -12095,7 +12095,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd970870-72c4-49c3-b18b-ebf4f092df9a")
+		(uuid "a8c007b9-b133-4626-88f2-a5aea0024d22")
 	)
 	(label "TX"
 		(at 80.00999999999999 156.21 0)
@@ -12105,7 +12105,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e98a3f7-daf8-418d-b978-cbf6da0eedbb")
+		(uuid "f072be5c-a82f-4c48-99d7-05899d3026e6")
 	)
 	(label "A0"
 		(at 69.85 184.15 270)
@@ -12115,7 +12115,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c85bdb76-970f-422a-8a72-14992a82778c")
+		(uuid "ef9de12d-ae14-4ef3-882e-df9fedbc4584")
 	)
 	(label "CC1"
 		(at 190.5 184.15 270)
@@ -12125,7 +12125,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "26764f66-101f-4147-a481-218988632102")
+		(uuid "f79b5f3c-f914-425d-878e-d1c487908e6b")
 	)
 	(label "CC1"
 		(at 20.32 232.41 180)
@@ -12135,7 +12135,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "44066a40-7110-42ca-8bfa-13d76c53a416")
+		(uuid "e44dac56-709c-4f14-a7b4-3e7a0014f2f5")
 	)
 	(label "CC2"
 		(at 20.32 237.49 180)
@@ -12145,7 +12145,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0f00f9fd-4d11-4794-8f25-5f231728d100")
+		(uuid "67d27984-7986-400a-abb1-a53ae5453251")
 	)
 	(label "D+"
 		(at 20.32 242.57 180)
@@ -12155,7 +12155,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "15795ed1-3e18-4f79-a1e9-0df65d2e2642")
+		(uuid "d39921cd-a085-43bb-85c4-434d6c611f3a")
 	)
 	(label "D+"
 		(at 20.32 245.11 180)
@@ -12165,7 +12165,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "76e4a365-dd39-4048-90a4-92ea3247921c")
+		(uuid "aa638b5c-1896-46b9-8035-c7a437001dcd")
 	)
 	(label "D-"
 		(at 40.64 232.41 0)
@@ -12175,7 +12175,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8d6627fb-a691-47dc-ab71-a0b3a31f66af")
+		(uuid "f7959ae2-e59b-4a5b-8719-2bf5042327a0")
 	)
 	(label "D-"
 		(at 40.64 234.95 0)
@@ -12185,7 +12185,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3987c87b-6531-4580-a7cb-97c741605a25")
+		(uuid "a0c2ff45-714c-4ebe-9da5-d4c097ad8ae4")
 	)
 	(label "CC2"
 		(at 149.86 184.15 270)
@@ -12195,7 +12195,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "987bf83c-629e-4d22-91da-efb2e53aa04e")
+		(uuid "04738ca2-727b-4453-be49-f9f1b43782a0")
 	)
 	(label "IO0"
 		(at 22.86 207.01000000000002 180)
@@ -12205,7 +12205,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c16eb67b-2aeb-4b93-a2bf-5cdff4da565a")
+		(uuid "191f0058-c71d-46ba-bfc3-a40076c778c6")
 	)
 	(label "IO0"
 		(at 22.86 209.55 180)
@@ -12215,7 +12215,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "551c6c1d-b296-4cf3-a50a-019f2836033d")
+		(uuid "dc82311c-e8cb-4176-a50c-736e227bb773")
 	)
 	(label "IO0"
 		(at 232.41 209.55 0)
@@ -12225,7 +12225,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ac19fb79-d70e-425a-8e61-afc8d6532d86")
+		(uuid "ae7407d1-9afb-415f-b22c-801c9ca4a7ed")
 	)
 	(label "IO10_DBLTAP"
 		(at 69.85 86.36 90)
@@ -12235,7 +12235,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2400a475-4d1b-4a8a-b6e3-6055a12f7e7b")
+		(uuid "cc2eb0ec-44a3-4e12-9d5f-3719a5a2ea0d")
 	)
 	(label "IO10_DBLTAP"
 		(at 110.49 184.15 270)
@@ -12245,7 +12245,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d8694ae1-44c1-4a23-994f-aa19eaa7543b")
+		(uuid "a537e38e-03df-4206-a4b7-caedef3eb384")
 	)
 	(label "MISO"
 		(at 100.33 146.05 180)
@@ -12255,7 +12255,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "35c64576-8efc-47c0-9fb0-9f7be6f8581e")
+		(uuid "08216e94-b020-4837-9458-8d787379e026")
 	)
 	(label "RX"
 		(at 100.33 140.97000000000003 180)
@@ -12265,7 +12265,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2cc155fe-7af8-4f7d-b0f6-0c12ce46bb31")
+		(uuid "35ff8534-1c08-40a5-bf13-eaff71aaab69")
 	)
 	(label "SCK"
 		(at 100.33 143.51000000000002 180)
@@ -12275,7 +12275,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "cbbabc8f-28dd-44fc-aa91-1a1fec333dd5")
+		(uuid "b45bb882-a928-42df-b38f-891e1435fcf1")
 	)
 	(label "MOSI"
 		(at 100.33 148.59 180)
@@ -12285,7 +12285,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6317d484-77f5-4dad-af65-5c255d4ac682")
+		(uuid "722b34dd-cbde-4855-be28-706f9c8cb85c")
 	)
 	(label "MISO"
 		(at 120.64999999999999 146.05 0)
@@ -12295,7 +12295,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4410f084-aa84-4a54-b399-cba28bb2fe88")
+		(uuid "2037fc63-dee9-4c1d-8f1e-cebe614428c1")
 	)
 	(label "MOSI"
 		(at 120.64999999999999 148.59 0)
@@ -12305,7 +12305,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6d997ed4-8eef-4cf9-a13d-f64fb1a9c99a")
+		(uuid "eb965e4b-9091-4c32-ae97-0cdc76ccab3e")
 	)
 	(label "RX"
 		(at 120.64999999999999 140.97000000000003 0)
@@ -12315,7 +12315,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1af547bc-964a-4d72-b6af-c5ecdd6f1054")
+		(uuid "622d8e5d-2161-4523-841c-d60f60d64630")
 	)
 	(label "SCK"
 		(at 120.64999999999999 143.51000000000002 0)
@@ -12325,7 +12325,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3ca53db3-54aa-4515-b068-d616ebbf9920")
+		(uuid "10c82b62-bae2-4d62-8db8-4a26a7370205")
 	)
 	(label "RF_LNA"
 		(at 69.85 115.57 90)
@@ -12335,7 +12335,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f9824416-26cb-4517-9b31-f9a872cd33ea")
+		(uuid "7289a9d4-9f0d-448a-bbfd-b767b1b16b38")
 	)
 	(label "RF_ANT"
 		(at 149.86 146.05 90)
@@ -12345,7 +12345,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b5285655-b0fd-4c75-9e1f-ada4f14d800d")
+		(uuid "ccfe933c-5456-42f6-b904-80632f6e463f")
 	)
 	(label "RF_LNA"
 		(at 149.86 153.67000000000002 270)
@@ -12355,7 +12355,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c9e05979-24c1-424e-86a7-1945a6852c10")
+		(uuid "f9c72032-f479-4574-aee7-da7211138cb5")
 	)
 	(label "RF_ANT"
 		(at 110.49 115.57 90)
@@ -12365,7 +12365,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "41dedad1-a592-4a9c-a03c-48777e81b3c4")
+		(uuid "9031770a-03fe-4d9e-8db6-d51c15d2e74e")
 	)
 	(label "RF_ANT"
 		(at 33.02 30.48 0)
@@ -12375,7 +12375,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "44a88ee1-5206-43c2-821d-272aebd43a75")
+		(uuid "03a3d20e-039f-4f2a-849a-94c3fe7c4b68")
 	)
 	(label "XTAL_N"
 		(at 229.87 146.05 90)
@@ -12385,7 +12385,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0dfd9a7d-2199-4ac0-a966-f0f122648011")
+		(uuid "85d59ee5-0a47-426b-9021-b0133b24a445")
 	)
 	(label "XTAL_N_R"
 		(at 229.87 153.67000000000002 270)
@@ -12395,7 +12395,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f65b4fcc-d1b6-4c0f-975a-8c084d9ac4fb")
+		(uuid "24b5ec5c-e6a0-46eb-b22b-fdcb5ec782bd")
 	)
 	(label "XTAL_P"
 		(at 69.85 55.879999999999995 90)
@@ -12405,7 +12405,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dc93e8b3-46ed-4f3f-ab77-2d0eb54e9c35")
+		(uuid "e0828ea4-659e-4b9d-b2bb-8d494cb6aac3")
 	)
 	(label "XTAL_N"
 		(at 142.24 118.11 180)
@@ -12415,7 +12415,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a28cf816-c023-4a8d-8933-c4ab6bf94e11")
+		(uuid "1408ae70-1b24-4e5f-813c-41b5f4e61f7a")
 	)
 	(label "XTAL_P"
 		(at 157.48000000000002 118.11 0)
@@ -12425,7 +12425,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "06d06f42-fc68-46ac-9242-4d19826785f5")
+		(uuid "a9276f61-fc2d-4da7-8f5a-655ee710411e")
 	)
 	(label "XTAL_N"
 		(at 110.49 55.879999999999995 90)
@@ -12435,7 +12435,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "aa682dca-07b6-4fcb-85d2-956ab6439cbc")
+		(uuid "e876fa4d-9211-4bcb-bab3-0bec614388ce")
 	)
 	(label "NEOPIX"
 		(at 102.86999999999999 237.49 180)
@@ -12445,7 +12445,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3c6b25cc-e2e9-4d22-9204-2f4fb528c86a")
+		(uuid "02577f5e-08fe-4441-b043-4f414a554059")
 	)
 	(label "NEOPIX_PWR"
 		(at 102.86999999999999 240.03 180)
@@ -12455,7 +12455,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "af1a5bf2-ef89-487c-84e6-2bc1d4afdb61")
+		(uuid "d8099777-8e7a-489c-b80c-5f99ba062c9e")
 	)
 	(label "SDA1"
 		(at 222.25 181.61 180)
@@ -12465,7 +12465,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2b22b89e-9bc4-4e18-96b4-c624c486bac6")
+		(uuid "a9ac918c-7fd0-4eb6-8db2-9e4e4bbe770e")
 	)
 	(label "SCL1"
 		(at 237.49 176.53 0)
@@ -12475,7 +12475,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd6e68d0-241d-48cb-8e4d-4e680f7fc212")
+		(uuid "3a828c3a-826d-48bf-a77f-7bfbc04e83ba")
 	)
 	(label "VBAT"
 		(at 222.25 118.11 180)
@@ -12485,7 +12485,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "63af99ad-214d-4235-befd-adf25f976cc5")
+		(uuid "b6bd9f3d-9562-4557-a570-85408d6e9a22")
 	)
 	(label "VBAT"
 		(at 152.4 209.55 0)
@@ -12495,7 +12495,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b3561b9b-503c-4265-abea-6a7673ee2aeb")
+		(uuid "ad09d7b2-1ef0-453f-ab7a-7a85026947ab")
 	)
 	(label "VDD3P3"
 		(at 190.5 153.67000000000002 270)
@@ -12505,7 +12505,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e249aee2-c923-402e-ac61-b871983e1545")
+		(uuid "be73e3e4-65b6-4684-a83e-24c3e756e2fc")
 	)
 	(label "VDD_SPI"
 		(at 149.86 26.67 90)
@@ -12515,7 +12515,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e7e36164-1725-469e-9b9b-b57441533642")
+		(uuid "ade9a140-c477-4c22-a610-2e2f6271cb83")
 	)
 	(label "VDD_SPI"
 		(at 149.86 55.879999999999995 90)
@@ -12525,7 +12525,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6838a437-cfa7-4788-be06-407d2e16da09")
+		(uuid "8f02dc4a-eabc-4f3c-963f-2ff451fd1fea")
 	)
 	(label "VDD3P3"
 		(at 539.75 77.47 270)
@@ -12535,7 +12535,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1e70da0e-ed07-42e1-8e71-bd35aa080ac4")
+		(uuid "8c8134e8-ceb7-4ee2-bd45-6616c6009357")
 	)
 	(label "NEOPIX_PWR"
 		(at 539.75 90.17 270)
@@ -12545,7 +12545,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bef2e90a-b960-4c43-a7d4-d6114fa3bc81")
+		(uuid "8bf941c8-fce4-4527-aa4a-8c12fd92638f")
 	)
 	(global_label "+5V"
 		(at 190.5 86.36 90)
@@ -12555,7 +12555,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3409bf14-56cd-42df-bae6-2dcd1b6db098")
+		(uuid "1780d2a0-f03b-49f7-830f-2b32be45f3ed")
 	)
 	(global_label "GND"
 		(at 190.5 93.98 270)
@@ -12565,7 +12565,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0df367fd-f9c0-4e68-aa29-233f6c87991f")
+		(uuid "35be4944-433f-4f83-b88e-3172c904d4b4")
 	)
 	(global_label "+5V"
 		(at 198.12 118.11 0)
@@ -12575,7 +12575,7 @@
 			)
 			(justify left)
 		)
-		(uuid "240baadb-9f27-4688-9e07-dca58cd27af1")
+		(uuid "648b2a75-e1da-4cd0-bf64-ec00b563d9a5")
 	)
 	(global_label "VBUS"
 		(at 182.88 118.11 180)
@@ -12585,7 +12585,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e728931f-a6e9-472d-a5d1-bd4d6e37e402")
+		(uuid "d92e8d20-aa2c-43c6-abc5-6d6559aa0aec")
 	)
 	(global_label "+5V"
 		(at 237.49 118.11 0)
@@ -12595,7 +12595,7 @@
 			)
 			(justify left)
 		)
-		(uuid "34887580-ae22-43c4-a450-cbe542fcd97c")
+		(uuid "d35001b2-8f69-415e-bed4-c0bf0ba1cd37")
 	)
 	(global_label "+3V3"
 		(at 100.33 151.13000000000002 180)
@@ -12605,7 +12605,7 @@
 			)
 			(justify right)
 		)
-		(uuid "db08a2fe-410a-406d-a019-e6b40b97aa43")
+		(uuid "4c99f069-a8b2-46cd-b2c1-bab838d25d98")
 	)
 	(global_label "GND"
 		(at 100.33 153.67000000000002 180)
@@ -12615,7 +12615,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d57a0876-106d-41b0-ac81-667fe8c23e18")
+		(uuid "b2cc1f32-a1cc-430d-af6b-b58fb7038247")
 	)
 	(global_label "+5V"
 		(at 100.33 156.21 180)
@@ -12625,7 +12625,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d3c7bfa0-9893-451b-89eb-1aa78087cc12")
+		(uuid "18bff8b9-3fa0-4a88-a86c-48bfea269d2c")
 	)
 	(global_label "+5V"
 		(at 120.64999999999999 156.21 0)
@@ -12635,7 +12635,7 @@
 			)
 			(justify left)
 		)
-		(uuid "753d3050-326d-4cdb-ad8d-e368c3875d32")
+		(uuid "a39cc24d-0b08-4d3e-8417-33b7b00767ca")
 	)
 	(global_label "+3V3"
 		(at 120.64999999999999 151.13000000000002 0)
@@ -12645,7 +12645,7 @@
 			)
 			(justify left)
 		)
-		(uuid "75f33930-057d-4257-9722-4977d5ef3b97")
+		(uuid "8f4f8d59-efa1-40b0-b2c9-cd99e8486e30")
 	)
 	(global_label "GND"
 		(at 120.64999999999999 153.67000000000002 0)
@@ -12655,7 +12655,7 @@
 			)
 			(justify left)
 		)
-		(uuid "61012d76-42a5-417f-a82a-1120a4c82d34")
+		(uuid "7c7a35a1-09b8-49b9-8dd7-3d224701034f")
 	)
 	(global_label "+5V"
 		(at 62.23 236.22 180)
@@ -12665,7 +12665,7 @@
 			)
 			(justify right)
 		)
-		(uuid "065e21a5-0a59-4981-bbaa-1a18300939fb")
+		(uuid "da6a2daa-a491-44e0-aeed-bbf1d95f3142")
 	)
 	(global_label "GND"
 		(at 62.23 238.76 180)
@@ -12675,7 +12675,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f67a1ee6-6781-44e4-90e0-d97e94b363aa")
+		(uuid "9d2e73d9-7437-4d1e-8864-8a00068c202e")
 	)
 	(global_label "+5V"
 		(at 62.23 241.3 180)
@@ -12685,7 +12685,7 @@
 			)
 			(justify right)
 		)
-		(uuid "700644a5-080a-4393-a729-e08c91d093e2")
+		(uuid "6104dc68-6b91-4e83-8356-2527ed9a0232")
 	)
 	(global_label "+3V3"
 		(at 77.47 238.76 0)
@@ -12695,7 +12695,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c14a4595-167b-4324-9c41-311b49428809")
+		(uuid "f66f7ace-26dd-461d-9851-15a157190c20")
 	)
 	(global_label "+3V3"
 		(at 69.85 26.67 90)
@@ -12705,7 +12705,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b3d11b0e-c3a3-4e9c-a103-487b97976079")
+		(uuid "a9d41e1e-ef9a-4774-bcfe-d2680a329fc2")
 	)
 	(global_label "GND"
 		(at 69.85 34.29 270)
@@ -12715,7 +12715,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5eec7756-d417-4264-aae8-ea5b3785cb62")
+		(uuid "917ef0ff-2c01-4773-9730-b1cf6df6e7dd")
 	)
 	(global_label "+3V3"
 		(at 110.49 26.67 90)
@@ -12725,7 +12725,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2479b452-f9f9-48a8-9a00-15c307624e1a")
+		(uuid "17bba68d-4ca6-42e5-8b04-394a47cbfbbb")
 	)
 	(global_label "GND"
 		(at 110.49 34.29 270)
@@ -12735,7 +12735,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8c858598-ec41-4065-8cce-34e36dcfd64b")
+		(uuid "afa859a3-5f9a-4f80-97e2-6cc848bea01a")
 	)
 	(global_label "+3V3"
 		(at 190.5 26.67 90)
@@ -12745,7 +12745,7 @@
 			)
 			(justify left)
 		)
-		(uuid "180f8191-b063-4a98-aaf3-26c36678bbfb")
+		(uuid "07c178d9-3aa2-4b01-814a-871cd907c6b7")
 	)
 	(global_label "GND"
 		(at 190.5 34.29 270)
@@ -12755,7 +12755,7 @@
 			)
 			(justify right)
 		)
-		(uuid "671c202f-5c72-480e-b7c8-44fff785cf87")
+		(uuid "4481bcf5-78a2-4829-8777-670ffb512aa9")
 	)
 	(global_label "+3V3"
 		(at 190.5 55.879999999999995 90)
@@ -12765,7 +12765,7 @@
 			)
 			(justify left)
 		)
-		(uuid "07d60b7a-395a-4ae2-b411-5c03ac9c56b5")
+		(uuid "4f398f3f-6b38-49ba-8d29-f2eb067d81a3")
 	)
 	(global_label "GND"
 		(at 190.5 63.5 270)
@@ -12775,7 +12775,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4fa5c423-f7a3-4468-9a1f-13080122ef8f")
+		(uuid "94b20d6c-e9a5-479f-ac04-0aaa63420f89")
 	)
 	(global_label "+3V3"
 		(at 30.48 55.879999999999995 90)
@@ -12785,7 +12785,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1c23ce1c-bc63-4b70-87c5-f5f7d139b7da")
+		(uuid "44159a82-c8fa-426a-9021-37c4697afacf")
 	)
 	(global_label "GND"
 		(at 30.48 63.5 270)
@@ -12795,7 +12795,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5402fa34-e212-4c20-9168-9af8c37a6da5")
+		(uuid "e242ba7b-4aac-4986-b552-8bafb2b82fa0")
 	)
 	(global_label "+3V3"
 		(at 229.87 55.879999999999995 90)
@@ -12805,7 +12805,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8e4740fd-74c9-46ae-8335-0bf82f999e81")
+		(uuid "d613bf5e-85d8-4843-9f7c-f3f1919b38e1")
 	)
 	(global_label "GND"
 		(at 229.87 63.5 270)
@@ -12815,7 +12815,7 @@
 			)
 			(justify right)
 		)
-		(uuid "581f6d7c-8bad-4294-b65b-2f37e13bf7b5")
+		(uuid "a150083a-e369-446b-9085-3a8d4e4c908e")
 	)
 	(global_label "+3V3"
 		(at 30.48 86.36 90)
@@ -12825,7 +12825,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1b5d2fa-4249-4306-a4f4-57323292c9ea")
+		(uuid "34f98e56-b30c-4518-9077-10cffb686b90")
 	)
 	(global_label "GND"
 		(at 30.48 93.98 270)
@@ -12835,7 +12835,7 @@
 			)
 			(justify right)
 		)
-		(uuid "cd1f4740-ecf0-410b-9e2c-b214c45efba7")
+		(uuid "70780f92-7388-4911-b786-943519c5e3fd")
 	)
 	(global_label "+3V3"
 		(at 229.87 26.67 90)
@@ -12845,7 +12845,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e7cb15e3-f585-446e-9420-b848ca7ddf36")
+		(uuid "06884802-d3f3-4d61-bc40-41763877537f")
 	)
 	(global_label "GND"
 		(at 229.87 34.29 270)
@@ -12855,7 +12855,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d56a3ef7-012a-4106-9766-013a3ec06791")
+		(uuid "0e05b51e-bd3c-4a7f-806e-670c5e5c7796")
 	)
 	(global_label "+3V3"
 		(at 149.86 86.36 90)
@@ -12865,7 +12865,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4fa615f8-a678-41be-995d-ad6b03722273")
+		(uuid "ceb74641-f2b3-4ddc-a98d-458b1d964ef5")
 	)
 	(global_label "GND"
 		(at 149.86 93.98 270)
@@ -12875,7 +12875,7 @@
 			)
 			(justify right)
 		)
-		(uuid "5d0183ea-14b3-4b0a-9b24-3870beb928c9")
+		(uuid "81c30d05-1cbf-40dc-bfd5-f5ef64bd1dfb")
 	)
 	(global_label "+3V3"
 		(at 229.87 86.36 90)
@@ -12885,7 +12885,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ad2cf17e-8697-4930-ac27-c88034fd90cd")
+		(uuid "7c191c28-3748-4e71-8d69-7f900b1b250a")
 	)
 	(global_label "GND"
 		(at 229.87 93.98 270)
@@ -12895,7 +12895,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2cc86d92-32ce-4af0-8e4a-c082c7955cdb")
+		(uuid "139cd2b3-3c23-4bfe-a17f-97be6ca7e546")
 	)
 	(global_label "+3V3"
 		(at 30.48 115.57 90)
@@ -12905,7 +12905,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5f7e2d0f-c4a6-4c43-abaa-946cb0d4e7f0")
+		(uuid "7552cfde-1907-405f-b6af-e690cb4bc27f")
 	)
 	(global_label "GND"
 		(at 30.48 123.19 270)
@@ -12915,7 +12915,7 @@
 			)
 			(justify right)
 		)
-		(uuid "988d5a9f-1c35-4542-8ac6-383e77591db5")
+		(uuid "86b942a9-85f2-43a6-a9e0-1116a2eb4859")
 	)
 	(global_label "GND"
 		(at 222.25 176.53 180)
@@ -12925,7 +12925,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d87887db-b605-4d80-a8ad-ee9a014a4d83")
+		(uuid "dda05639-fb0e-4812-9832-159a75f02dd1")
 	)
 	(global_label "+3V3"
 		(at 222.25 179.07 180)
@@ -12935,7 +12935,7 @@
 			)
 			(justify right)
 		)
-		(uuid "40bbe414-c991-4d16-9480-f927105d4831")
+		(uuid "2408e563-ada6-4dbb-9c2e-692c0009ad48")
 	)
 	(global_label "GND"
 		(at 237.49 179.07 0)
@@ -12945,7 +12945,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6272bacd-4b5b-45e2-955e-f83ddf587551")
+		(uuid "4c0108ed-cf99-454f-addf-0e6c07dc40e8")
 	)
 	(global_label "GND"
 		(at 237.49 181.61 0)
@@ -12955,7 +12955,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1d85a264-8518-4abe-a700-ac65861b2c5e")
+		(uuid "aa326cea-4f46-4b58-a001-896f376e3e1d")
 	)
 	(global_label "+3V3"
 		(at 190.5 146.05 90)
@@ -12965,7 +12965,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e357730a-ecf2-45c4-bc3f-51ac019d912c")
+		(uuid "98e8da32-7091-4d07-b573-9f39822413ff")
 	)
 	(global_label "+3V3"
 		(at 30.48 176.53 90)
@@ -12975,7 +12975,7 @@
 			)
 			(justify left)
 		)
-		(uuid "201d06ac-e9b8-4949-9416-cd8499036dfc")
+		(uuid "b4a7c346-401b-4de8-ad70-21dad91534e0")
 	)
 	(global_label "+3V3"
 		(at 69.85 176.53 90)
@@ -12985,7 +12985,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9ecc51a4-d90c-4f0d-b550-5496b4005c75")
+		(uuid "1ebd4dd4-047b-40f3-843d-1f2551cf2893")
 	)
 	(global_label "+3V3"
 		(at 382.27 113.03000000000002 180)
@@ -12995,7 +12995,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f1b2aa12-a8eb-43d3-8479-705f846965da")
+		(uuid "4d58329d-d32e-453a-85b8-127b1c3fb928")
 	)
 	(global_label "+3V3"
 		(at 382.27 161.29000000000002 180)
@@ -13005,7 +13005,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7e6f7a5a-fa85-4ffc-89c2-a079cb44ef5d")
+		(uuid "e0570376-c260-4bb0-83da-27c1011d82d0")
 	)
 	(global_label "+3V3"
 		(at 382.27 179.07000000000002 180)
@@ -13015,7 +13015,7 @@
 			)
 			(justify right)
 		)
-		(uuid "720dcda6-3cfb-49b2-a0d8-abeba45fb49e")
+		(uuid "03cc1501-1074-4b71-859a-8d230c4ece27")
 	)
 	(global_label "+3V3"
 		(at 417.83000000000004 151.13000000000002 0)
@@ -13025,7 +13025,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ff75f587-1cc2-40b6-b442-5e16f22fda41")
+		(uuid "c03767e4-f09d-4d1e-800b-ef178b10afcf")
 	)
 	(global_label "+3V3"
 		(at 417.83000000000004 166.37 0)
@@ -13035,7 +13035,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5d75b883-b4c7-4175-b170-e79be9da28b5")
+		(uuid "18d6eab4-f06c-4207-9da3-2f892f999722")
 	)
 	(global_label "+3V3"
 		(at 417.83000000000004 173.99 0)
@@ -13045,7 +13045,7 @@
 			)
 			(justify left)
 		)
-		(uuid "066dcd5f-2a42-4ba4-9592-0c38d2a1ba97")
+		(uuid "8abd650b-175a-49b2-80b0-dc47b18cbd94")
 	)
 	(global_label "GND"
 		(at 417.83000000000004 181.61 0)
@@ -13055,7 +13055,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a270476f-29e6-46b8-be89-590e303bd13f")
+		(uuid "5050ad2c-d267-4fc2-aed1-db800c557c91")
 	)
 	(global_label "GND"
 		(at 149.86 34.29 270)
@@ -13065,7 +13065,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c3049dd2-1972-4f6a-8d1d-0d196e7d2bb3")
+		(uuid "62d8db13-01ee-41de-a661-2b3b096a9b51")
 	)
 	(global_label "GND"
 		(at 149.86 63.5 270)
@@ -13075,7 +13075,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7ac48ebc-dcf0-40cb-88d4-eea574889789")
+		(uuid "f9bfbfdb-31ad-4861-a46c-5353420907d1")
 	)
 	(global_label "GND"
 		(at 69.85 63.5 270)
@@ -13085,7 +13085,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0840a227-69cf-4aa4-83f5-367bc2354f49")
+		(uuid "7ffd794b-9a75-45bb-b180-f33d245b0040")
 	)
 	(global_label "GND"
 		(at 110.49 63.5 270)
@@ -13095,7 +13095,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3ac2ad9a-ea14-4115-b761-e01956c51271")
+		(uuid "45b0c385-5ef1-45c7-9f78-74cf18b46826")
 	)
 	(global_label "GND"
 		(at 69.85 93.98 270)
@@ -13105,7 +13105,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1f131d71-9c19-4315-9886-4831d29c8d52")
+		(uuid "b1421538-e4d7-4292-b3fd-4f2b55b075f7")
 	)
 	(global_label "GND"
 		(at 110.49 93.98 270)
@@ -13115,7 +13115,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bddcaf3b-0f88-4050-b723-c045e9e8d836")
+		(uuid "29f77719-f03d-4b08-9a93-f6956512bac9")
 	)
 	(global_label "GND"
 		(at 69.85 123.19 270)
@@ -13125,7 +13125,7 @@
 			)
 			(justify right)
 		)
-		(uuid "25e144d5-afa5-48fb-bb82-c35e04cfe04c")
+		(uuid "f69beda1-5158-4252-a264-962f968523a0")
 	)
 	(global_label "GND"
 		(at 110.49 123.19 270)
@@ -13135,7 +13135,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4564faf5-6d36-442e-8e9a-bfd48f5f521e")
+		(uuid "0fccebb6-aacf-4179-a586-2bac353aa5f0")
 	)
 	(global_label "GND"
 		(at 113.03 209.55 0)
@@ -13145,7 +13145,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e9c2f1ae-a13e-414d-8193-98f6b55260b4")
+		(uuid "83abfd93-3b5d-43d5-8fe5-27dd90b2dac0")
 	)
 	(global_label "GND"
 		(at 118.11 240.03 0)
@@ -13155,7 +13155,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bc150022-84e3-4478-8907-dc0c69667453")
+		(uuid "8e5eae1d-9471-49ec-af01-5756d24937cf")
 	)
 	(global_label "GND"
 		(at 38.1 207.01000000000002 0)
@@ -13165,7 +13165,7 @@
 			)
 			(justify left)
 		)
-		(uuid "eab0bc90-e4e8-4055-8577-c7bc8e9d2200")
+		(uuid "b2118c88-f6e2-406f-a837-f2c4b5c42b95")
 	)
 	(global_label "GND"
 		(at 38.1 209.55 0)
@@ -13175,7 +13175,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a3934aaa-a6b9-4ffb-882b-4e5100369711")
+		(uuid "1c2b29b0-d69e-4f79-ae4a-7e7cb1f723a9")
 	)
 	(global_label "GND"
 		(at 77.47 207.01000000000002 0)
@@ -13185,7 +13185,7 @@
 			)
 			(justify left)
 		)
-		(uuid "940651d2-bd7f-4953-a935-aa186b82460e")
+		(uuid "67fd8f8c-fc83-4a8b-a35f-04b6eee231a1")
 	)
 	(global_label "GND"
 		(at 77.47 209.55 0)
@@ -13195,7 +13195,7 @@
 			)
 			(justify left)
 		)
-		(uuid "10cb23fc-62ae-4a7f-b647-e14349ef7a39")
+		(uuid "342920bd-8e96-4dad-86b9-4f53d1e24674")
 	)
 	(global_label "GND"
 		(at 110.49 176.53 90)
@@ -13205,7 +13205,7 @@
 			)
 			(justify left)
 		)
-		(uuid "daab17cc-a5eb-4345-a6cc-9ddf3d4240e9")
+		(uuid "30e1c10a-412d-4530-a667-e02dffe51f05")
 	)
 	(global_label "GND"
 		(at 149.86 176.53 90)
@@ -13215,7 +13215,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4dcc5045-dfda-4e40-92e9-ddc9c4e7091f")
+		(uuid "e20c93ee-f680-4125-840b-8462c7d82f0c")
 	)
 	(global_label "GND"
 		(at 190.5 176.53 90)
@@ -13225,7 +13225,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b241f411-8253-4517-87f5-fbedd6507d90")
+		(uuid "a0033a56-2808-41a6-84ed-f17b552f06d6")
 	)
 	(global_label "GND"
 		(at 40.64 242.57 0)
@@ -13235,7 +13235,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8886baf1-3ecc-4bd5-8f35-728df70f0beb")
+		(uuid "ea845cfd-5491-4424-8a07-a8bbecaabfc2")
 	)
 	(global_label "GND"
 		(at 40.64 245.11 0)
@@ -13245,7 +13245,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5f55b570-8ba5-4b73-a3eb-ec8c47ab47e2")
+		(uuid "0aa281b9-d595-40e1-ab69-91a0435cd047")
 	)
 	(global_label "VBUS"
 		(at 40.64 237.49 0)
@@ -13255,7 +13255,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7d39b197-0ac5-42c1-b79e-86e794c77a39")
+		(uuid "df6f2478-4d77-4994-a815-2d1f4a0ce0c5")
 	)
 	(global_label "VBUS"
 		(at 40.64 240.03 0)
@@ -13265,7 +13265,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9058a468-b119-42d3-a678-22e86c6e8c08")
+		(uuid "2179d8c7-c37e-4901-af7d-66fc759bbfc5")
 	)
 	(global_label "GND"
 		(at 500.38 30.48 90)
@@ -13275,7 +13275,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2ae95bfc-dfaf-4502-9dc1-44b6fe60a065")
+		(uuid "9031ac77-30d4-47ad-a090-ddedf19cffa8")
 	)
 	(global_label "GND"
 		(at 514.35 30.48 90)
@@ -13285,7 +13285,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6a5c5d1b-fdc1-4768-9988-0ea8cb3deaa0")
+		(uuid "7dcd34c8-ce32-4e1b-a1b7-f80c1f812fdc")
 	)
 	(global_label "GND"
 		(at 528.32 30.48 90)
@@ -13295,7 +13295,7 @@
 			)
 			(justify left)
 		)
-		(uuid "39062eda-d504-4405-b9c3-14704ec3a2eb")
+		(uuid "da0e2482-37cd-4dcd-82a6-0cad93400976")
 	)
 	(global_label "GND"
 		(at 500.38 44.45 90)
@@ -13305,7 +13305,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b4d136df-4ace-439c-850a-0c752be071d5")
+		(uuid "f1b3aac4-244c-46d2-a8dd-d2ce4df695f1")
 	)
 	(global_label "GND"
 		(at 514.35 44.45 90)
@@ -13315,7 +13315,7 @@
 			)
 			(justify left)
 		)
-		(uuid "67ac3c73-504a-4b79-94aa-cae72dc87159")
+		(uuid "85e63c0e-2f30-48ca-808d-3dafb178032b")
 	)
 	(global_label "GND"
 		(at 528.32 44.45 90)
@@ -13325,7 +13325,7 @@
 			)
 			(justify left)
 		)
-		(uuid "525e313b-1c93-48e8-9ea4-c77f286ddba2")
+		(uuid "5fb552cd-1f1a-4d3c-bae6-f38049a8618d")
 	)
 	(global_label "GND"
 		(at 500.38 58.42 90)
@@ -13335,7 +13335,7 @@
 			)
 			(justify left)
 		)
-		(uuid "cebc4c95-1bc2-4477-b64a-4e7e3d779b57")
+		(uuid "5583358f-5bfc-4190-8df3-c52d24a75754")
 	)
 	(global_label "GND"
 		(at 514.35 58.42 90)
@@ -13345,7 +13345,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7d674f31-f8df-47c6-8fa2-37839d6d2dbc")
+		(uuid "9184046b-5e72-4799-af3d-b8bfd211bd58")
 	)
 	(global_label "GND"
 		(at 528.32 58.42 90)
@@ -13355,7 +13355,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3838f6eb-065b-4255-a15a-55a15c4822e0")
+		(uuid "5b30b1ef-bcfc-449f-867a-c2c3c1666bc9")
 	)
 	(global_label "GND"
 		(at 500.38 72.39 90)
@@ -13365,7 +13365,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1b0ef61f-ff0c-42fa-935d-6f5eda621f64")
+		(uuid "4ab28d0a-2518-4681-825c-cc98daeec262")
 	)
 	(global_label "GND"
 		(at 514.35 72.39 90)
@@ -13375,7 +13375,7 @@
 			)
 			(justify left)
 		)
-		(uuid "94a78fa8-d5dc-4274-8699-6a90a161488b")
+		(uuid "3b1442a7-1a35-4859-a40c-bc14b3ec6223")
 	)
 	(global_label "GND"
 		(at 528.32 72.39 90)
@@ -13385,7 +13385,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5664c389-960e-4b91-8bcf-dc418e1584c2")
+		(uuid "8f67a1ff-e24d-4f68-9f89-e6c1efd3c7b8")
 	)
 	(global_label "GND"
 		(at 500.38 86.36 90)
@@ -13395,7 +13395,7 @@
 			)
 			(justify left)
 		)
-		(uuid "18859fe5-d75b-4d8e-9972-517da9c601c1")
+		(uuid "cd00844c-beea-425b-8ed9-b52e4bcee191")
 	)
 	(global_label "GND"
 		(at 514.35 86.36 90)
@@ -13405,7 +13405,7 @@
 			)
 			(justify left)
 		)
-		(uuid "91045683-d50a-4094-a2c3-fae98b5437c0")
+		(uuid "99e00ea9-22bf-4ab9-ab7a-d8de2ed36b08")
 	)
 	(global_label "GND"
 		(at 528.32 86.36 90)
@@ -13415,7 +13415,7 @@
 			)
 			(justify left)
 		)
-		(uuid "77938c87-a2dd-4716-84f8-5d19d58d713d")
+		(uuid "bf9bba9c-c871-4e1b-9afb-858e6251e7f6")
 	)
 	(global_label "GND"
 		(at 500.38 100.33 90)
@@ -13425,7 +13425,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b0e964e5-f4aa-4756-8f3b-07f754518bcf")
+		(uuid "22a9b5aa-e1c8-472e-b14c-9876b45d7bc0")
 	)
 	(global_label "GND"
 		(at 514.35 100.33 90)
@@ -13435,7 +13435,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9a3f00d2-cb7c-40bd-bfc9-920df4ac0513")
+		(uuid "11a41423-bd31-4fea-afd9-2a3cf2da3f83")
 	)
 	(global_label "GND"
 		(at 528.32 100.33 90)
@@ -13445,7 +13445,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8f3895aa-0bc8-45ff-864d-eb223ed8e2b0")
+		(uuid "08ee1d06-d013-4b31-8092-1b59bce41260")
 	)
 	(global_label "GND"
 		(at 500.38 114.3 90)
@@ -13455,7 +13455,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a8021329-8cd2-471c-813e-711f27be86b8")
+		(uuid "bfd309a8-c4b9-4f2b-90e9-b1e4b471be06")
 	)
 	(global_label "GND"
 		(at 514.35 114.3 90)
@@ -13465,7 +13465,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8addde3f-93f4-4009-b943-5a969b34cd64")
+		(uuid "90691d7e-2d45-4482-ac2a-41cc177a8db9")
 	)
 	(global_label "GND"
 		(at 528.32 114.3 90)
@@ -13475,7 +13475,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c80cc40e-d1e9-4e21-80c9-ffc176e728d0")
+		(uuid "5c274e97-b2d7-478d-8f9f-26ba1a02590f")
 	)
 	(global_label "GND"
 		(at 500.38 128.27 90)
@@ -13485,7 +13485,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9b32cd42-1089-4ac9-9e93-8a9fd3e02712")
+		(uuid "5a3af360-d9d4-4b56-b380-02e14bf08e43")
 	)
 	(global_label "GND"
 		(at 514.35 128.27 90)
@@ -13495,7 +13495,7 @@
 			)
 			(justify left)
 		)
-		(uuid "907043e2-5ce1-48fe-8f49-bfe3ecdfbd82")
+		(uuid "263cbe40-29f7-46c3-8f04-6b6c3ffa8313")
 	)
 	(global_label "GND"
 		(at 528.32 128.27 90)
@@ -13505,7 +13505,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0b99fc61-1169-4cdc-8810-f437066699d5")
+		(uuid "b0dc53de-bf3a-4677-b11d-b1c9f5cf1b0b")
 	)
 	(global_label "GND"
 		(at 500.38 142.24 90)
@@ -13515,7 +13515,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c80a35c1-0b87-4af1-8555-92fdf4e682b4")
+		(uuid "cfb8f032-d3c7-4371-8359-a77fb38b1842")
 	)
 	(global_label "GND"
 		(at 514.35 142.24 90)
@@ -13525,7 +13525,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3ec838cf-342d-4198-a6bf-6e24d9befe75")
+		(uuid "827c57e2-29b3-4764-ad4d-aafc7b6153a3")
 	)
 	(global_label "GND"
 		(at 528.32 142.24 90)
@@ -13535,7 +13535,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8047e93c-700e-4c34-9f12-9ed4ba129b9b")
+		(uuid "d26c8161-45f4-4971-92c9-3d843e093468")
 	)
 	(global_label "GND"
 		(at 500.38 156.21 90)
@@ -13545,7 +13545,7 @@
 			)
 			(justify left)
 		)
-		(uuid "67358e31-c03a-4b9e-87a9-e131517e9323")
+		(uuid "13b1dd55-326e-42b8-a249-7b7b59aa60ef")
 	)
 	(global_label "GND"
 		(at 514.35 156.21 90)
@@ -13555,7 +13555,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0b96c4fd-80aa-450c-874a-1d5089bbc9f1")
+		(uuid "07a071e4-fd89-4f65-8139-874c44984c39")
 	)
 	(global_label "GND"
 		(at 528.32 156.21 90)
@@ -13565,7 +13565,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2c3ec0f2-9506-4b8a-8106-17d2fcc4c1d2")
+		(uuid "21e93b2e-7025-4e64-84a6-2465856f0e64")
 	)
 	(global_label "GND"
 		(at 500.38 170.18 90)
@@ -13575,7 +13575,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9db50941-6965-482b-8210-dc37be00310a")
+		(uuid "794c3970-620f-4ba4-9864-aa19d448189f")
 	)
 	(global_label "GND"
 		(at 514.35 170.18 90)
@@ -13585,7 +13585,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7477ace0-99ea-4382-8e4e-ab56f54b3299")
+		(uuid "0a34014d-efdb-406d-bc32-3c3cad56c099")
 	)
 	(global_label "+3V3"
 		(at 528.32 170.18 270)
@@ -13595,7 +13595,7 @@
 			)
 			(justify right)
 		)
-		(uuid "94f77804-ac77-40b6-9dc3-ae8ba84d2e00")
+		(uuid "23eef477-0dd7-4ffb-a7ce-80d394138b81")
 	)
 	(global_label "+3V3"
 		(at 500.38 184.15 270)
@@ -13605,7 +13605,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4a14f396-6ddd-4d2d-ba67-1e11fe124172")
+		(uuid "fb635a3a-ce21-44e6-afb5-50712e4676d2")
 	)
 	(global_label "+3V3"
 		(at 514.35 184.15 270)
@@ -13615,7 +13615,7 @@
 			)
 			(justify right)
 		)
-		(uuid "847c9287-0608-4c77-8a47-6d95c931ad40")
+		(uuid "7efec6a6-5461-4711-aecf-4dd7d2816ee6")
 	)
 	(global_label "+3V3"
 		(at 528.32 184.15 270)
@@ -13625,7 +13625,7 @@
 			)
 			(justify right)
 		)
-		(uuid "decb451a-7888-4d3e-9f85-6acc8de522bb")
+		(uuid "8dc34861-4098-481e-8920-814b5bef18a4")
 	)
 	(global_label "+3V3"
 		(at 500.38 198.12 270)
@@ -13635,7 +13635,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3293c633-8f8b-417a-826e-3bbb2e309f7b")
+		(uuid "4aa24ca3-2175-437a-9186-d51b8c02671a")
 	)
 	(global_label "+3V3"
 		(at 514.35 198.12 270)
@@ -13645,7 +13645,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ce02ff92-4f05-4909-9fba-0e0df4e5710c")
+		(uuid "da197227-9269-4c64-9425-53becaad1646")
 	)
 	(global_label "+3V3"
 		(at 528.32 198.12 270)
@@ -13655,7 +13655,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7eceeaff-e9f5-4e70-b59b-92452b79df7e")
+		(uuid "b7e8c2a5-4048-4890-8225-16cb44917dac")
 	)
 	(global_label "+3V3"
 		(at 500.38 212.09 270)
@@ -13665,7 +13665,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f9316288-490c-4fa8-a2f2-9d9050f7b344")
+		(uuid "9bb361b9-5fb1-4af9-b0a2-59a08dda76b8")
 	)
 	(global_label "+3V3"
 		(at 514.35 212.09 270)
@@ -13675,7 +13675,7 @@
 			)
 			(justify right)
 		)
-		(uuid "46c2708c-7aa8-4cc8-9373-d783195608b9")
+		(uuid "f80aa841-7767-4be9-a80e-48ae357beefb")
 	)
 	(global_label "+3V3"
 		(at 528.32 212.09 270)
@@ -13685,7 +13685,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ef3b0137-ef69-45f8-b608-56ac9818b6de")
+		(uuid "aa1ae462-89ad-488f-a045-ad576cc6d0a8")
 	)
 	(global_label "+5V"
 		(at 500.38 226.06 270)
@@ -13695,7 +13695,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a769f5fe-5420-4600-b252-7921fa716740")
+		(uuid "94c1b042-2759-4c94-ac6a-33981b0a5460")
 	)
 	(global_label "+5V"
 		(at 514.35 226.06 270)
@@ -13705,7 +13705,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8c1256d7-d7a6-4823-8510-871c24f31b31")
+		(uuid "80cb1a91-4343-40c0-bf48-0ff0aa977d90")
 	)
 	(global_label "+5V"
 		(at 528.32 226.06 270)
@@ -13715,7 +13715,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0311b3d3-4fc5-45b4-9f8d-0afc648d2d0c")
+		(uuid "d8865ffa-2b59-4b6e-9762-f1fb693e0d0c")
 	)
 	(global_label "VBUS"
 		(at 500.38 240.03 270)
@@ -13725,7 +13725,7 @@
 			)
 			(justify right)
 		)
-		(uuid "29af01c2-45a9-4468-9aa6-bcead753d4da")
+		(uuid "a9c07fa9-ea8a-488c-ac52-2bf3a51281b7")
 	)
 	(global_label "GND"
 		(at 539.75 41.91 270)
@@ -13735,7 +13735,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1c330945-5fd5-47be-b411-45c8cc2331ed")
+		(uuid "79b2f873-ede6-4eca-9a9d-29107987a7a8")
 	)
 	(global_label "+5V"
 		(at 539.75 54.61 270)
@@ -13745,7 +13745,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9f04fd44-dc6e-4cb0-951a-4ba0e268284e")
+		(uuid "798fc0ec-1c14-4728-a85f-ceef12df9b2a")
 	)
 	(global_label "VBUS"
 		(at 539.75 66.04 270)
@@ -13755,119 +13755,119 @@
 			)
 			(justify right)
 		)
-		(uuid "db29c2bc-d62a-48da-8cdc-0e84215b093b")
+		(uuid "75a57add-9761-4a6e-9b30-6aeef0422582")
 	)
 	(no_connect
 		(at 382.27 125.73000000000002)
-		(uuid "5a01697a-d3a6-4aaa-84a6-e1272ba12945")
+		(uuid "f5af7eba-da05-4534-a06e-b62fda0819ae")
 	)
 	(no_connect
 		(at 382.27 128.27)
-		(uuid "e9356b78-9356-40fe-8ace-345dc97e0670")
+		(uuid "f312cd4a-f131-4ffd-a951-c47ab0c0da98")
 	)
 	(no_connect
 		(at 382.27 130.81)
-		(uuid "165eb154-c6f0-4aaa-a193-c3b0b6b8ba7f")
+		(uuid "7a0bff50-064e-4b09-984c-2823f73fca29")
 	)
 	(no_connect
 		(at 382.27 133.35000000000002)
-		(uuid "b0cdc4b1-b2a9-4b97-8599-6d8b57d4856d")
+		(uuid "dc9362b7-4210-431a-9d91-eeb71b680e9b")
 	)
 	(no_connect
 		(at 382.27 151.13000000000002)
-		(uuid "476d92cf-e458-4678-8fca-740b0aba88c2")
+		(uuid "5e37df88-e80d-4054-9017-3d210a3e9105")
 	)
 	(no_connect
 		(at 382.27 153.67000000000002)
-		(uuid "75f623b0-5bf2-47e6-b5e4-593512801501")
+		(uuid "ee0fa1c3-d911-43d1-8e58-35c41fa1a6dd")
 	)
 	(no_connect
 		(at 382.27 156.21)
-		(uuid "af8c83a2-c15a-47c4-86ea-a839abb2ed36")
+		(uuid "e992dd16-27bb-4b99-9a99-94aa2a7d896c")
 	)
 	(no_connect
 		(at 382.27 158.75)
-		(uuid "8c8e9fc1-25e9-4259-b7b9-a0d8887f6371")
+		(uuid "aaf989de-0690-4df3-aa7a-1c43c3dd3a01")
 	)
 	(no_connect
 		(at 382.27 163.83)
-		(uuid "263efee8-61f0-4cc8-aa9e-8aab66699895")
+		(uuid "5ffe5046-ee24-4e4a-9a1b-5b503d13fcf4")
 	)
 	(no_connect
 		(at 382.27 181.61)
-		(uuid "69acf0f0-c450-48f1-b458-54fb5fd5b335")
+		(uuid "8fb51e55-5b31-4c40-9d14-3a1c1188d525")
 	)
 	(no_connect
 		(at 382.27 184.15)
-		(uuid "848167e0-2966-452a-b05a-568d81fc4601")
+		(uuid "d3a66502-8194-49b1-a067-0657b99823e8")
 	)
 	(no_connect
 		(at 417.83000000000004 115.57000000000002)
-		(uuid "a9b63f0d-1aa1-41ba-96dd-3bce3cb7a030")
+		(uuid "2632609a-6d17-4c00-ae9f-93c522c4174e")
 	)
 	(no_connect
 		(at 417.83000000000004 118.11000000000001)
-		(uuid "a5cc18ad-39c9-4f22-bdd6-c1d3dad521cf")
+		(uuid "7b3e83a5-2bca-4c3a-a25d-1b9c62d43d4e")
 	)
 	(no_connect
 		(at 417.83000000000004 120.65)
-		(uuid "641b2dbf-8866-4b11-bc6f-1f8186413e21")
+		(uuid "742034cf-5e4d-4ca0-a3ca-25b3c1d1b4ac")
 	)
 	(no_connect
 		(at 417.83000000000004 123.19000000000001)
-		(uuid "adf35b28-e9d0-4246-b09a-da6dd0411f05")
+		(uuid "7c6a8d51-425c-450a-b69e-071efccd33cf")
 	)
 	(no_connect
 		(at 417.83000000000004 125.73000000000002)
-		(uuid "2ff18d22-816a-40c2-8486-5a8da6bca222")
+		(uuid "60e42c9d-c882-4621-b3f1-980e21284614")
 	)
 	(no_connect
 		(at 417.83000000000004 128.27)
-		(uuid "295e283f-4d77-454d-af30-78832a3efd20")
+		(uuid "a401a144-d9ca-41d9-bae0-f7e90229c8c7")
 	)
 	(no_connect
 		(at 417.83000000000004 130.81)
-		(uuid "912cdf9a-76d7-4f44-b784-817742084e02")
+		(uuid "904835f5-ec63-440a-8cc4-07c5335c2563")
 	)
 	(no_connect
 		(at 417.83000000000004 133.35000000000002)
-		(uuid "e10f81a9-9737-47b0-aa3a-3206d38bce6b")
+		(uuid "2ce2390f-a122-4fff-b97f-9c99df9b4ed2")
 	)
 	(no_connect
 		(at 417.83000000000004 156.21)
-		(uuid "e1e9a5ac-f456-400c-9e3a-4138c8e6bc50")
+		(uuid "25dbcaa1-566a-4f29-80e9-e4af5d346bdf")
 	)
 	(no_connect
 		(at 417.83000000000004 158.75)
-		(uuid "1e976537-b932-4c57-afdb-50a873109f2e")
+		(uuid "a5d147e9-d523-4b01-8b21-a5b5670e3b28")
 	)
 	(no_connect
 		(at 417.83000000000004 161.29000000000002)
-		(uuid "5c65a0ec-832a-45ac-928e-1280622cced9")
+		(uuid "bc65a334-6bd8-488f-99a0-268515d4cfba")
 	)
 	(no_connect
 		(at 417.83000000000004 163.83)
-		(uuid "d6767835-c8df-4417-8cd7-443f68c67d0a")
+		(uuid "5bae9647-8368-49e4-81d8-f02b58a4f968")
 	)
 	(no_connect
 		(at 417.83000000000004 176.53000000000003)
-		(uuid "38fa2ead-01c7-4ad6-86c8-ec216122b82a")
+		(uuid "e93f49a4-5125-47cd-aeb3-47eb40c1b845")
 	)
 	(no_connect
 		(at 118.11 237.49)
-		(uuid "f7ec66b1-007b-416f-bddc-6b0e38ec2bef")
+		(uuid "1f2a75df-12e1-47a7-a85c-e0fafa652687")
 	)
 	(no_connect
 		(at 77.47 236.22)
-		(uuid "f54a283e-3918-4af3-a915-f758811d7f22")
+		(uuid "5871fc02-1609-4f37-9cb0-4364095f8715")
 	)
 	(no_connect
 		(at 20.32 234.95)
-		(uuid "6a62101e-150b-401e-9447-7ce4363716f9")
+		(uuid "613bd8a3-7d8c-4125-8c49-d70fbecb43f1")
 	)
 	(no_connect
 		(at 20.32 240.03)
-		(uuid "1ddfc112-e44d-4ead-95d8-a2b645ee57a5")
+		(uuid "02b2c0d2-e182-4460-b2d8-7de8019ff74b")
 	)
 	(sheet_instances
 		(path "/"

@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "qt-py-esp32-s2")(type "KiCad")(uri "${KIPRJMOD}/qt-py-esp32-s2.kicad_sym")(options "")(descr ""))
+  (lib (name "qt-py-esp32-s2")(type "KiCad")(uri "/Users/dblab/Development/projects/kicad/projects/qt-py-esp32-s2/rebuild/qt-py-esp32-s2.kicad_sym")(options "")(descr ""))
 )

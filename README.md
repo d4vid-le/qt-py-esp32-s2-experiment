@@ -13,7 +13,7 @@ how accurately an AI agent can do it — and documenting every failure.
 | 0 | Inventory | ✅ 45 components, 34 nets, 159 pads; `.sch` vs `.brd` exact |
 | 1 | Ground truth in KiCad | ✅ board imported; netlist identical after 2 ref renames; 57/57 pin audit |
 | 2 | Schematic reconstruction | ✅ 45 components, 46 power symbols, 34/34 nets, 0 ERC errors |
-| 3 | PCB | ⏸ |
+| 3 | PCB | ✅ 45/45 placed, 17.78×20.701 outline, DRC run |
 | 4 | Routing | ⏸ |
 | 5 | Manufacturing | ⏸ |
 

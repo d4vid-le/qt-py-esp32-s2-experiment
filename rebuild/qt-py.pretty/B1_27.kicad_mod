@@ -1,0 +1,103 @@
+(footprint "B1_27"
+	(version 20260206)
+	(generator "pcbnew")
+		(layer "B.Cu")
+		(descr "TEST PAD")
+		(property "Reference" "REF**"
+			(at -0.635 1.016 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "2bea006a-5ba3-41bd-920f-88e833567a12")
+			(effects
+				(font
+					(size 1.1557 1.1557)
+					(thickness 0.1143)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Value" "B1_27"
+			(at -3.429 1.397 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "37626c29-e966-46e0-aa8a-8415744ed8ca")
+			(effects
+				(font
+					(size 0.810931 0.810931)
+					(thickness 0.001869)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bdbda8f-8b8e-40d0-9d17-01efdb5fcde6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3109d5b5-dd64-4d7e-9575-2ba814a60c55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 0.635)
+			(end 0 -0.635)
+			(stroke
+				(width 0.0024)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9963f7a5-46a1-42ee-8446-0f5122fc15ad")
+		)
+		(fp_line
+			(start -0.635 0)
+			(end 0.635 0)
+			(stroke
+				(width 0.0024)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "977b192a-86e6-4584-a14a-325554084139")
+		)
+		(fp_text user "${TP_SIGNAL_NAME}"
+			(at -0.635 -1.905 0)
+			(layer "Dwgs.User")
+			(uuid "6506d3e3-4124-43a5-8bb9-2041d767db56")
+			(effects
+				(font
+					(size 0.92 0.92)
+					(thickness 0.08)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "TP" smd roundrect
+			(at 0 0 180)
+			(size 1.27 1.27)
+			(layers "B.Cu" "B.Mask")
+			(roundrect_rratio 0.5)
+			(net "IO0")
+			(solder_mask_margin 0.0508)
+			(solder_paste_margin 0)
+			(thermal_bridge_angle 0)
+			(uuid "c9b5c056-e29c-42ff-af03-2b7350eb6895")
+		)
+		(embedded_fonts no)
+	)

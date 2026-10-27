@@ -33,3 +33,4 @@ rebuild/svg/
 rebuild/schematic.png
 rebuild/rebuild_netlist.csv
 renders/gate2-schematic.svg
+rebuild/gate3-2d.svg

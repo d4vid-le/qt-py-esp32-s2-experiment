@@ -36,8 +36,8 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 | 0 | Inventory | complete, human approved |
 | 1 | Ground truth in KiCad | **complete, human approved** |
 | 2 | Schematic reconstruction | **complete — awaiting review** |
-| 3 | PCB | not started |
-| 4 | Routing | not started |
+| 3 | PCB | **complete — awaiting review** |
+| 4 | Routing | **next** |
 | 5 | Manufacturing | not started |
 
 ## Decisions
@@ -68,7 +68,25 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 14. **Net renames** are limited to invalid/auto names: `3.3V`→`+3V3`,
     `!RESET`→`RESET_N`, `N$2/3/5/6/7`→functional names. Diff is by signature.
 15. **Footprints are assigned** from the Eagle package names for the 17
-    QT-Py-specific parts; the `qt-py` footprint library itself is Gate 3 work.
+    QT-Py-specific parts.
+16. **Testpoints renamed `GND0`/`VBAT0`** so KiCad annotation passes; the diff
+    normalizes them back to `GND`/`VBAT`.
+17. **Footprints were extracted from the imported board**, not redrawn.
+    `B1,27` → `B1_27`; pad names preserved exactly.
+18. **Castellation pad rotation restored** from Eagle `R90`; the importer stored
+    270°/90°, which made adjacent ovals overlap.
+19. **Eagle rules converted**: 6 mil clearance/width, 15.5 mil drill, 25%
+    annulus, 0.254 edge, 2 layers / 1.6 mm.
+
+## Closed pre-Gate-4 items
+
+- **Board creation — PASS.** 45/45 footprints, 34 nets, 159 pads assigned;
+  37 unmatched are NC/mechanical.
+- **Placement — PASS.** 45/45 exact x/y/rotation/layer vs the imported board.
+- **Outline — PASS.** 17.78 × 20.701 mm, 8 segments, 2 fiducials, no frame.
+- **DRC run** with Eagle rules: 236 violations (37 errors, 199 warnings),
+  111 unconnected (unrouted, expected).
+- **ERC** now 18 warnings, 0 errors (footprint-link warnings gone).
 
 ## Closed pre-Gate-3 items
 
@@ -93,12 +111,14 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 
 ## Open items
 
-- **`qt-py` footprint library** does not exist yet. 17 ERC
-  `footprint_link_issues` warnings. Build it from the Eagle packages in Gate 3.
-- **Annotation warning**: testpoints keep source refs `GND`/`VBAT` (no numeric
-  suffix). Renaming would break the exact 159/159 diff — deliberate trade-off.
-- **`lib_symbol_mismatch` x17**: whitespace/formatting only; pins and graphics
-  identical. Documented, not a connectivity issue.
+- **Testpoint copper polygon**: 2 `shorting_items`; the Eagle polygon is no-net
+  copper in KiCad. Needs conversion to a pad or an explicit exclusion.
+- **Castellation edge clearance**: 14 errors by design (pads on Edge.Cuts).
+- **USB-C NPTH clearance**: 5 errors from source hole/pad spacing.
+- **Schematic parity naming**: board nets lack the `/` prefix of schematic local
+  labels; 162 parity warnings, no connectivity difference.
+- **`lib_symbol_mismatch` x17**: 17 instances of the 12 custom definitions,
+  formatting-only. Not a separate defect.
 - **NEOPIX_PWR `pin_to_pin`**: intentional PWR_FLAG on a GPIO-switched rail.
 - **Importer defect**: Eagle user layers 200/201 (and 46/51) become `UNDEFINED`;
   the imported board is not DRC-loadable. Electrical data is intact. Affects only

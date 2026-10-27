@@ -27,6 +27,7 @@ NET = f"{REBUILD}/{LIBNAME}.net"
 CLI = "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
 
 POWER = {"GND", "+3V3", "+5V", "VBUS"}
+REF_RENAME = {"GND": "GND0", "VBAT": "VBAT0"}
 RENAME = {"!RESET": "RESET_N", "N$2": "RF_LNA", "N$3": "RF_ANT",
           "N$5": "XTAL_N_R", "N$6": "XTAL_P", "N$7": "XTAL_N",
           "3.3V": "+3V3"}
@@ -181,6 +182,8 @@ def main():
                 comps.append({"ref": ref, "sym": sym, "val": row["value"].strip(),
                               "fp": fp, "dnp": row["dnp"] == "yes"})
         # ESP32 gets its own area; everything else a 6-column grid
+        for c in comps:
+            c["ref"] = REF_RENAME.get(c["ref"], c["ref"])
         for i, c in enumerate(comps):
             if c["ref"] == "U$15":
                 c["x"], c["y"] = 400, 150
@@ -226,7 +229,7 @@ def main():
                 continue
             net = RENAME.get(r["net"], r["net"])
             target = power_conn if net in POWER else signal_conn
-            target.setdefault(r["ref"], {})[r["pad"]] = net
+            target.setdefault(REF_RENAME.get(r["ref"], r["ref"]), {})[r["pad"]] = net
         # power symbols and flags
         for p in pwr:
             power_conn.setdefault(p["ref"], {})["1"] = p["val"]
