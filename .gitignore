@@ -1,0 +1,5 @@
+# Third-party clone — pinned by commit SHA in design/STATE.md, not tracked here.
+reference/eagle/
+__pycache__/
+*.pyc
+.DS_Store
