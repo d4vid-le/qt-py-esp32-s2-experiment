@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-27T11:01:06",
+    "date": "2026-10-27T11:06:27",
     "ignored_checks": [
         {
             "description": "Via is not connected or connected on only one layer",
@@ -126,12 +126,12 @@
                     "uuid": "215f7455-51ef-47e6-a224-b70f9bc8cd91"
                 },
                 {
-                    "description": "Track [D+] on F.Cu, length 0.8038 mm",
+                    "description": "Pad A6 [D+] of X6 on F.Cu",
                     "pos": {
                         "x": 9.14,
                         "y": -14.362
                     },
-                    "uuid": "41d885cb-2409-4e37-acc1-00eecf87946f"
+                    "uuid": "a4d816e9-115e-4aef-86ec-cab9c35d8cf8"
                 }
             ],
             "severity": "error",
@@ -141,12 +141,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [A0] on B.Cu, length 0.7289 mm",
+                    "description": "Pad 2 [A0] of R2 on B.Cu",
                     "pos": {
-                        "x": 2.9898,
-                        "y": -16.1196
+                        "x": 3.5052,
+                        "y": -16.635
                     },
-                    "uuid": "3372b5fe-2a81-435b-97a3-6b9559962f09"
+                    "uuid": "11c2dcab-c6f3-4015-acd7-a4c2d5f85fb2"
                 },
                 {
                     "description": "Pad 24 [A0] of U$15 on B.Cu",
@@ -164,12 +164,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [SDA] on B.Cu, length 1.2700 mm",
+                    "description": "PTH pad 5 [SDA] of JP1",
                     "pos": {
-                        "x": 0.0,
+                        "x": 1.27,
                         "y": -7.8105
                     },
-                    "uuid": "741ee007-f5bc-4406-8fbd-5c96c04f4c7a"
+                    "uuid": "f17d47b5-78bc-4fa1-b1cd-b6cfa1212c34"
                 },
                 {
                     "description": "Pad 12 [SDA] of U$15 on B.Cu",
@@ -187,12 +187,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [TX] on B.Cu, length 1.2700 mm",
+                    "description": "PTH pad 7 [TX] of JP1",
                     "pos": {
-                        "x": 0.0,
+                        "x": 1.27,
                         "y": -2.7305
                     },
-                    "uuid": "66db3c86-3c69-43bb-a9ad-fc4a1dbd89e3"
+                    "uuid": "67b7096e-8a9e-4d20-8a35-d84cc55ebdcf"
                 },
                 {
                     "description": "Pad 10 [TX] of U$15 on B.Cu",

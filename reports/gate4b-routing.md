@@ -204,3 +204,54 @@ fully connected.
 The remaining 9 need either interactive routing or permission to use the
 reference **signal** routing as well (not just power/GND). The 0.65 mm USB-C
 NPTH reference is unchanged (Eagle `<hole drill="0.65"/>` at ±2.89, 2.47).
+
+## Option 2B — targeted reference replacement
+
+Replaced `+3V3` wholesale with the reference `3.3V` net, then added local
+`+3V3` pours over the two gaps. Result unchanged: **9 unconnected, 0 errors**.
+The two +3V3 gaps persisted.
+
+### Why: the authoritative source is 4-layer
+
+The task premise says 2-layer, but the Eagle source contradicts it:
+
+- `designrules/layerSetup = (1+2*15+16)` → four copper layers.
+- Imported board layer table: `F.Cu`, `In1.Cu`, `In2.Cu`, `B.Cu`.
+- Zones: `GND` on F.Cu/B.Cu/**In1.Cu**, `3.3V` on **In2.Cu**.
+
+The reference 3.3V net is connected through the **In2.Cu plane**, not through
+its F.Cu/B.Cu segments. Removing that plane for a 2-layer rebuild disconnects
+the net at the two gaps. Full reference signal routing cannot fix a missing
+plane.
+
+This is a source-stackup finding, not an extraction bug: there is no inner-layer
+**segment** to remap, only an inner-layer **zone**.
+
+### Final state: 9 unconnected / 0 errors
+
+| Item | Net | Cause |
+|---|---|---|
+| Zone B ↔ Zone F | GND | last pour island pair |
+| (3.505,−17.653)↔(7.455,−13.741) | +3V3 | bridged by In2.Cu plane in source |
+| (8.474,−6.595)↔(5.739,−9.501) | +3V3 | bridged by In2.Cu plane in source |
+| U$15.26 ↔ D+ track | D+ | QFN escape |
+| A0 track ↔ U$15.24 | A0 | QFN escape |
+| SDA track ↔ U$15.12 | SDA | QFN escape |
+| TX track ↔ U$15.10 | TX | QFN escape |
+| U$15.22 ↔ JP3.1 | RX | long run |
+| JP3.3 ↔ U$15.41 | MISO | long run |
+
+### Routing provenance
+
+- **Model-routed (Freerouting):** A1, A2, A3, CC1, CC2, D−, IO10_DBLTAP, MOSI,
+  NEOPIX, NEOPIX_PWR, RESET_N, RF_ANT, RF_LNA, SCK, SCL, SCL1, SDA1, VBAT,
+  VDD3P3, VDD_SPI, XTAL_N, XTAL_N_R, XTAL_P.
+- **Reference-assisted:** GND, +3V3, VBUS, IO0 (power/GND mesh from the
+  imported board, protected in the DSN) plus 7 stitch vias.
+- **Not completed:** the 9 above.
+
+USB skew remains 3.51 mm; batch 5 not reached.
+
+**Both option 1, option 2 and option 2B are exhausted on 2 layers.** The
+remaining 9 require either 4 layers (source-faithful) or interactive routing.
+No fabrication, no ordering, no waivers.
