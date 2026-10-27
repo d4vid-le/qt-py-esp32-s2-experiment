@@ -119,3 +119,41 @@ these mechanical holes, so the Eagle package is the authoritative source.
 **0** in this gate. I did not open the GUI.
 
 **Stopped before Gate 5. No Gerbers or fabrication.**
+
+## Gate 4B — option 1 blocker analysis
+
+The GND pour is **14 filled islands** (5 F.Cu, 9 B.Cu). Seven stitch vias at
+points inside both main fills reduced unconnected 20 → 14 with 0 errors.
+
+### Specific blockers identified
+
+| Area | Blocking copper | Why it separates GND |
+|---|---|---|
+| C7/Q2/C4 | `+3V3` B.Cu (4.0108,−7.9248)→(4.8361,−8.7501) w0.254 | runs through the C7/C4 island gap |
+| C7/Q2/C4 | `TX` F.Cu (2.95,−8.59)→(3.96,−8.59)→(4.98,−9.60) | cuts the F.Cu pour near Q2.B |
+| C7/Q2/C4 | `SCL` B.Cu x=2.42 vertical; `RX` B.Cu x=3.12 vertical | bound the B.Cu island on the left |
+| X6.A1B12 | `D+` B.Cu (12.09,−14.13)→(12.09,−12.64); `D−` B.Cu (11.69,−12.64)→(11.69,−13.99); `+3V3` B.Cu x=12.49 | separate the pad from the B.Cu pour |
+| LED1.4/U$15.57 | `+3V3` B.Cu (12.57,−6.92)→(12.57,−11.87); `+3V3` F.Cu (11.81,−8.57)→(11.81,−7.98) | cut both pours |
+
+**Comparison with the original:** the same `+3V3` diagonal exists in Adafruit's
+board. Their GND remains connected because the Eagle stackup uses the inner
+layers (`In1.Cu`/`In2.Cu` GND zones). On 2 layers the identical geometry
+fragments the pour. This is the structural reason the reference board does not
+translate directly.
+
+### Surgical attempt (reverted)
+
+Moved the `+3V3` B.Cu diagonal to a 3-segment detour at x=4.5:
+
+- 2 clearance errors to `L1.2` (0.0588 mm vs 0.1524 mm required)
+- unconnected unchanged at 14
+
+Reverted. The corridor is **0.55 mm** (GND island edge x≈4.13 to L1 pad edge
+x≈4.68). A 0.254 mm Power track plus 2 × 0.1524 mm clearance needs **0.559 mm**.
+It does not fit without necking the +3V3 track below its net class or moving L1.
+
+### Status
+
+**14 unconnected / 0 DRC errors.** Stopped per the blocker rule before option 2.
+No unconnected waiver, no new DRC waiver. The 0.65 mm USB-C NPTH reference is
+unchanged (Eagle `<hole drill="0.65"/>` at ±2.89, 2.47).
