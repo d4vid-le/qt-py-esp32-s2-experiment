@@ -34,8 +34,8 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 | Gate | Name | Status |
 |---|---|---|
 | 0 | Inventory | complete, human approved |
-| 1 | Ground truth in KiCad | **complete — awaiting review** |
-| 2 | Schematic reconstruction | not started |
+| 1 | Ground truth in KiCad | **complete, human approved** |
+| 2 | Schematic reconstruction | **next — preconditions met** |
 | 3 | PCB | not started |
 | 4 | Routing | not started |
 | 5 | Manufacturing | not started |
@@ -53,19 +53,33 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 7. **Physical BOM** = 45 components / 26 groups, excluding 46 power symbols,
    2 fiducials and 1 frame. Raw group count is 32.
 8. **Netlist diff is name-agnostic**; reference renames are reported separately.
+9. **No schematic import.** Human decision (Option 2): board-only import.
+   Gate 2 is a from-scratch reconstruction. A GUI import remains available later
+   as a recorded human intervention if symbol/wire mapping gets stuck.
+10. **U$15 is an ESP32-S2FN4R2** (QFN56 7×7, 4 MB flash + 2 MB PSRAM).
+    Device name `QFN54` is a library label error; package and 57 pads are correct.
+11. **`nets.csv` distinguishes** `unique_pins`, `pad_count`, `power_pins`, and a
+    pad-only signature. `pin_count` was removed as ambiguous.
+
+## Closed pre-Gate-2 items
+
+- **U$15 pin audit — PASS.** 57/57 pads match the datasheet; 33 connected,
+  24 unconnected. See `reports/gate1-u15-audit.md` and `design/u15-pinmap.csv`.
+- **MCP/SWIG backend — healthy.** `get_board_info`/`get_layer_list` succeed on a
+  known-good board. The authoritative import fails to load because of its
+  `UNDEFINED` layers, not because SWIG is broken.
+- **Viz copy equivalence — confirmed.** Normalized original is byte-identical to
+  the viz copy; nets/pads/tracks unchanged.
+- **License — CC BY-SA 3.0 Unported**, verified in `reference/eagle/license.txt`
+  and linked from the README.
 
 ## Open items
 
-- **Schematic import** is GUI-only (`File → Import → Non-KiCad Project`).
-  Board-only import is complete. Decision needed: one human GUI step, or accept
-  board-only evidence for Gate 1.
-- **`U$15` pin audit** must be completed before Gate 2 starts: symbol
-  `ESP-32-S2`, device `QFN54`, package `QFN56_7X7`, 57 pads. Verify every pin
-  against the ESP32-S2 datasheet; stop and ask if it cannot be resolved.
 - **Importer defect**: Eagle user layers 200/201 (and 46/51) become `UNDEFINED`;
-  the imported board is not DRC-loadable. Electrical data is intact.
-- **`pcbnew.LoadBoard()` is broken in this environment** — use the S-expression
-  extractor.
+  the imported board is not DRC-loadable. Electrical data is intact. Affects only
+  reference/visual use, not the rebuild.
+- **`pcbnew.LoadBoard()` is broken outside KiCad** — use the S-expression
+  extractor. The MCP's own SWIG backend is unaffected.
 
 ## Tooling
 

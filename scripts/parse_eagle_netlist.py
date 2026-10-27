@@ -206,13 +206,24 @@ def parse(sch_path, outdir):
             w.writerow([i + 1, len(ps), " ".join(refs), value, ds, dev, pkg,
                         ps[0]["library"], k, note])
 
-    # nets.csv — one row per net with its canonical signature (extra, for diffing)
+    # nets.csv — one row per net.
+    # Column semantics are deliberately explicit because a net can have more
+    # pad contacts than unique pins (one pin -> several pads) and can contain
+    # package-less power symbols that are not pads at all.
+    pad_rows = defaultdict(list)
+    for r in rows:
+        if r["pad"]:
+            pad_rows[r["net"]].append(f'{r["ref"]}.{r["pad"]}')
     with open(outdir / "nets.csv", "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["net", "net_class", "pin_count", "signature", "signature_sha1"])
+        w.writerow(["net", "net_class", "unique_pins", "pad_count", "power_pins",
+                    "pad_signature", "pad_signature_sha1"])
         for nname in sorted(nets):
-            sig = sig_for[nname]
-            w.writerow([nname, net_numbers.get(nname) or "", len(nets[nname]), sig,
+            pads = sorted(pad_rows.get(nname, []))
+            power = sum(1 for r in rows if r["net"] == nname and not r["pad"])
+            sig = "|".join(pads)
+            w.writerow([nname, net_numbers.get(nname) or "", len(nets[nname]),
+                        len(pads), power, sig,
                         hashlib.sha1(sig.encode()).hexdigest()[:12]])
 
     # unconnected.csv

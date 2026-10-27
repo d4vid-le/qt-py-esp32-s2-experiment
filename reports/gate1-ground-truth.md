@@ -207,21 +207,63 @@ outline, castellations, USB-C, antenna, components, original routing — renders
 This is evidence that the import is geometrically sound, not that the board is
 manufacturable as imported.
 
-## Blocked: schematic import
+## Schematic import — deliberately not done
 
 `kicad-cli` has **no schematic importer** (`sch` supports only erc/export/upgrade).
-KiCad's Eagle project import is GUI-only: **File → Import → Non-KiCad Project**.
+KiCad's Eagle project import is GUI-only.
 
-Options:
+**Decision (human, Gate 1 review): Option 2 — board-only import.** No GUI import.
+Connectivity is already proven from two independent sources, and Gate 2 must be a
+from-scratch reconstruction, not a copy of an imported schematic. A GUI import
+remains available later as a recorded human intervention if symbol/wire mapping
+gets stuck.
 
-1. **Human does the GUI import** into `reference/imported-kicad/eagle-project/`,
-   recorded as 1 human intervention. Enables visual schematic comparison and a
-   KiCad-exported schematic netlist.
-2. **Accept board-only import** for Gate 1. Connectivity is already proven
-   identical; the schematic visual is not needed until Gate 2 review.
+## MCP/SWIG backend test (blocking item closed)
 
-Gate 2 will not start either way until this is reviewed.
+The earlier `pcbnew.LoadBoard()` failure was suspected to affect the MCP server's
+SWIG backend. It does not.
+
+| Test | Result |
+|---|---|
+| `get_backend_state` | `swig`, board loaded, IPC connected |
+| `check_kicad_ui` | KiCad running, IPC connected |
+| `get_board_info` on known-good board | **success** — 30 × 20 mm, 24 layers |
+| `get_layer_list` on known-good board | **success** |
+| `open_board` on authoritative import | **fail** — “LoadBoard failed or returned an unusable board proxy” |
+| `open_board` on viz copy | **success** — 17.83 × 20.75 mm, 26 layers |
+
+Conclusion: the SWIG backend is functional. The failure is specific to the
+imported file's `UNDEFINED` layer items. No IPC switch is required for Gate 2.
+The one standalone-script limitation (`pcbnew.LoadBoard` outside KiCad) stands and
+is documented; the S-expression extractor is the workaround.
+
+## Viz copy equivalence (confirmed)
+
+Moving `UNDEFINED` → `Dwgs.User` changes graphics layers only:
+
+- Normalized original is **byte-identical** to the viz copy.
+- 50 footprints, 198 pad declarations, 418 track segments, 44 via references,
+  13 zone references — identical counts.
+- Netlist extracted from both: **34/34 nets, 159/159 pads, identical**.
+- Authoritative import remains untouched.
+
+## Data hygiene: `nets.csv`
+
+`pin_count` was ambiguous (unique pins vs pad contacts). Replaced with explicit
+columns:
+
+`net, net_class, unique_pins, pad_count, power_pins, pad_signature, pad_signature_sha1`
+
+Example: `+5V` = 9 unique pins, 7 pads, 3 power symbols; `3.3V` = 33 unique
+pins, 24 pads, 10 power symbols. `pad_signature` matches the diff tool exactly.
+
+## License verification
+
+`reference/eagle/license.txt` is **Creative Commons Attribution-ShareAlike 3.0
+Unported** (CC BY-SA 3.0), confirmed by reading the file. The repo README also
+states CC BY-SA. The README now links the license text and pins the claim to the
+source repository.
 
 ## Human interventions at Gate 1
 
-**0** so far. The GUI import, if requested, will be the first.
+**0.** No GUI schematic import, per the Option 2 decision.

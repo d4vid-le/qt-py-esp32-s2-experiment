@@ -1,0 +1,58 @@
+eagle_symbol_pin,eagle_pad,datasheet_pin,datasheet_name,net,function,name_check,note
+VDDA@0,1,1,VDDA,3.3V,Analog power supply,match,duplicate symbol name disambiguated by @N suffix; nomenclature VDDA@0 -> VDDA
+LNA_IN,2,2,LNA_IN,N$2,RF input and output,match,
+VDD3P3@0,3,3,VDD3P3,VDD3P3,Analog power supply,match,duplicate symbol name disambiguated by @N suffix; nomenclature VDD3P3@0 -> VDD3P3
+VDD3P3@1,4,4,VDD3P3,VDD3P3,Analog power supply,match,duplicate symbol name disambiguated by @N suffix; nomenclature VDD3P3@1 -> VDD3P3
+IO0,5,5,GPIO0,IO0,"RTC_GPIO0,; GPIO0",match,nomenclature IO0 -> GPIO0
+IO1,6,6,GPIO1,(unconnected),"RTC_GPIO1,; GPIO1,; TOUCH1,; ADC1_CH0",match,nomenclature IO1 -> GPIO1
+IO2,7,7,GPIO2,(unconnected),"RTC_GPIO2,; GPIO2,; TOUCH2,; ADC1_CH1",match,nomenclature IO2 -> GPIO2
+IO3,8,8,GPIO3,(unconnected),"RTC_GPIO3,; GPIO3,; TOUCH3,; ADC1_CH2",match,nomenclature IO3 -> GPIO3
+IO4,9,9,GPIO4,(unconnected),"RTC_GPIO4,; GPIO4,; TOUCH4,; ADC1_CH3",match,nomenclature IO4 -> GPIO4
+IO5,10,10,GPIO5,TX,"RTC_GPIO5,; GPIO5,; TOUCH5,; ADC1_CH4",match,nomenclature IO5 -> GPIO5
+IO6,11,11,GPIO6,SCL,"RTC_GPIO6,; GPIO6,; TOUCH6,; ADC1_CH5",match,nomenclature IO6 -> GPIO6
+IO7,12,12,GPIO7,SDA,"RTC_GPIO7,; GPIO7,; TOUCH7,; ADC1_CH6",match,nomenclature IO7 -> GPIO7
+IO8,13,13,GPIO8,A3,"RTC_GPIO8,; GPIO8,; TOUCH8,; ADC1_CH7",match,nomenclature IO8 -> GPIO8
+IO9,14,14,GPIO9,A2,"RTC_GPIO9,; GPIO9,; TOUCH9,; ADC1_CH8,; FSPIHD",match,nomenclature IO9 -> GPIO9
+IO10,15,15,GPIO10,IO10_DBLTAP,"RTC_GPIO10,; GPIO10,; TOUCH10,; ADC1_CH9,; FSPICS0,; FSPIIO4",match,nomenclature IO10 -> GPIO10
+IO11,16,16,GPIO11,(unconnected),"RTC_GPIO11,; GPIO11,; TOUCH11,; ADC2_CH0,; FSPID,; FSPIIO5",match,nomenclature IO11 -> GPIO11
+IO12,17,17,GPIO12,(unconnected),"RTC_GPIO12,; GPIO12,; TOUCH12,; ADC2_CH1,; FSPICLK,; FSPIIO6",match,nomenclature IO12 -> GPIO12
+IO13,18,18,GPIO13,(unconnected),"RTC_GPIO13,; GPIO13,; TOUCH13,; ADC2_CH2,; FSPIQ,; FSPIIO7",match,nomenclature IO13 -> GPIO13
+IO14,19,19,GPIO14,(unconnected),"RTC_GPIO14,; GPIO14,; TOUCH14,; ADC2_CH3,; FSPIWP,; FSPIDQS",match,nomenclature IO14 -> GPIO14
+VDD3P3_RTC,20,20,VDD3P3_RTC,3.3V,Analog power supply,match,
+XTAL_32K_P,21,21,XTAL_32K_P,(unconnected),"RTC_GPIO15,; GPIO15,; U0RTS,; ADC2_CH4,; XTAL_32K_P",match,
+XTAL_32K_N,22,22,XTAL_32K_N,RX,"RTC_GPIO16,; GPIO16,; U0CTS,; ADC2_CH5,; XTAL_32K_N",match,
+DAC_1,23,23,DAC_1,A1,"RTC_GPIO17,; GPIO17,; U1TXD,; ADC2_CH6,; DAC_1",match,
+DAC_2,24,24,DAC_2,A0,"RTC_GPIO18,; GPIO18,; U1RXD,; ADC2_CH7,; DAC_2,",match,
+IO19,25,25,GPIO19,D-,"RTC_GPIO19,; GPIO19,; U1RTS,; ADC2_CH8,; CLK_OUT2,; USB_D-",match,nomenclature IO19 -> GPIO19
+IO20,26,26,GPIO20,D+,"RTC_GPIO20,; GPIO20,; U1CTS,; ADC2_CH9,; CLK_OUT1,; USB_D+",match,nomenclature IO20 -> GPIO20
+VDD3P3_RTC_IO,27,27,VDD3P3_RTC_IO,3.3V,Input power supply for RTC IO,match,
+IO21,28,28,GPIO21,(unconnected),"RTC_GPIO21,; GPIO21",match,nomenclature IO21 -> GPIO21
+SPICS1,29,29,SPICS1,(unconnected),"SPICS1,; GPIO26",match,
+VDD_SPI,30,30,VDD_SPI,VDD_SPI,Output power supply: 1.8 V or the same voltage as VDD3P3_RTC_IO,match,
+SPIHD,31,31,SPIHD,(unconnected),"SPIHD,; GPIO27",match,
+SPIWP,32,32,SPIWP,(unconnected),"SPIWP,; GPIO28",match,
+SPICS0,33,33,SPICS0,(unconnected),"SPICS0,; GPIO29",match,
+SPICLK,34,34,SPICLK,(unconnected),"SPICLK,; GPIO30",match,
+SPIQ,35,35,SPIQ,(unconnected),"SPIQ,; GPIO31",match,
+SPID,36,36,SPID,(unconnected),"SPID,; GPIO32",match,
+IO33,37,37,GPIO33,(unconnected),"SPIIO4,; GPIO33,; FSPIHD",match,nomenclature IO33 -> GPIO33
+IO34,38,38,GPIO34,(unconnected),"SPIIO5,; GPIO34,; FSPICS0",match,nomenclature IO34 -> GPIO34
+IO35,39,39,GPIO35,MOSI,"SPIIO6,; GPIO35,; FSPID",match,nomenclature IO35 -> GPIO35
+IO36,40,40,GPIO36,SCK,"SPIIO7,; GPIO36,; FSPICLK",match,nomenclature IO36 -> GPIO36
+IO37,41,41,GPIO37,MISO,"SPIDQS,; GPIO37,; FSPIQ",match,nomenclature IO37 -> GPIO37
+IO38,42,42,GPIO38,NEOPIX_PWR,"GPIO38,; FSPIWP",match,nomenclature IO38 -> GPIO38
+MTCK,43,43,MTCK,NEOPIX,"MTCK,; GPIO39,; CLK_OUT3",match,
+MTD0,44,44,MTDO,SCL1,"MTDO,; GPIO40,; CLK_OUT2",match,nomenclature MTD0 -> MTDO
+VDD3P3_CPU,45,45,VDD3P3_CPU,3.3V,Input power supply for CPU IO,match,
+MTDI,46,46,MTDI,SDA1,"MTDI,; GPIO41,; CLK_OUT1",match,
+MTMS,47,47,MTMS,(unconnected),"MTMS,; GPIO42",match,
+U0TXD,48,48,U0TXD,(unconnected),"U0TXD,; GPIO43,; CLK_OUT1",match,
+U0RXD,49,49,U0RXD,(unconnected),"U0RXD,; GPIO44,; CLK_OUT2",match,
+IO45,50,50,GPIO45,(unconnected),GPIO45,match,nomenclature IO45 -> GPIO45
+VDDA@1,51,51,VDDA,3.3V,Analog power supply,match,duplicate symbol name disambiguated by @N suffix; nomenclature VDDA@1 -> VDDA
+XTAL_N,52,52,XTAL_N,N$5,External crystal output,match,
+XTAL_P,53,53,XTAL_P,N$6,External crystal input,match,
+VDDA@2,54,54,VDDA,3.3V,Analog power supply,match,duplicate symbol name disambiguated by @N suffix; nomenclature VDDA@2 -> VDDA
+IO46,55,55,GPIO46,(unconnected),GPIO46,match,nomenclature IO46 -> GPIO46
+CHIP_PU,56,56,CHIP_PU,!RESET,"High: on, enables the chip.; Low: off, the chip powers off.",match,
+GND@0,57,57,GND,GND,Ground,match,duplicate symbol name disambiguated by @N suffix; nomenclature GND@0 -> GND; exposed pad (EPAD)

@@ -7,7 +7,7 @@ Final report is written after Gate 5. This file tracks results as gates close.
 | Gate | Result | Evidence |
 |---|---|---|
 | 0 Inventory | 45 components, 34 nets, 187 connected pins, 159 pads; `.sch` vs `.brd` 0 mismatches | `reports/gate0-inventory.md` |
-| 1 Ground truth | Board imported; 34/34 nets and 159/159 pads match after 2 ref renames | `reports/gate1-ground-truth.md` |
+| 1 Ground truth | Board imported; 34/34 nets and 159/159 pads match after 2 ref renames; U$15 audit 57/57 | `reports/gate1-ground-truth.md`, `reports/gate1-u15-audit.md` |
 | 2 Schematic | not started | — |
 | 3 PCB | not started | — |
 | 4 Routing | not started | — |
@@ -37,6 +37,10 @@ Gate 0: 0. Gate 1: 0 (schematic GUI import pending decision).
   imported board cannot be opened by DRC; `kicad-cli` has no schematic importer.
 - Parser bug caught by independent cross-check: compound pads (`"7 7C"`) were
   initially treated as one pad, producing 17 false mismatches.
+- Parser bug caught by sequence check: a page-footer `12` was read as a pin
+  number in the datasheet table; requiring sequential pins fixed it.
+- U$15 is an ESP32-S2FN4R2; the Eagle device label `QFN54` is wrong but the
+  57-pad QFN56 package and every pin name are correct.
 
 ## Honesty section
 
