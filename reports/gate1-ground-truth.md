@@ -191,6 +191,22 @@ Downloaded to `reference/assets/` (gitignored, not redistributed):
 The `/assets/110384` URLs return HTML; the real PNGs are on
 `cdn-learn.adafruit.com` and were resolved from the downloads page.
 
+## Visual check
+
+The authoritative import cannot be rendered either — same `UNDEFINED` failure.
+A **visualization-only copy** was made by moving all 5,385 unmatched graphics to
+`Dwgs.User`:
+
+- authoritative: `reference/imported-kicad/qt-py-esp32-s2.kicad_pcb` (untouched)
+- viz copy: `reference/imported-kicad/qt-py-esp32-s2-viz.kicad_pcb`
+- render: `renders/gate1-imported-top.png`
+
+The two artwork footprints (`QTPY_ESP32_TOP`, `QTPYS2_BOT`) are on `Dwgs.User`
+in the copy, so they do **not** appear in the 3D render. Everything else —
+outline, castellations, USB-C, antenna, components, original routing — renders.
+This is evidence that the import is geometrically sound, not that the board is
+manufacturable as imported.
+
 ## Blocked: schematic import
 
 `kicad-cli` has **no schematic importer** (`sch` supports only erc/export/upgrade).
