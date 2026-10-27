@@ -37,7 +37,7 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 | 1 | Ground truth in KiCad | **complete, human approved** |
 | 2 | Schematic reconstruction | **complete — awaiting review** |
 | 3 | PCB | **complete — awaiting review** |
-| 4 | Routing | **complete with shortfall — 20 unconnected** |
+| 4 | Routing | **Gate 4B attempted — blocked at 20 unconnected** |
 | 5 | Manufacturing | not started |
 
 ## Decisions
@@ -124,6 +124,14 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
   the viz copy; nets/pads/tracks unchanged.
 - **License — CC BY-SA 3.0 Unported**, verified in `reference/eagle/license.txt`
   and linked from the README.
+
+## Gate 4B (not complete)
+
+Attempted six completion strategies (via-in-pad, adjacent vias, original GND
+mesh, hybrid power/GND replacement, targeted power replacement, Freerouting).
+Every attempt either left unconnected items or introduced 8–32 shorts.
+Final board remains the clean Gate 4 state: **0 errors, 20 unconnected**.
+Details: `reports/gate4b-routing.md`.
 
 ## Open items
 
