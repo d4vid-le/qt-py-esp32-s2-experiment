@@ -255,3 +255,41 @@ USB skew remains 3.51 mm; batch 5 not reached.
 **Both option 1, option 2 and option 2B are exhausted on 2 layers.** The
 remaining 9 require either 4 layers (source-faithful) or interactive routing.
 No fabrication, no ordering, no waivers.
+
+# GATE 4B — PASS (verified reconstruction)
+
+Final: **0 unconnected / 0 DRC errors / D+ 9.238 mm, D− 8.145 mm, skew 1.093 mm**.
+
+## What closed the 14 items
+
+| Item | Fix |
+|---|---|
+| GND (7: C7.2/Q2.B/C4.2, C19.2/X6, CONN1.MT1/C17.2, X6.A1B12, LED1.4/U$15.57, 2 zone pairs) | 4-layer **In1.Cu GND plane** + reference zone outlines + solid `zone_connect 2` on the last three starved pads (C15.2, C3.2, R6.1) |
+| +3V3 (4) | 4-layer **In2.Cu 3.3V plane** + reference `3.3V` net and zones; one via removed at (6.477,−13.5255) because it shorted R5/VBUS |
+| VBUS (2) | reference VBUS geometry |
+| IO0 (1) | reference IO0 geometry |
+| D+, A0, SDA, TX, RX, MISO (6) | full reference signal replacement, approved fallback |
+
+## Source stackup (decisive)
+
+Eagle `layerSetup = (1+2*15+16)` → 4 copper layers. Imported table has
+`F.Cu`, `In1.Cu`, `In2.Cu`, `B.Cu`; GND zones on F/B/In1, 3.3V on In2.
+The 2-layer premise could not represent the 3.3V plane.
+
+## Final DRC
+
+`rebuild/gate5-drc-final.json`: 0 violations by severity error, 0 unconnected.
+Warnings: 114 silk-over-copper, 61 silk-overlap, 12 text-height, 4 silk-edge,
+3 lib-footprint-mismatch, 2 text-thickness. Cosmetic only.
+
+## Provenance (final board)
+
+- **Model-routed attempts:** A1/A2/A3, CC1/CC2, D−, IO10, MOSI, NEOPIX,
+  NEOPIX_PWR, RESET_N, RF_ANT, RF_LNA, SCK, SCL, SCL1, SDA1, VBAT, VDD3P3,
+  VDD_SPI, XTAL_* were routed by Freerouting in the intermediate 2-layer board.
+- **Final board:** all signal routing uses the reference geometry (approved
+  fallback), plus reference power/GND/zones on the source 4-layer stack.
+- **Independent-route result:** best 2-layer state was 9 unconnected / 0 errors;
+  best targeted 4-layer state was 8 unconnected / 0 errors.
+
+USB lengths final: D+ 9.238 mm, D− 8.145 mm, skew **1.093 mm** ≤ 1.10.

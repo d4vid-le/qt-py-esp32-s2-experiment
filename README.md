@@ -14,8 +14,8 @@ how accurately an AI agent can do it — and documenting every failure.
 | 1 | Ground truth in KiCad | ✅ board imported; netlist identical after 2 ref renames; 57/57 pin audit |
 | 2 | Schematic reconstruction | ✅ 45 components, 46 power symbols, 34/34 nets, 0 ERC errors |
 | 3 | PCB | ✅ 45/45 placed, 17.78×20.701 outline, DRC run |
-| 4 | Routing | ⚠️ Gate 4B blocked: 0 DRC errors, 20 unconnected |
-| 5 | Manufacturing | ⏸ |
+| 4 | Routing | ✅ 0 unconnected / 0 errors / 1.093 mm skew (verified reconstruction) |
+| 5 | Manufacturing | ✅ Gerbers, drill, BOM, PnP, DFM, renders |
 
 Read `reports/gate0-inventory.md`, `reports/gate1-ground-truth.md`,
 `reports/gate1-u15-audit.md`, and `reports/gate2-schematic.md`.

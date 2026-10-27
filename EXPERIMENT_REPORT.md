@@ -10,8 +10,8 @@ Final report is written after Gate 5. This file tracks results as gates close.
 | 1 Ground truth | Board imported; 34/34 nets and 159/159 pads match after 2 ref renames; U$15 audit 57/57 | `reports/gate1-ground-truth.md`, `reports/gate1-u15-audit.md` |
 | 2 Schematic | 45 components, 46 power symbols, 34/34 nets, 159/159 pads, 0 ERC errors | `reports/gate2-schematic.md` |
 | 3 PCB | 45/45 placed, 34 nets, 159 pads, outline 17.78×20.701, DRC run | `reports/gate3-pcb.md` |
-| 4 Routing | 0 DRC errors, 20 unconnected; Gate 4B completion blocked | `reports/gate4-routing.md`, `reports/gate4b-routing.md` |
-| 5 Manufacturing | not started | — |
+| 4 Routing | **PASS (verified reconstruction)** 0 unconnected / 0 errors / 1.093 mm skew | `reports/gate4b-routing.md` |
+| 5 Manufacturing | **outputs generated**, nothing fabricated | `reports/gate5-manufacturing.md` |
 
 ## Netlist diff
 

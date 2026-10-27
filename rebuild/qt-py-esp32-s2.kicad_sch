@@ -5387,7 +5387,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a5544e2-bdc1-4d32-a1b7-4fbbc96587b5")
 		(property "Reference" "C7"
 			(at 70.485 121.92 0)
@@ -5468,7 +5468,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "77dfb9a0-0497-457f-ae2d-62ed55bf8c81")
 		(property "Reference" "C9"
 			(at 111.125 121.92 0)

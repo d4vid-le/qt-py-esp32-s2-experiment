@@ -1,0 +1,59 @@
+PCB statistics report
+=====================
+- Date: Tuesday, October 27, 2026 at 01:43:44 PM
+- Project: qt-py-esp32-s2
+- Board name: qt-py-esp32-s2
+
+Board
+-----
+- Width: 17.7800 mm
+- Height: 20.7010 mm
+- Area: 362.515 mm²
+- Front copper area: 358.056 mm²
+- Back copper area: 347.502 mm²
+- Min track clearance: 0.1523 mm
+- Min track width: 0.1524 mm
+- Min drill diameter: 0.3937 mm
+- Board stackup thickness: 1.6000 mm
+
+- Front footprint area: 156.839 mm²
+- Back footprint area: 170.721 mm²
+- Front component density: 43.26 %
+- Back component density: 47.09 %
+Pads
+----
+- Through hole: 32
+- SMD: 164
+- Connector: 0
+- NPTH: 2
+- Castellated: 0
+- Press-fit: 0
+
+Vias
+----
+- Through vias: 43
+- Blind vias: 0
+- Buried vias: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |          5 |        23 |    28 |
+|Unspecified:  |         11 |         8 |    19 |
+|Total:        |         16 |        31 |    47 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|    31 | Round | 0.4000 mm | 0.4000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    28 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    11 | Round | 0.3937 mm | 0.3937 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     4 | Round | 0.6000 mm | 0.6000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0.6500 mm | 0.6500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round | 0.5000 mm | 0.5000 mm |    PTH |     Via |        F.Cu |       B.Cu |
