@@ -5,12 +5,12 @@
 Reconstruct Adafruit QT Py ESP32-S2 (product 5325, **Rev C**) in KiCad from the
 authoritative Eagle source. Experiment only — no fabrication, no ordering.
 
-## Hard rules (from the task)
+## Hard rules
 
-- Work only in `projects/qt-py-esp32-s2/`.
-- `reference/` is evidence; `reference/eagle/` is never modified.
+- Work only in this repository.
+- `reference/` is evidence and is gitignored; `reference/eagle/` is never modified.
 - Netlist ground truth comes from parsing the Eagle `.sch`, not from PDFs.
-- No routing before the netlist gate passes and the human approves.
+- No routing before the netlist gate passes and a human approves.
 - No import of the Eagle design into `rebuild/`.
 - No `kicad-sch-api`.
 - Report failures honestly; never fake success.
@@ -26,16 +26,15 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 | Schematic | `Adafruit QT Py ESP32-S2 Rev C.sch` |
 | Board | `Adafruit QT Py ESP32-S2 Rev C.brd` |
 | Eagle format | 9.6.2 |
-| .sch sha256 | `808a72e62ccfe99e7be6f4bd7102395402d270f19298865e63b8bd5a6a23d5f5` |
-| .brd sha256 | `8bf3bbd36baa60cdb2e61accf4954786f0b25854471922261bcc58b5cf3bfb2c` |
-| Pinout PDF sha256 | see `reference/SHA256SUMS` |
+| Checksums | `design/SHA256SUMS` |
+| Local fetch | `scripts/fetch-reference.sh` |
 
 ## Gate status
 
 | Gate | Name | Status |
 |---|---|---|
-| 0 | Inventory | **complete — awaiting human approval** |
-| 1 | Ground truth in KiCad | not started |
+| 0 | Inventory | complete, human approved |
+| 1 | Ground truth in KiCad | **complete — awaiting review** |
 | 2 | Schematic reconstruction | not started |
 | 3 | PCB | not started |
 | 4 | Routing | not started |
@@ -43,33 +42,34 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 
 ## Decisions
 
-1. **Rev C is the target.** Three schematic variants exist (base, uFL, Rev C).
-   Rev C was confirmed by evidence, not just filename — see `design/gate0-inventory.md`.
-2. **Nets are compared by canonical pad signature**, not by name. Eagle
-   auto-names nets (`N$2`, `N$3`…); KiCad will name them differently. The
-   signature is the sorted list of `ref.pad` on each net.
-3. **Multi-pad pins are expanded.** Eagle maps one symbol pin to several pads
-   (`"7 7C"`); each physical pad is a separate row so pad-level diffs are exact.
-4. **Extra CSVs** beyond the required three: `nets.csv` (signatures),
-   `unconnected.csv` (unused symbol pins). Both exist to make later diffs
-   mechanical rather than judgement calls.
-5. **Power symbols are not BOM components.** They are kept in `bom.csv` with
-   `kind=symbol` so the filter is explicit and auditable.
+1. **Rev C is the target** — confirmed by antenna rotation R270→R180 and the
+   `VDD_SPI` split, not just the filename.
+2. **Connectivity is compared by canonical pad signature**, never by net name.
+3. **Multi-pad pins are expanded** (`"7 7C"` → two pads).
+4. **`C7` / `C9` are DNP**, value TBD, antenna-match placeholders. Not guessed.
+5. **Board size uses the Eagle outline** (17.78 × 20.701 mm). The product page's
+   21.8 × 17.9 mm is assumed to include USB-C overhang; verify at Gate 3.
+6. **`R3` = 0 Ω is preserved** and flagged as a source quirk.
+7. **Physical BOM** = 45 components / 26 groups, excluding 46 power symbols,
+   2 fiducials and 1 frame. Raw group count is 32.
+8. **Netlist diff is name-agnostic**; reference renames are reported separately.
 
-## Assumptions / open questions
+## Open items
 
-- `C7` and `C9` have value **TBD** in the source. They sit in the antenna
-  matching network and are assumed to be unpopulated tuning placeholders.
-  **Needs human confirmation before Gate 3 BOM.**
-- PCB outline in Eagle is **17.78 × 20.701 mm**, while the product page states
-  **21.8 × 17.9 mm**. Working assumption: published length includes the USB-C
-  overhang (~1.1 mm). To be verified against the fab print in Gate 3.
-- `U$15` uses package `QFN56_7X7` but the symbol is named `ESP-32-S2` and the
-  device is `QFN54`. There are 57 pads (56 + exposed pad 57). Treated as the
-  ESP32-S2 module, not a bare chip.
+- **Schematic import** is GUI-only (`File → Import → Non-KiCad Project`).
+  Board-only import is complete. Decision needed: one human GUI step, or accept
+  board-only evidence for Gate 1.
+- **`U$15` pin audit** must be completed before Gate 2 starts: symbol
+  `ESP-32-S2`, device `QFN54`, package `QFN56_7X7`, 57 pads. Verify every pin
+  against the ESP32-S2 datasheet; stop and ask if it cannot be resolved.
+- **Importer defect**: Eagle user layers 200/201 (and 46/51) become `UNDEFINED`;
+  the imported board is not DRC-loadable. Electrical data is intact.
+- **`pcbnew.LoadBoard()` is broken in this environment** — use the S-expression
+  extractor.
 
 ## Tooling
 
-- MCP toolboxes are scoped per stage. Gate 0 used **no MCP tools** — only
-  `git`, `python3` and the XML parser — so tool count was irrelevant here.
-- Gate 1 will set `KICAD_MCP_TOOLBOXES=core` and open only the categories needed.
+- KiCad 10.0.7, macOS arm64.
+- `kicad-cli` for import/ERC/DRC/render.
+- MCP toolboxes scoped per stage (`KICAD_MCP_TOOLBOXES=core`), categories opened
+  only as needed. Gate 0 and Gate 1 used no MCP tools.

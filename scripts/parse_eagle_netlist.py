@@ -163,7 +163,7 @@ def parse(sch_path, outdir):
 
     # netlist.csv
     rows.sort(key=lambda r: (r["net"], r["ref"], r["pad"] or r["pin"]))
-    with open(outdir / "netlist.csv", "w", newline="") as f:
+    with open(outdir / "netlist_original.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["net", "net_class", "ref", "gate", "pin", "pad", "value", "package"])
         w.writeheader(); w.writerows(rows)
 
@@ -191,7 +191,7 @@ def parse(sch_path, outdir):
     for p in parts.values():
         groups[(p["value"] or "", p["deviceset"], p["device"], p["package"] or "")].append(p)
 
-    with open(outdir / "bom.csv", "w", newline="") as f:
+    with open(outdir / "bom_original.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["item", "qty", "refs", "value", "deviceset", "device", "package", "library", "kind", "dnp_note"])
         for i, ((value, ds, dev, pkg), ps) in enumerate(

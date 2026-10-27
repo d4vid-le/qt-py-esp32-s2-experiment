@@ -1,0 +1,43 @@
+# Experiment Report — QT Py ESP32-S2 reconstruction
+
+Final report is written after Gate 5. This file tracks results as gates close.
+
+## Summary
+
+| Gate | Result | Evidence |
+|---|---|---|
+| 0 Inventory | 45 components, 34 nets, 187 connected pins, 159 pads; `.sch` vs `.brd` 0 mismatches | `reports/gate0-inventory.md` |
+| 1 Ground truth | Board imported; 34/34 nets and 159/159 pads match after 2 ref renames | `reports/gate1-ground-truth.md` |
+| 2 Schematic | not started | — |
+| 3 PCB | not started | — |
+| 4 Routing | not started | — |
+| 5 Manufacturing | not started | — |
+
+## Netlist diff
+
+Original vs KiCad-imported board: **identical connectivity**, 34 nets,
+159 pad connections. Differences are two reference renames
+(`GND`→`GND0`, `VBAT`→`VBAT0`) and one display rename (`!RESET`→`~{RESET}`).
+
+## BOM
+
+45 physical components in 26 groups; `C7`/`C9` DNP (TBD in source). See
+`design/bom_clean.csv`.
+
+## Human interventions
+
+Gate 0: 0. Gate 1: 0 (schematic GUI import pending decision).
+
+## What worked / failed
+
+- Worked: XML parsing, `.sch`↔`.brd` cross-check, headless Eagle board import,
+  S-expression netlist extraction.
+- Failed: `pcbnew.LoadBoard()` in this environment (returns `None`/raises);
+  KiCad's Eagle importer maps user layers 200/201 to `UNDEFINED`, so the
+  imported board cannot be opened by DRC; `kicad-cli` has no schematic importer.
+- Parser bug caught by independent cross-check: compound pads (`"7 7C"`) were
+  initially treated as one pad, producing 17 false mismatches.
+
+## Honesty section
+
+Filled in at Gate 5.

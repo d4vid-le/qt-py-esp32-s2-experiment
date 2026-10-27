@@ -1,5 +1,28 @@
-# Third-party clone — pinned by commit SHA in design/STATE.md, not tracked here.
-reference/eagle/
+# Adafruit reference material, imported boards, downloaded PDFs/images.
+# Never redistributed. Reproduce with scripts/fetch-reference.sh.
+reference/
+
+# Third-party tools
+vendor/
+node_modules/
+
+# Secrets
+.env
+*.env
+!/.env.example
+
+# Python
+.venv*/
 __pycache__/
 *.pyc
+
+# KiCad local state
+*.kicad_prl
+*.kicad_pcb-bak
+*-backups/
+.fuse_hidden*
+
+# Logs and junk
+logs/
+*.zip
 .DS_Store

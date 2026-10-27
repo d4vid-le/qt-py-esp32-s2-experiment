@@ -142,7 +142,7 @@ revision.
 | `VDD_SPI` | 1 | 3 | C12.1, C13.1, U$15.30 |
 
 `GND` is abbreviated in `GND1…GND27.GND`; the full 70-entry list is in
-`design/gate0-nets.md` and `reference/netlist.csv`.
+`reports/gate0-nets.md` and `design/netlist_original.csv`.
 
 ## Independent cross-check: `.sch` vs `.brd`
 
