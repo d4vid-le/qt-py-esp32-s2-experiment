@@ -34,3 +34,8 @@ rebuild/schematic.png
 rebuild/rebuild_netlist.csv
 renders/gate2-schematic.svg
 rebuild/gate3-2d.svg
+rebuild/gate4-pre-route.kicad_pcb
+rebuild/route.dsn
+rebuild/route.ses
+rebuild/freerouting.log
+rebuild/gate4-2d.svg

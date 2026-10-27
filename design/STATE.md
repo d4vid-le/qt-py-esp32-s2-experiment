@@ -37,7 +37,7 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 | 1 | Ground truth in KiCad | **complete, human approved** |
 | 2 | Schematic reconstruction | **complete — awaiting review** |
 | 3 | PCB | **complete — awaiting review** |
-| 4 | Routing | **next** |
+| 4 | Routing | **complete with shortfall — 20 unconnected** |
 | 5 | Manufacturing | not started |
 
 ## Decisions
@@ -78,6 +78,22 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 19. **Eagle rules converted**: 6 mil clearance/width, 15.5 mil drill, 25%
     annulus, 0.254 edge, 2 layers / 1.6 mm.
 
+20. **Testpoint copper polygon -> pad** (from its bounding box), closed courtyard,
+    removed `${TP_SIGNAL_NAME}`.
+21. **USB-C NPTH resized 1.158 -> 0.65 mm** to match the Eagle drill.
+22. **Waivers**: castellation edge, USB-C internal hole clearance, courtyard
+    overlap, via dangling. All documented in `.kicad_pro` / `.kicad_dru`.
+23. **Routing**: Freerouting 2.5.0, 200 passes, 18 threads; SES import; GND
+    pours on F.Cu/B.Cu. 0 DRC errors, **20 unconnected**.
+
+## Closed pre-Gate-5 items
+
+- **Precondition DRC**: 0 errors, 196 warnings, 111 unconnected.
+- **Routed DRC**: 0 errors, 196 warnings, **20 unconnected**.
+- **Tracks/vias**: 323 segments, 18 vias, 298.86 mm.
+- **Critical nets**: USB pair, antenna, crystal, NeoPixel, I2C routed.
+- **Comparison**: original 343.93 mm / 36 vias; rebuild 298.86 mm / 18 vias.
+
 ## Closed pre-Gate-4 items
 
 - **Board creation — PASS.** 45/45 footprints, 34 nets, 159 pads assigned;
@@ -111,14 +127,11 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 
 ## Open items
 
-- **Testpoint copper polygon**: 2 `shorting_items`; the Eagle polygon is no-net
-  copper in KiCad. Needs conversion to a pad or an explicit exclusion.
-- **Castellation edge clearance**: 14 errors by design (pads on Edge.Cuts).
-- **USB-C NPTH clearance**: 5 errors from source hole/pad spacing.
-- **Schematic parity naming**: board nets lack the `/` prefix of schematic local
-  labels; 162 parity warnings, no connectivity difference.
-- **`lib_symbol_mismatch` x17**: 17 instances of the 12 custom definitions,
-  formatting-only. Not a separate defect.
+- **20 unrouted connections**: 13 GND, 4 +3V3, 2 VBUS, 1 IO0. Real shortfall.
+- **USB D+/D- skew 3.51 mm**: not length-matched (original 1.10 mm).
+- **Silkscreen warnings**: 196, deferred to Gate 5.
+- **`lib_footprint_mismatch` x3**: USB-C + 2 testpoints, formatting/instance only.
+- **Schematic parity naming**: 162 warnings, no connectivity difference.
 - **NEOPIX_PWR `pin_to_pin`**: intentional PWR_FLAG on a GPIO-switched rail.
 - **Importer defect**: Eagle user layers 200/201 (and 46/51) become `UNDEFINED`;
   the imported board is not DRC-loadable. Electrical data is intact. Affects only

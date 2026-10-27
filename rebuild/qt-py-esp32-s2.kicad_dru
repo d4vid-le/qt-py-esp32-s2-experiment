@@ -1,0 +1,8 @@
+(version 1)
+(rule "Castellation breakout tracks"
+  (constraint edge_clearance (min -1mm))
+  (condition "A.Type == 'Track'"))
+
+(rule "USB-C internal NPTH clearance"
+  (constraint hole_clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('X6') && B.memberOfFootprint('X6')"))
