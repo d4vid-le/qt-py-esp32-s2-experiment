@@ -69,3 +69,52 @@ pick-and-place. `R3` 0 Ω preserved. 45 components total (43 populated).
 - The source is 4-layer despite the task premise of 2 layers.
 - No Gerbers were sent to a fab and nothing was ordered.
 - No unconnected or DRC waiver was added to reach the pass.
+
+## Assembled 3D mock-up (visualization only)
+
+A copy of the final board with 3D models added. **The electrical design, Gerbers,
+BOM, DRC, and drill files were not changed.** `rebuild/` is untouched.
+
+### Files
+
+| File | What |
+|---|---|
+| `mockup/qt-py-esp32-s2-assembled.kicad_pcb` | board copy + 17 added models |
+| `exports/renders/mockup/top.png` | 2400 × 1800 orthographic top |
+| `exports/renders/mockup/bottom.png` | 2400 × 1800 orthographic bottom |
+| `exports/renders/mockup/top-iso.png` | 2400 × 1800 perspective top |
+| `exports/renders/mockup/bottom-iso.png` | 2400 × 1800 perspective bottom |
+| `exports/renders/qt-py-esp32-s2-assembled.step` | assembled STEP (13 MB) |
+| `exports/renders/qt-py-esp32-s2-assembled.glb` | binary glTF (1.7 MB) |
+
+### Model coverage
+
+45 of 47 footprints carry a model. `JP1`/`JP3` intentionally have no body:
+their castellations are PCB features, not separate components.
+
+| Part | Model | Fidelity |
+|---|---|---|
+| ESP32-S2 QFN56 7×7 | KiCad `QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm` | exact package body; pin 1 aligned |
+| USB-C | KiCad `USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal` | **representative**; shell wider than the exact CUSB31 |
+| 0402 / 0805 passives | KiCad standard models | exact |
+| SOT-23-5 regulator | KiCad standard | exact |
+| JST-SH | KiCad `JST_SH_SM04B-SRSS-TB` | representative |
+| Buttons | KiCad `SW_SPST_B3U-1000P` | **placeholder** for the side-actuated KMR2 |
+| Antenna | KiCad `Johanson_2450AT18x100` | **representative** of the 2450AT18B100 |
+| NeoPixel | KiCad 0603 LED, scaled | **placeholder** for SK6805 1.5×1.5 |
+| Testpoints/testpads/fiducials | flat scaled test-point model | **placeholder**; copper pad shape is the accurate part |
+| Diodes / crystal | KiCad SOD-323 / 2016 4-pad | representative |
+
+### Visual comparison to the physical QT Py
+
+- **ESP32:** on B.Cu, centered under the QFN pads, pin-1 dot visible — matches.
+- **USB-C:** at the board edge, opening outward, pads aligned — orientation matches; the shell is a representative GCT model, not the exact CUSB31.
+- **Buttons:** Q1/Q2 positions match the reset/boot locations; the B3U body is a representative tactile switch, not the KMR2.
+- **JST-SH:** at the edge, 4-pin, opening outward — placement matches; representative body.
+- **Antenna:** at the correct corner/edge; Johanson 18x100 family model, not the exact B100.
+- **Testpoints:** GND0/VBAT0 at the two source positions; flat placeholders, copper pads accurate.
+- **Castellations:** visible as plated half-holes around JP1/JP3; no separate body, as intended.
+
+No placement mismatch was found. The visible differences are model shells for
+USB-C, buttons, antenna, NeoPixel, and the flat placeholders — all labeled
+above. Nothing in this mock-up is evidence of an electrical change.
