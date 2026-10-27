@@ -157,3 +157,50 @@ It does not fit without necking the +3V3 track below its net class or moving L1.
 **14 unconnected / 0 DRC errors.** Stopped per the blocker rule before option 2.
 No unconnected waiver, no new DRC waiver. The 0.65 mm USB-C NPTH reference is
 unchanged (Eagle `<hole drill="0.65"/>` at ±2.89, 2.47).
+
+## Gate 4B — option 1 and option 2 results
+
+### Option 1 (local detours)
+
+Reached 20 → 14 unconnected / 0 errors. The C7/Q2/C4 island cannot be opened:
+the corridor is 0.55 mm and a 0.254 mm Power track plus 2 × 0.1524 mm clearance
+needs 0.559 mm. The +3V3 detour at x=4.5 produced 2 clearance errors to L1.2 and
+did not reduce unconnected; reverted.
+
+### Option 2 (reference power/GND mesh, protected)
+
+1. Deleted all traces/vias.
+2. Added the reference F.Cu/B.Cu geometry for `GND`, `3.3V`→`+3V3`, `VBUS`,
+   `IO0` (187 segments/vias).
+3. Exported DSN and changed **183 wires** from `(type route)` to
+   `(type protect)`.
+4. Freerouting 200 passes: **11 unrouted** (versus 24 on the bare board).
+5. Imported SES, resized reference vias 0.393 → 0.4 mm: **13 unconnected / 0 errors**.
+6. Iterative pour stitching: **9 unconnected / 0 errors**.
+
+Adding the reference signal corridors for the last six nets (A0, SDA, TX, RX,
+MISO, D+) closed the signal gaps (9 → 5) but produced **39 errors** (16 shorts,
+15 clearance, 7 tracks crossing) because those corridors conflict with our
+Freerouting signal tracks. Reverted.
+
+### Final state: 9 unconnected / 0 errors
+
+| Item | Net | Why it remains |
+|---|---|---|
+| Zone B ↔ Zone F | GND | last disconnected pour island pair |
+| (3.505,−17.653) ↔ (7.455,−13.741) | +3V3 | track gap; reference path uses inner layers |
+| (8.474,−6.595) ↔ (4.864,−8.915) | +3V3 | track gap |
+| U$15.26 ↔ D+ track | D+ | QFN pad escape blocked by protected mesh |
+| A0 track ↔ U$15.24 | A0 | QFN pad escape |
+| SDA track ↔ U$15.12 | SDA | QFN pad escape |
+| TX track ↔ U$15.10 | TX | QFN pad escape |
+| U$15.22 ↔ JP3.1 | RX | long run, protected mesh blocks |
+| JP3.3 ↔ U$15.41 | MISO | long run, protected mesh blocks |
+
+USB skew remains 3.51 mm; batch 5 was not reached because the board is not
+fully connected.
+
+**Both approved options are exhausted under the no-wholesale-copy rule.**
+The remaining 9 need either interactive routing or permission to use the
+reference **signal** routing as well (not just power/GND). The 0.65 mm USB-C
+NPTH reference is unchanged (Eagle `<hole drill="0.65"/>` at ±2.89, 2.47).
