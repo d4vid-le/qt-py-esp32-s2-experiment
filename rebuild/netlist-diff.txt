@@ -1,0 +1,41 @@
+original: 34 nets, 159 pad connections
+rebuild: 34 nets, 159 pad connections
+
+matched net signatures : 34
+only in original    : 0
+only in rebuild     : 0
+
+--- same connectivity, different net names ---
+  !RESET                   -> /RESET_N
+  3.3V                     -> +3V3
+  A0                       -> /A0
+  A1                       -> /A1
+  A2                       -> /A2
+  A3                       -> /A3
+  CC1                      -> /CC1
+  CC2                      -> /CC2
+  D+                       -> /D+
+  D-                       -> /D-
+  IO0                      -> /IO0
+  IO10_DBLTAP              -> /IO10_DBLTAP
+  MISO                     -> /MISO
+  MOSI                     -> /MOSI
+  N$2                      -> /RF_LNA
+  N$3                      -> /RF_ANT
+  N$5                      -> /XTAL_N_R
+  N$6                      -> /XTAL_P
+  N$7                      -> /XTAL_N
+  NEOPIX                   -> /NEOPIX
+  NEOPIX_PWR               -> /NEOPIX_PWR
+  RX                       -> /RX
+  SCK                      -> /SCK
+  SCL                      -> /SCL
+  SCL1                     -> /SCL1
+  SDA                      -> /SDA
+  SDA1                     -> /SDA1
+  TX                       -> /TX
+  VBAT                     -> /VBAT
+  VDD3P3                   -> /VDD3P3
+  VDD_SPI                  -> /VDD_SPI
+
+RESULT: IDENTICAL CONNECTIVITY

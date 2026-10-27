@@ -12,13 +12,13 @@ how accurately an AI agent can do it — and documenting every failure.
 |---|---|---|
 | 0 | Inventory | ✅ 45 components, 34 nets, 159 pads; `.sch` vs `.brd` exact |
 | 1 | Ground truth in KiCad | ✅ board imported; netlist identical after 2 ref renames; 57/57 pin audit |
-| 2 | Schematic reconstruction | ⏸ next |
+| 2 | Schematic reconstruction | ✅ 45 components, 46 power symbols, 34/34 nets, 0 ERC errors |
 | 3 | PCB | ⏸ |
 | 4 | Routing | ⏸ |
 | 5 | Manufacturing | ⏸ |
 
-Read `reports/gate0-inventory.md`, `reports/gate1-ground-truth.md`, and
-`reports/gate1-u15-audit.md`.
+Read `reports/gate0-inventory.md`, `reports/gate1-ground-truth.md`,
+`reports/gate1-u15-audit.md`, and `reports/gate2-schematic.md`.
 
 ## Attribution
 

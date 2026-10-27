@@ -35,7 +35,7 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 |---|---|---|
 | 0 | Inventory | complete, human approved |
 | 1 | Ground truth in KiCad | **complete, human approved** |
-| 2 | Schematic reconstruction | **next — preconditions met** |
+| 2 | Schematic reconstruction | **complete — awaiting review** |
 | 3 | PCB | not started |
 | 4 | Routing | not started |
 | 5 | Manufacturing | not started |
@@ -60,6 +60,24 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
     Device name `QFN54` is a library label error; package and 57 pads are correct.
 11. **`nets.csv` distinguishes** `unique_pins`, `pad_count`, `power_pins`, and a
     pad-only signature. `pin_count` was removed as ambiguous.
+12. **Custom symbols use Eagle pad names as pin numbers** (1..57, A1B12, A',
+    MT1, FP, TP, ...), so the KiCad netlist is pad-comparable without a
+    translation layer.
+13. **Connectivity is label-based**: global labels for `GND`/`+3V3`/`+5V`/`VBUS`,
+    local labels for signals. 187 connections, 28 no-connects.
+14. **Net renames** are limited to invalid/auto names: `3.3V`→`+3V3`,
+    `!RESET`→`RESET_N`, `N$2/3/5/6/7`→functional names. Diff is by signature.
+15. **Footprints are assigned** from the Eagle package names for the 17
+    QT-Py-specific parts; the `qt-py` footprint library itself is Gate 3 work.
+
+## Closed pre-Gate-3 items
+
+- **Netlist — PASS.** 34/34 nets, 159/159 pads, identical connectivity.
+- **ERC — 0 errors.** 35 warnings: 17 footprint-library, 17 formatting-only
+  symbol-cache, 1 intentional PWR_FLAG-on-GPIO.
+- **Symbols embedded.** 12 custom `lib_symbols`; 96 symbol instances.
+- **No-connects.** All 28 unconnected pins flagged.
+- **Zero human interventions.**
 
 ## Closed pre-Gate-2 items
 
@@ -75,6 +93,13 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 
 ## Open items
 
+- **`qt-py` footprint library** does not exist yet. 17 ERC
+  `footprint_link_issues` warnings. Build it from the Eagle packages in Gate 3.
+- **Annotation warning**: testpoints keep source refs `GND`/`VBAT` (no numeric
+  suffix). Renaming would break the exact 159/159 diff — deliberate trade-off.
+- **`lib_symbol_mismatch` x17**: whitespace/formatting only; pins and graphics
+  identical. Documented, not a connectivity issue.
+- **NEOPIX_PWR `pin_to_pin`**: intentional PWR_FLAG on a GPIO-switched rail.
 - **Importer defect**: Eagle user layers 200/201 (and 46/51) become `UNDEFINED`;
   the imported board is not DRC-loadable. Electrical data is intact. Affects only
   reference/visual use, not the rebuild.

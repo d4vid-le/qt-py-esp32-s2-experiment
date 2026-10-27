@@ -8,7 +8,7 @@ Final report is written after Gate 5. This file tracks results as gates close.
 |---|---|---|
 | 0 Inventory | 45 components, 34 nets, 187 connected pins, 159 pads; `.sch` vs `.brd` 0 mismatches | `reports/gate0-inventory.md` |
 | 1 Ground truth | Board imported; 34/34 nets and 159/159 pads match after 2 ref renames; U$15 audit 57/57 | `reports/gate1-ground-truth.md`, `reports/gate1-u15-audit.md` |
-| 2 Schematic | not started | — |
+| 2 Schematic | 45 components, 46 power symbols, 34/34 nets, 159/159 pads, 0 ERC errors | `reports/gate2-schematic.md` |
 | 3 PCB | not started | — |
 | 4 Routing | not started | — |
 | 5 Manufacturing | not started | — |

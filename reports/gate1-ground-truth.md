@@ -242,8 +242,10 @@ is documented; the S-expression extractor is the workaround.
 Moving `UNDEFINED` → `Dwgs.User` changes graphics layers only:
 
 - Normalized original is **byte-identical** to the viz copy.
-- 50 footprints, 198 pad declarations, 418 track segments, 44 via references,
-  13 zone references — identical counts.
+- 50 footprints, 198 pad declarations, 418 track segments, 13 zone references —
+  identical counts. The “44 via references” is 36 `(via ...)` objects plus
+  8 `(vias ...)` tokens (net-class/via settings), so it agrees with the import
+  report's 36 vias.
 - Netlist extracted from both: **34/34 nets, 159/159 pads, identical**.
 - Authoritative import remains untouched.
 

@@ -26,3 +26,10 @@ __pycache__/
 logs/
 *.zip
 .DS_Store
+
+# Gate 2 build noise (renders are copied to renders/)
+rebuild/build.log
+rebuild/svg/
+rebuild/schematic.png
+rebuild/rebuild_netlist.csv
+renders/gate2-schematic.svg

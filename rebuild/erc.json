@@ -1,0 +1,570 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-27T05:08:35",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/db58a7dc-6dc7-4254-a830-61f7b3710381",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [ANTENNA_FP]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 30.48
+                            },
+                            "uuid": "f1d55e57-c851-4f64-8609-93726ca3315c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'ANTENNA_FP' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [ANTENNA_FP]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 30.48
+                            },
+                            "uuid": "f1d55e57-c851-4f64-8609-93726ca3315c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [TACT_4]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 209.55
+                            },
+                            "uuid": "9a3cc51e-7829-4dd4-a55d-9fdec6c86cd7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TACT_4' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [TACT_4]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 209.55
+                            },
+                            "uuid": "9a3cc51e-7829-4dd4-a55d-9fdec6c86cd7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol X6 [USB_C]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 240.03
+                            },
+                            "uuid": "45556c7a-3db9-4705-a8d4-098397798001"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'USB_C' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol X6 [USB_C]",
+                            "pos": {
+                                "x": 30.48,
+                                "y": 240.03
+                            },
+                            "uuid": "45556c7a-3db9-4705-a8d4-098397798001"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol JP1 [HEADER_1X7]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 149.86
+                            },
+                            "uuid": "3a232b0a-21de-49a5-91e5-41be0eacc251"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'HEADER_1X7' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol JP1 [HEADER_1X7]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 149.86
+                            },
+                            "uuid": "3a232b0a-21de-49a5-91e5-41be0eacc251"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [TACT_4]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 209.55
+                            },
+                            "uuid": "f58e2a06-c4e8-4e8d-802e-b7d4951acf99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TACT_4' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [TACT_4]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 209.55
+                            },
+                            "uuid": "f58e2a06-c4e8-4e8d-802e-b7d4951acf99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [VREG_5]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 240.03
+                            },
+                            "uuid": "82711dc4-ff6d-4de9-89c2-e65ff92cba6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'VREG_5' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [VREG_5]",
+                            "pos": {
+                                "x": 69.85,
+                                "y": 240.03
+                            },
+                            "uuid": "82711dc4-ff6d-4de9-89c2-e65ff92cba6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol JP3 [HEADER_1X7]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 149.86
+                            },
+                            "uuid": "46e9f4ac-5017-48d6-8ff1-8ca5575c0b58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'HEADER_1X7' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol JP3 [HEADER_1X7]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 149.86
+                            },
+                            "uuid": "46e9f4ac-5017-48d6-8ff1-8ca5575c0b58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol GND [TESTPOINT_P]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 209.55
+                            },
+                            "uuid": "853f0c9d-cd99-49c8-aebb-d691874a4e49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TESTPOINT_P' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol GND [TESTPOINT_P]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 209.55
+                            },
+                            "uuid": "853f0c9d-cd99-49c8-aebb-d691874a4e49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [WS2812B]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 240.03
+                            },
+                            "uuid": "dfcec616-909a-4064-80de-9c32dbe913cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'WS2812B' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [WS2812B]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 240.03
+                            },
+                            "uuid": "dfcec616-909a-4064-80de-9c32dbe913cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [CRYSTAL_2PIN]",
+                            "pos": {
+                                "x": 149.86,
+                                "y": 119.38
+                            },
+                            "uuid": "890a3420-1389-4520-acdb-5741f9760065"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'CRYSTAL_2PIN' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [CRYSTAL_2PIN]",
+                            "pos": {
+                                "x": 149.86,
+                                "y": 119.38
+                            },
+                            "uuid": "890a3420-1389-4520-acdb-5741f9760065"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol VBAT [TESTPOINT_P]",
+                            "pos": {
+                                "x": 149.86,
+                                "y": 209.55
+                            },
+                            "uuid": "22a608af-15bb-4889-badd-dc6cec268fd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TESTPOINT_P' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol VBAT [TESTPOINT_P]",
+                            "pos": {
+                                "x": 149.86,
+                                "y": 209.55
+                            },
+                            "uuid": "22a608af-15bb-4889-badd-dc6cec268fd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [DIODE_A_C]",
+                            "pos": {
+                                "x": 190.5,
+                                "y": 119.38
+                            },
+                            "uuid": "47decb7b-b619-4485-82b6-27912df8eec7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'DIODE_A_C' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [DIODE_A_C]",
+                            "pos": {
+                                "x": 190.5,
+                                "y": 119.38
+                            },
+                            "uuid": "47decb7b-b619-4485-82b6-27912df8eec7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol SWC1 [TESTPAD_TP]",
+                            "pos": {
+                                "x": 190.5,
+                                "y": 209.55
+                            },
+                            "uuid": "77e0f815-ea95-491f-b6c0-b46b34ecb854"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TESTPAD_TP' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol SWC1 [TESTPAD_TP]",
+                            "pos": {
+                                "x": 190.5,
+                                "y": 209.55
+                            },
+                            "uuid": "77e0f815-ea95-491f-b6c0-b46b34ecb854"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [DIODE_A_C]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 119.38
+                            },
+                            "uuid": "20008360-ef66-4b2f-9876-f8d6e6356269"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'DIODE_A_C' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [DIODE_A_C]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 119.38
+                            },
+                            "uuid": "20008360-ef66-4b2f-9876-f8d6e6356269"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol CONN1 [JST_SH4]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 180.34
+                            },
+                            "uuid": "e1b2fbad-6ee3-4c78-9e56-6ff49981b6cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'JST_SH4' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol CONN1 [JST_SH4]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 180.34
+                            },
+                            "uuid": "e1b2fbad-6ee3-4c78-9e56-6ff49981b6cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol SWC2 [TESTPAD_TP]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 209.55
+                            },
+                            "uuid": "8bed026e-c779-4de1-a5d4-a4fff3a22fdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'TESTPAD_TP' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol SWC2 [TESTPAD_TP]",
+                            "pos": {
+                                "x": 229.87,
+                                "y": 209.55
+                            },
+                            "uuid": "8bed026e-c779-4de1-a5d4-a4fff3a22fdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'qt-py'",
+                    "items": [
+                        {
+                            "description": "Symbol U$15 [ESP32-S2FN4R2]",
+                            "pos": {
+                                "x": 400.05,
+                                "y": 149.86
+                            },
+                            "uuid": "e388610a-7549-4e2d-8c5d-80cdea643519"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'ESP32-S2FN4R2' doesn't match copy in library 'qt-py-esp32-s2'",
+                    "items": [
+                        {
+                            "description": "Symbol U$15 [ESP32-S2FN4R2]",
+                            "pos": {
+                                "x": 400.05,
+                                "y": 149.86
+                            },
+                            "uuid": "e388610a-7549-4e2d-8c5d-80cdea643519"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U$15 Pin 42 [IO38, Bidirectional, Line]",
+                            "pos": {
+                                "x": 417.83,
+                                "y": 143.51
+                            },
+                            "uuid": "d906e3f6-4cde-439f-bc49-3af6954c3d5e"
+                        },
+                        {
+                            "description": "Symbol #FLG05 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 539.75,
+                                "y": 90.17
+                            },
+                            "uuid": "86d02289-622d-428e-b0ef-3c3f92ecbb6b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "qt-py-esp32-s2.kicad_sch"
+}
