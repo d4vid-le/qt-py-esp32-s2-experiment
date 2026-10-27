@@ -35,10 +35,17 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 |---|---|---|
 | 0 | Inventory | complete, human approved |
 | 1 | Ground truth in KiCad | **complete, human approved** |
-| 2 | Schematic reconstruction | **complete — awaiting review** |
-| 3 | PCB | **complete — awaiting review** |
+| 2 | Schematic reconstruction | **complete, human approved** |
+| 3 | PCB | **complete, human approved** |
 | 4 | Routing | **PASS — 0 unconnected / 0 errors / 1.093 mm (verified reconstruction)** |
 | 5 | Manufacturing | **outputs generated — PASS** |
+
+## Final state
+
+- Stackup: **4 layers, 1.6 mm** (source-faithful; the 2-layer premise was wrong).
+- Routing: **0 unconnected / 0 DRC errors**, D+ 9.238 mm, D− 8.145 mm, **skew 1.093 mm**.
+- Final board: **verified reconstruction** using reference signal routing, not an independent route.
+- Manufacturing outputs generated in `exports/`; **nothing fabricated or ordered**.
 
 ## Decisions
 
@@ -76,23 +83,26 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 18. **Castellation pad rotation restored** from Eagle `R90`; the importer stored
     270°/90°, which made adjacent ovals overlap.
 19. **Eagle rules converted**: 6 mil clearance/width, 15.5 mil drill, 25%
-    annulus, 0.254 edge, 2 layers / 1.6 mm.
+    annulus, 0.254 edge. Final stack is **4 layers / 1.6 mm** per the source
+    `layerSetup`, corrected at Gate 4B with approval.
 
 20. **Testpoint copper polygon -> pad** (from its bounding box), closed courtyard,
     removed `${TP_SIGNAL_NAME}`.
 21. **USB-C NPTH resized 1.158 -> 0.65 mm** to match the Eagle drill.
 22. **Waivers**: castellation edge, USB-C internal hole clearance, courtyard
     overlap, via dangling. All documented in `.kicad_pro` / `.kicad_dru`.
-23. **Routing**: Freerouting 2.5.0, 200 passes, 18 threads; SES import; GND
-    pours on F.Cu/B.Cu. 0 DRC errors, **20 unconnected**.
+23. **Routing**: independent Freerouting attempts peaked at **9 unconnected /
+    0 errors** on 2 layers. The approved fallback used full reference signal
+    routing on the source 4-layer stack, yielding **0 unconnected / 0 errors /
+    1.093 mm skew** as a verified reconstruction.
 
 ## Closed pre-Gate-5 items
 
 - **Precondition DRC**: 0 errors, 196 warnings, 111 unconnected.
-- **Routed DRC**: 0 errors, 196 warnings, **20 unconnected**.
-- **Tracks/vias**: 323 segments, 18 vias, 298.86 mm.
+- **Final DRC**: 0 errors, 0 unconnected.
+- **Final routing**: 344.12 mm total, 43 vias, reference reconstruction.
 - **Critical nets**: USB pair, antenna, crystal, NeoPixel, I2C routed.
-- **Comparison**: original 343.93 mm / 36 vias; rebuild 298.86 mm / 18 vias.
+- **Comparison**: original 343.93 mm / 36 vias; final 344.12 mm / 43 vias.
 
 ## Closed pre-Gate-4 items
 
@@ -125,19 +135,19 @@ authoritative Eagle source. Experiment only — no fabrication, no ordering.
 - **License — CC BY-SA 3.0 Unported**, verified in `reference/eagle/license.txt`
   and linked from the README.
 
-## Gate 4B (not complete)
+## Gate 4B — PASS (verified reconstruction)
 
-Attempted six completion strategies (via-in-pad, adjacent vias, original GND
-mesh, hybrid power/GND replacement, targeted power replacement, Freerouting).
-Every attempt either left unconnected items or introduced 8–32 shorts.
-Final board remains the clean Gate 4 state: **0 errors, 20 unconnected**.
+2-layer independent routing peaked at **9 unconnected / 0 errors**; targeted
+4-layer replacement reached 8 / 0. The approved fallback (full reference signal
+routing, source 4-layer stack, reference zones) reached **0 / 0 / 1.093 mm**.
 Details: `reports/gate4b-routing.md`.
 
 ## Open items
 
-- **20 unrouted connections**: 13 GND, 4 +3V3, 2 VBUS, 1 IO0. Real shortfall.
-- **USB D+/D- skew 3.51 mm**: not length-matched (original 1.10 mm).
-- **Silkscreen warnings**: 196, deferred to Gate 5.
+- **Silkscreen warnings**: 196 cosmetic warnings (114 over-copper, 61 overlap,
+  12 text-height, 4 silk-edge, 3 lib-footprint, 2 text-thickness).
+- **Final board is a verified reconstruction** (reference signal routing), not
+  an independent route.
 - **`lib_footprint_mismatch` x3**: USB-C + 2 testpoints, formatting/instance only.
 - **Schematic parity naming**: 162 warnings, no connectivity difference.
 - **NEOPIX_PWR `pin_to_pin`**: intentional PWR_FLAG on a GPIO-switched rail.
